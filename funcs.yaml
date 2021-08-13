@@ -22,8 +22,6 @@ functions:
 - blueapi.cost.v1.Cost/ListCalculationsHistory
 - blueapi.cost.v1.Cost/ListPayerAccounts
 - blueapi.cost.v1.Cost/ReadAdjustments
-- blueapi.cost.v1.Cost/ReadBillingGroupNonTagCosts
-- blueapi.cost.v1.Cost/ReadBillingGroupTagCosts
 - blueapi.cost.v1.Cost/ReadCosts
 - blueapi.cost.v1.Cost/ReadNonTagCosts
 - blueapi.cost.v1.Cost/ReadTagCosts
