@@ -1,4 +1,5 @@
 functions:
+- blueapi.admin.v1.Admin/GetAccountGroup
 - blueapi.admin.v1.Admin/ListAccountGroups
 - blueapi.billing.v1.Billing/CreateBillingGroup
 - blueapi.billing.v1.Billing/ListBillingGroups
