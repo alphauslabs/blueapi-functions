@@ -2,6 +2,7 @@ functions:
 - blueapi.admin.v1.Admin/GetAccountGroup
 - blueapi.admin.v1.Admin/ListAccountGroups
 - blueapi.billing.v1.Billing/CreateBillingGroup
+- blueapi.billing.v1.Billing/GetBillingGroup
 - blueapi.billing.v1.Billing/ListBillingGroups
 - blueapi.cost.v1.Cost/CalculateCosts
 - blueapi.cost.v1.Cost/CreateAccount
