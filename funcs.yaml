@@ -48,6 +48,14 @@ functions:
 - blueapi.iam.v1.Iam/UpdateRole
 - blueapi.iam.v1.Iam/UpdateUserRoleMapping
 - blueapi.iam.v1.Iam/WhoAmI
+- blueapi.kvstore.v1.KvStore/Delete
+- blueapi.kvstore.v1.KvStore/Read
+- blueapi.kvstore.v1.KvStore/ReadString
+- blueapi.kvstore.v1.KvStore/Scan
+- blueapi.kvstore.v1.KvStore/Update
+- blueapi.kvstore.v1.KvStore/UpdateString
+- blueapi.kvstore.v1.KvStore/Write
+- blueapi.kvstore.v1.KvStore/WriteString
 - blueapi.operations.v1.Operations/CancelOperation
 - blueapi.operations.v1.Operations/DeleteOperation
 - blueapi.operations.v1.Operations/GetOperation
