@@ -51,7 +51,6 @@ functions:
 - blueapi.kvstore.v1.KvStore/Delete
 - blueapi.kvstore.v1.KvStore/Read
 - blueapi.kvstore.v1.KvStore/Scan
-- blueapi.kvstore.v1.KvStore/Update
 - blueapi.kvstore.v1.KvStore/Write
 - blueapi.operations.v1.Operations/CancelOperation
 - blueapi.operations.v1.Operations/DeleteOperation
