@@ -14,6 +14,7 @@ functions:
 - blueapi.cost.v1.Cost/GetAccount
 - blueapi.cost.v1.Cost/GetAccountBudget
 - blueapi.cost.v1.Cost/GetCalculatorConfig
+- blueapi.cost.v1.Cost/GetCalculatorStatus
 - blueapi.cost.v1.Cost/GetForecasts
 - blueapi.cost.v1.Cost/GetMonthOnMonthCostForecast
 - blueapi.cost.v1.Cost/GetMonthToDateCostForecast
