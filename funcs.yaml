@@ -1,6 +1,11 @@
 functions:
+- blueapi.admin.v1.Admin/CreateResellerAccount
+- blueapi.admin.v1.Admin/DeleteResellerAccount
 - blueapi.admin.v1.Admin/GetAccountGroup
+- blueapi.admin.v1.Admin/GetFeatureFlags
+- blueapi.admin.v1.Admin/GetResellerAccount
 - blueapi.admin.v1.Admin/ListAccountGroups
+- blueapi.admin.v1.Admin/ListResellerAccounts
 - blueapi.admin.v1.Admin/UpdateFeatureFlags
 - blueapi.billing.v1.Billing/CreateBillingGroup
 - blueapi.billing.v1.Billing/GetBillingGroup
