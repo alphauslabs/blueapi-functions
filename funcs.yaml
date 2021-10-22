@@ -1,6 +1,7 @@
 functions:
 - blueapi.admin.v1.Admin/GetAccountGroup
 - blueapi.admin.v1.Admin/ListAccountGroups
+- blueapi.admin.v1.Admin/UpdateFeatureFlags
 - blueapi.billing.v1.Billing/CreateBillingGroup
 - blueapi.billing.v1.Billing/GetBillingGroup
 - blueapi.billing.v1.Billing/ListBillingGroups
