@@ -49,6 +49,7 @@ functions:
 - blueapi.iam.v1.Iam/GetUser
 - blueapi.iam.v1.Iam/ListApiClients
 - blueapi.iam.v1.Iam/ListGroupRootUsers
+- blueapi.iam.v1.Iam/ListIdentityProviders
 - blueapi.iam.v1.Iam/ListIpFilters
 - blueapi.iam.v1.Iam/ListPermissions
 - blueapi.iam.v1.Iam/ListRoles
