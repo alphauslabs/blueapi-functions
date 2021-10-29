@@ -42,6 +42,7 @@ functions:
 - blueapi.iam.v1.Iam/CreateUserRoleMapping
 - blueapi.iam.v1.Iam/DeleteApiClient
 - blueapi.iam.v1.Iam/DeleteGroupRootUser
+- blueapi.iam.v1.Iam/DeleteIdentityProvider
 - blueapi.iam.v1.Iam/DeleteIpFilter
 - blueapi.iam.v1.Iam/DeleteRole
 - blueapi.iam.v1.Iam/DeleteUser
@@ -57,6 +58,7 @@ functions:
 - blueapi.iam.v1.Iam/ListUserRoleMappings
 - blueapi.iam.v1.Iam/ListUsers
 - blueapi.iam.v1.Iam/UpdateFeatureFlags
+- blueapi.iam.v1.Iam/UpdateIdentityProvider
 - blueapi.iam.v1.Iam/UpdateRole
 - blueapi.iam.v1.Iam/UpdateUserRoleMapping
 - blueapi.iam.v1.Iam/WhoAmI
