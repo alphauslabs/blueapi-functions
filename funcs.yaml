@@ -1,4 +1,5 @@
 functions:
+- blueapi.admin.v1.Admin/CreateDefaultBillingInfoRole
 - blueapi.admin.v1.Admin/GetAccountGroup
 - blueapi.admin.v1.Admin/GetDefaultBillingInfoTemplateUrl
 - blueapi.admin.v1.Admin/ListAccountGroups
