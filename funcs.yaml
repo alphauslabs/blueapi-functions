@@ -5,6 +5,7 @@ functions:
 - blueapi.admin.v1.Admin/GetDefaultBillingInfo
 - blueapi.admin.v1.Admin/GetDefaultBillingInfoTemplateUrl
 - blueapi.admin.v1.Admin/ListAccountGroups
+- blueapi.admin.v1.Admin/ListDefaultBillingInfo
 - blueapi.admin.v1.Admin/UpdateDefaultBillingInfoRole
 - blueapi.billing.v1.Billing/CreateBillingGroup
 - blueapi.billing.v1.Billing/GetAccessGroup
