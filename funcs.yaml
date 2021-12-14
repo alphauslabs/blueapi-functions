@@ -1,18 +1,18 @@
 functions:
-- blueapi.admin.v1.Admin/CreateDefaultBillingInfoRole
+- blueapi.admin.v1.Admin/CreateDefaultCostAccess
 - blueapi.admin.v1.Admin/CreateNotificationChannel
-- blueapi.admin.v1.Admin/DeleteDefaultBillingInfoRole
+- blueapi.admin.v1.Admin/DeleteDefaultCostAccess
 - blueapi.admin.v1.Admin/DeleteNotificationChannel
 - blueapi.admin.v1.Admin/GetAccountGroup
-- blueapi.admin.v1.Admin/GetDefaultBillingInfo
-- blueapi.admin.v1.Admin/GetDefaultBillingInfoTemplateUrl
+- blueapi.admin.v1.Admin/GetDefaultCostAccess
+- blueapi.admin.v1.Admin/GetDefaultCostAccessTemplateUrl
 - blueapi.admin.v1.Admin/GetNotificationChannel
 - blueapi.admin.v1.Admin/GetNotificationSettings
 - blueapi.admin.v1.Admin/ListAccountGroups
-- blueapi.admin.v1.Admin/ListDefaultBillingInfo
+- blueapi.admin.v1.Admin/ListDefaultCostAccess
 - blueapi.admin.v1.Admin/ListNotificationChannels
 - blueapi.admin.v1.Admin/SaveNotificationSettings
-- blueapi.admin.v1.Admin/UpdateDefaultBillingInfoRole
+- blueapi.admin.v1.Admin/UpdateDefaultCostAccess
 - blueapi.admin.v1.Admin/UpdateNotificationChannel
 - blueapi.billing.v1.Billing/CreateBillingGroup
 - blueapi.billing.v1.Billing/GetAccessGroup
