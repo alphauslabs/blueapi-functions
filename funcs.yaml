@@ -31,7 +31,6 @@ functions:
 - blueapi.cost.v1.Cost/GetAccountBudget
 - blueapi.cost.v1.Cost/GetBreakevenPoint
 - blueapi.cost.v1.Cost/GetCalculatorConfig
-- blueapi.cost.v1.Cost/GetCalculatorRunStatus
 - blueapi.cost.v1.Cost/GetCostReduction
 - blueapi.cost.v1.Cost/GetCoverageOndemand
 - blueapi.cost.v1.Cost/GetCoverageOptions
@@ -46,6 +45,7 @@ functions:
 - blueapi.cost.v1.Cost/ImportCurFiles
 - blueapi.cost.v1.Cost/ListAccounts
 - blueapi.cost.v1.Cost/ListCalculationsHistory
+- blueapi.cost.v1.Cost/ListCalculatorRunningAccounts
 - blueapi.cost.v1.Cost/ListPayerAccounts
 - blueapi.cost.v1.Cost/ReadAdjustments
 - blueapi.cost.v1.Cost/ReadCosts
