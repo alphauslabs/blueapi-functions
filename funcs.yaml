@@ -48,6 +48,7 @@ functions:
 - blueapi.cost.v1.Cost/ListCalculatorRunningAccounts
 - blueapi.cost.v1.Cost/ListPayerAccounts
 - blueapi.cost.v1.Cost/ReadAdjustments
+- blueapi.cost.v1.Cost/ReadCostAttributes
 - blueapi.cost.v1.Cost/ReadCosts
 - blueapi.cost.v1.Cost/ReadNonTagCosts
 - blueapi.cost.v1.Cost/ReadTagCosts
