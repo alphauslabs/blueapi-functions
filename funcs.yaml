@@ -1,5 +1,6 @@
 functions:
 - blueapi.admin.v1.Admin/CreateDefaultCostAccess
+- blueapi.admin.v1.Admin/CreateDefaultNotificationChannel
 - blueapi.admin.v1.Admin/CreateNotificationChannel
 - blueapi.admin.v1.Admin/DeleteDefaultCostAccess
 - blueapi.admin.v1.Admin/DeleteNotificationChannel
