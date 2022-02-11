@@ -24,13 +24,16 @@ functions:
 - blueapi.cost.v1.Cost/CalculateCosts
 - blueapi.cost.v1.Cost/CreateAccount
 - blueapi.cost.v1.Cost/CreateAccountBudget
+- blueapi.cost.v1.Cost/CreateCalculationsSchedule
 - blueapi.cost.v1.Cost/CreatePayerAccount
 - blueapi.cost.v1.Cost/DeleteAccount
 - blueapi.cost.v1.Cost/DeleteAccountBudget
+- blueapi.cost.v1.Cost/DeleteCalculationsSchedule
 - blueapi.cost.v1.Cost/DeletePayerAccount
 - blueapi.cost.v1.Cost/GetAccount
 - blueapi.cost.v1.Cost/GetAccountBudget
 - blueapi.cost.v1.Cost/GetBreakevenPoint
+- blueapi.cost.v1.Cost/GetCalculationsSchedule
 - blueapi.cost.v1.Cost/GetCalculatorConfig
 - blueapi.cost.v1.Cost/GetCostReduction
 - blueapi.cost.v1.Cost/GetCoverageOndemand
