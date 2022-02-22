@@ -18,7 +18,7 @@ functions:
 - blueapi.billing.v1.Billing/CreateBillingGroup
 - blueapi.billing.v1.Billing/GetAccessGroup
 - blueapi.billing.v1.Billing/GetBillingGroup
-- blueapi.billing.v1.Billing/ListAwsCalculationHistory
+- blueapi.billing.v1.Billing/ListAwsDailyRunHistory
 - blueapi.billing.v1.Billing/ListBillingGroups
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
 - blueapi.cost.v1.Cost/CalculateCosts
