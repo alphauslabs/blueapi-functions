@@ -25,10 +25,12 @@ functions:
 - blueapi.cost.v1.Cost/CreateAccount
 - blueapi.cost.v1.Cost/CreateAccountBudget
 - blueapi.cost.v1.Cost/CreateCalculationsSchedule
+- blueapi.cost.v1.Cost/CreateCostsFilter
 - blueapi.cost.v1.Cost/CreatePayerAccount
 - blueapi.cost.v1.Cost/DeleteAccount
 - blueapi.cost.v1.Cost/DeleteAccountBudget
 - blueapi.cost.v1.Cost/DeleteCalculationsSchedule
+- blueapi.cost.v1.Cost/DeleteCostsFilter
 - blueapi.cost.v1.Cost/DeletePayerAccount
 - blueapi.cost.v1.Cost/GetAccount
 - blueapi.cost.v1.Cost/GetAccountBudget
@@ -50,6 +52,7 @@ functions:
 - blueapi.cost.v1.Cost/ListCalculationsHistory
 - blueapi.cost.v1.Cost/ListCalculationsSchedules
 - blueapi.cost.v1.Cost/ListCalculatorRunningAccounts
+- blueapi.cost.v1.Cost/ListCostsFilter
 - blueapi.cost.v1.Cost/ListPayerAccounts
 - blueapi.cost.v1.Cost/ReadAdjustments
 - blueapi.cost.v1.Cost/ReadCostAttributes
