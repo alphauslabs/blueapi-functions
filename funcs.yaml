@@ -1,10 +1,12 @@
 functions:
+- blueapi.admin.v1.Admin/CreateCloudWatchMetricsStream
 - blueapi.admin.v1.Admin/CreateDefaultCostAccess
 - blueapi.admin.v1.Admin/CreateDefaultNotificationChannel
 - blueapi.admin.v1.Admin/CreateNotificationChannel
 - blueapi.admin.v1.Admin/DeleteDefaultCostAccess
 - blueapi.admin.v1.Admin/DeleteNotificationChannel
 - blueapi.admin.v1.Admin/GetAccountGroup
+- blueapi.admin.v1.Admin/GetCloudWatchMetricsStreamTemplateUrl
 - blueapi.admin.v1.Admin/GetDefaultCostAccess
 - blueapi.admin.v1.Admin/GetDefaultCostAccessTemplateUrl
 - blueapi.admin.v1.Admin/GetNotificationChannel
