@@ -27,13 +27,14 @@ functions:
 - blueapi.cost.v1.Cost/CreateAccount
 - blueapi.cost.v1.Cost/CreateAccountBudget
 - blueapi.cost.v1.Cost/CreateCalculationsSchedule
-- blueapi.cost.v1.Cost/CreateCostsFilter
+- blueapi.cost.v1.Cost/CreateCostFilters
 - blueapi.cost.v1.Cost/CreatePayerAccount
 - blueapi.cost.v1.Cost/DeleteAccount
 - blueapi.cost.v1.Cost/DeleteAccountBudget
 - blueapi.cost.v1.Cost/DeleteCalculationsSchedule
-- blueapi.cost.v1.Cost/DeleteCostsFilter
+- blueapi.cost.v1.Cost/DeleteCostFilters
 - blueapi.cost.v1.Cost/DeletePayerAccount
+- blueapi.cost.v1.Cost/ExportCostFiltersFile
 - blueapi.cost.v1.Cost/GetAccount
 - blueapi.cost.v1.Cost/GetAccountBudget
 - blueapi.cost.v1.Cost/GetBreakevenPoint
@@ -54,7 +55,7 @@ functions:
 - blueapi.cost.v1.Cost/ListCalculationsHistory
 - blueapi.cost.v1.Cost/ListCalculationsSchedules
 - blueapi.cost.v1.Cost/ListCalculatorRunningAccounts
-- blueapi.cost.v1.Cost/ListCostsFilter
+- blueapi.cost.v1.Cost/ListCostFilters
 - blueapi.cost.v1.Cost/ListPayerAccounts
 - blueapi.cost.v1.Cost/ReadAdjustments
 - blueapi.cost.v1.Cost/ReadCostAttributes
@@ -62,6 +63,7 @@ functions:
 - blueapi.cost.v1.Cost/ReadNonTagCosts
 - blueapi.cost.v1.Cost/ReadTagCosts
 - blueapi.cost.v1.Cost/UpdateAccountBudget
+- blueapi.cost.v1.Cost/UpdateCostFilters
 - blueapi.iam.v1.Iam/CreateApiClient
 - blueapi.iam.v1.Iam/CreateGroupRootUser
 - blueapi.iam.v1.Iam/CreateIdentityProvider
