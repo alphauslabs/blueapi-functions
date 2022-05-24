@@ -64,6 +64,17 @@ functions:
 - blueapi.cost.v1.Cost/ReadTagCosts
 - blueapi.cost.v1.Cost/UpdateAccountBudget
 - blueapi.cost.v1.Cost/UpdateCostFilters
+- blueapi.cover.v1.Cover/AdminResetPassword
+- blueapi.cover.v1.Cover/CreateMember
+- blueapi.cover.v1.Cover/DeleteMember
+- blueapi.cover.v1.Cover/DeleteView
+- blueapi.cover.v1.Cover/GetCurrentView
+- blueapi.cover.v1.Cover/GetMemberDetails
+- blueapi.cover.v1.Cover/GetMembers
+- blueapi.cover.v1.Cover/GetViews
+- blueapi.cover.v1.Cover/InviteMember
+- blueapi.cover.v1.Cover/ResetPassword
+- blueapi.cover.v1.Cover/UpdateView
 - blueapi.iam.v1.Iam/CreateApiClient
 - blueapi.iam.v1.Iam/CreateGroupRootUser
 - blueapi.iam.v1.Iam/CreateIdentityProvider
