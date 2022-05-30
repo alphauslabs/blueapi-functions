@@ -66,6 +66,7 @@ functions:
 - blueapi.cost.v1.Cost/UpdateCostFilters
 - blueapi.cover.v1.Cover/AdminResetPassword
 - blueapi.cover.v1.Cover/CreateMember
+- blueapi.cover.v1.Cover/CreateView
 - blueapi.cover.v1.Cover/DeleteMember
 - blueapi.cover.v1.Cover/DeleteView
 - blueapi.cover.v1.Cover/GetCurrentView
@@ -74,6 +75,11 @@ functions:
 - blueapi.cover.v1.Cover/GetViews
 - blueapi.cover.v1.Cover/InviteMember
 - blueapi.cover.v1.Cover/ResetPassword
+- blueapi.cover.v1.Cover/UpdateMemberAvatar
+- blueapi.cover.v1.Cover/UpdateMemberColorTheme
+- blueapi.cover.v1.Cover/UpdateMemberEmail
+- blueapi.cover.v1.Cover/UpdateMemberIcon
+- blueapi.cover.v1.Cover/UpdateMemberUsername
 - blueapi.cover.v1.Cover/UpdateView
 - blueapi.iam.v1.Iam/CreateApiClient
 - blueapi.iam.v1.Iam/CreateGroupRootUser
