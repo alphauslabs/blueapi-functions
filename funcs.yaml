@@ -93,12 +93,16 @@ functions:
 - blueapi.cover.v1.Cover/UpdateCostGroupIcon
 - blueapi.cover.v1.Cover/UpdateCostGroupImage
 - blueapi.cover.v1.Cover/UpdateCostGroupName
+- blueapi.cover.v1.Cover/UpdateUserAppTheme
+- blueapi.cover.v1.Cover/UpdateUserAttributes
 - blueapi.cover.v1.Cover/UpdateUserAvatar
 - blueapi.cover.v1.Cover/UpdateUserColorTheme
 - blueapi.cover.v1.Cover/UpdateUserEmail
 - blueapi.cover.v1.Cover/UpdateUserIcon
+- blueapi.cover.v1.Cover/UpdateUserLocale
 - blueapi.cover.v1.Cover/UpdateUserMainView
 - blueapi.cover.v1.Cover/UpdateUserName
+- blueapi.cover.v1.Cover/UpdateUserTimezone
 - blueapi.cover.v1.Cover/UpdateView
 - blueapi.iam.v1.Iam/CreateApiClient
 - blueapi.iam.v1.Iam/CreateGroupRootUser
