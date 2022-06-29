@@ -65,7 +65,6 @@ functions:
 - blueapi.cost.v1.Cost/UpdateAccountBudget
 - blueapi.cost.v1.Cost/UpdateCostFilters
 - blueapi.cover.v1.Cover/AddFavorite
-- blueapi.cover.v1.Cover/AdminResetPassword
 - blueapi.cover.v1.Cover/AssignCostGroupMember
 - blueapi.cover.v1.Cover/CreateCostGroup
 - blueapi.cover.v1.Cover/CreateMember
@@ -77,6 +76,7 @@ functions:
 - blueapi.cover.v1.Cover/GetCostGroups
 - blueapi.cover.v1.Cover/GetCurrentView
 - blueapi.cover.v1.Cover/GetFavoriteViews
+- blueapi.cover.v1.Cover/GetMemberCostGroup
 - blueapi.cover.v1.Cover/GetMemberDetails
 - blueapi.cover.v1.Cover/GetMembers
 - blueapi.cover.v1.Cover/GetUserDetails
