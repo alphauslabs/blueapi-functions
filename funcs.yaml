@@ -65,6 +65,7 @@ functions:
 - blueapi.cost.v1.Cost/UpdateAccountBudget
 - blueapi.cost.v1.Cost/UpdateCostFilters
 - blueapi.cover.v1.Cover/AddFavorite
+- blueapi.cover.v1.Cover/AddSideMenuFavorite
 - blueapi.cover.v1.Cover/AssignCostGroupMember
 - blueapi.cover.v1.Cover/CreateCostGroup
 - blueapi.cover.v1.Cover/CreateMember
@@ -85,6 +86,7 @@ functions:
 - blueapi.cover.v1.Cover/PublishView
 - blueapi.cover.v1.Cover/RemoveCostGroupMember
 - blueapi.cover.v1.Cover/RemoveFavorite
+- blueapi.cover.v1.Cover/RemoveSideMenuFavorite
 - blueapi.cover.v1.Cover/ResetPassword
 - blueapi.cover.v1.Cover/ResetUserPassword
 - blueapi.cover.v1.Cover/UpdateCostGroupColorTheme
@@ -93,6 +95,7 @@ functions:
 - blueapi.cover.v1.Cover/UpdateCostGroupIcon
 - blueapi.cover.v1.Cover/UpdateCostGroupImage
 - blueapi.cover.v1.Cover/UpdateCostGroupName
+- blueapi.cover.v1.Cover/UpdateSideMenuState
 - blueapi.cover.v1.Cover/UpdateUserAppTheme
 - blueapi.cover.v1.Cover/UpdateUserAttributes
 - blueapi.cover.v1.Cover/UpdateUserAvatar
