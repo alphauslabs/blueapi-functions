@@ -135,6 +135,8 @@ functions:
 - blueapi.iam.v1.Iam/UpdateRole
 - blueapi.iam.v1.Iam/UpdateUserRoleMapping
 - blueapi.iam.v1.Iam/WhoAmI
+- blueapi.invoice.v1.Invoice/ExportInvoiceFile
+- blueapi.invoice.v1.Invoice/GetInvoice
 - blueapi.kvstore.v1.KvStore/Delete
 - blueapi.kvstore.v1.KvStore/Read
 - blueapi.kvstore.v1.KvStore/Scan
