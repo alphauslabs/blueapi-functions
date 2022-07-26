@@ -18,8 +18,10 @@ functions:
 - blueapi.admin.v1.Admin/UpdateDefaultCostAccess
 - blueapi.admin.v1.Admin/UpdateNotificationChannel
 - blueapi.billing.v1.Billing/CreateBillingGroup
+- blueapi.billing.v1.Billing/ExportInvoiceFile
 - blueapi.billing.v1.Billing/GetAccessGroup
 - blueapi.billing.v1.Billing/GetBillingGroup
+- blueapi.billing.v1.Billing/GetInvoice
 - blueapi.billing.v1.Billing/ListAwsDailyRunHistory
 - blueapi.billing.v1.Billing/ListBillingGroups
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
