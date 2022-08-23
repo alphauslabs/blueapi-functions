@@ -77,6 +77,7 @@ functions:
 - blueapi.cover.v1.Cover/DeleteCostGroup
 - blueapi.cover.v1.Cover/DeleteMember
 - blueapi.cover.v1.Cover/DeleteView
+- blueapi.cover.v1.Cover/DiscoverResources
 - blueapi.cover.v1.Cover/GetAccountAccess
 - blueapi.cover.v1.Cover/GetAccountAccessTemplateUrl
 - blueapi.cover.v1.Cover/GetCostGroupDetails
@@ -91,6 +92,7 @@ functions:
 - blueapi.cover.v1.Cover/InviteMember
 - blueapi.cover.v1.Cover/ListAccountAccess
 - blueapi.cover.v1.Cover/ListAssets
+- blueapi.cover.v1.Cover/ListDiscoveryRequests
 - blueapi.cover.v1.Cover/PublishView
 - blueapi.cover.v1.Cover/RemoveCostGroupMember
 - blueapi.cover.v1.Cover/RemoveFavorite
