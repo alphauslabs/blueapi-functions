@@ -104,6 +104,7 @@ functions:
 - blueapi.cover.v1.Cover/RemoveSideMenuFavorite
 - blueapi.cover.v1.Cover/ResetPassword
 - blueapi.cover.v1.Cover/ResetUserPassword
+- blueapi.cover.v1.Cover/ResolveCostGroupCombinations
 - blueapi.cover.v1.Cover/UpdateAccountAccess
 - blueapi.cover.v1.Cover/UpdateCostGroupColorTheme
 - blueapi.cover.v1.Cover/UpdateCostGroupCombinations
