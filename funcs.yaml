@@ -29,6 +29,7 @@ functions:
 - blueapi.billing.v1.Billing/GetInvoice
 - blueapi.billing.v1.Billing/ListAwsDailyRunHistory
 - blueapi.billing.v1.Billing/ListBillingGroups
+- blueapi.billing.v1.Billing/ListInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
 - blueapi.cost.v1.Cost/CalculateCosts
 - blueapi.cost.v1.Cost/CreateAccount
