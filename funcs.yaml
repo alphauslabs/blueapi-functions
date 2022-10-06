@@ -34,6 +34,7 @@ functions:
 - blueapi.billing.v1.Billing/ListBillingGroups
 - blueapi.billing.v1.Billing/ListInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
+- blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts
 - blueapi.cost.v1.Cost/CalculateCosts
 - blueapi.cost.v1.Cost/CreateAccount
