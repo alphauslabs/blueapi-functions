@@ -64,7 +64,6 @@ functions:
 - blueapi.cost.v1.Cost/GetRecommendations
 - blueapi.cost.v1.Cost/GetUtilization
 - blueapi.cost.v1.Cost/ImportCurFiles
-- blueapi.cost.v1.Cost/ListAccountResources
 - blueapi.cost.v1.Cost/ListAccounts
 - blueapi.cost.v1.Cost/ListCalculationsHistory
 - blueapi.cost.v1.Cost/ListCalculationsSchedules
