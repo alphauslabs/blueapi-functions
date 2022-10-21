@@ -24,6 +24,7 @@ functions:
 - blueapi.admin.v1.Admin/UpdateNotificationChannel
 - blueapi.billing.v1.Billing/CreateAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/CreateBillingGroup
+- blueapi.billing.v1.Billing/CreateInvoice
 - blueapi.billing.v1.Billing/DeleteAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ExportInvoiceFile
 - blueapi.billing.v1.Billing/GetAccessGroup
