@@ -80,6 +80,7 @@ functions:
 - blueapi.cost.v1.Cost/UpdateCostFilters
 - blueapi.cover.v1.Cover/AddFavorite
 - blueapi.cover.v1.Cover/AddSideMenuFavorite
+- blueapi.cover.v1.Cover/ApplyRightSizingRecommendation
 - blueapi.cover.v1.Cover/AssignCostGroupMember
 - blueapi.cover.v1.Cover/CreateAccountAccess
 - blueapi.cover.v1.Cover/CreateCostGroup
