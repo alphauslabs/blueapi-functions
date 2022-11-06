@@ -30,6 +30,7 @@ functions:
 - blueapi.billing.v1.Billing/GetAccessGroup
 - blueapi.billing.v1.Billing/GetBillingGroup
 - blueapi.billing.v1.Billing/GetInvoice
+- blueapi.billing.v1.Billing/GetInvoiceStatus
 - blueapi.billing.v1.Billing/ListAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ListAwsDailyRunHistory
 - blueapi.billing.v1.Billing/ListBillingGroups
