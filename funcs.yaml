@@ -143,6 +143,7 @@ functions:
 - blueapi.cover.v1.Cover/UpdateView
 - blueapi.cover.v1.Cover/UpdateViewLayout
 - blueapi.cover.v1.Cover/UpdateViewWidget
+- blueapi.cover.v1.Cover/UploadChargeCode
 - blueapi.iam.v1.Iam/CreateApiClient
 - blueapi.iam.v1.Iam/CreateGroupRootUser
 - blueapi.iam.v1.Iam/CreateIdentityProvider
