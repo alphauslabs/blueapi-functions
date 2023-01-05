@@ -84,6 +84,7 @@ functions:
 - blueapi.cover.v1.Cover/AddFavorite
 - blueapi.cover.v1.Cover/AddSideMenuFavorite
 - blueapi.cover.v1.Cover/AssignCostGroupMember
+- blueapi.cover.v1.Cover/AssignPayer
 - blueapi.cover.v1.Cover/CheckUserActivation
 - blueapi.cover.v1.Cover/CreateAccountAccess
 - blueapi.cover.v1.Cover/CreateCostGroup
@@ -95,6 +96,7 @@ functions:
 - blueapi.cover.v1.Cover/DeleteView
 - blueapi.cover.v1.Cover/GetAccountAccess
 - blueapi.cover.v1.Cover/GetAccountAccessTemplateUrl
+- blueapi.cover.v1.Cover/GetAccounts
 - blueapi.cover.v1.Cover/GetCostGroupDetails
 - blueapi.cover.v1.Cover/GetCostGroups
 - blueapi.cover.v1.Cover/GetCostUsage
@@ -104,7 +106,9 @@ functions:
 - blueapi.cover.v1.Cover/GetMemberCostGroup
 - blueapi.cover.v1.Cover/GetMemberDetails
 - blueapi.cover.v1.Cover/GetMembers
+- blueapi.cover.v1.Cover/GetPayers
 - blueapi.cover.v1.Cover/GetRightSizingRecommendation
+- blueapi.cover.v1.Cover/GetServices
 - blueapi.cover.v1.Cover/GetUserDetails
 - blueapi.cover.v1.Cover/GetViews
 - blueapi.cover.v1.Cover/InviteMember
