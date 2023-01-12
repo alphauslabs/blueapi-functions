@@ -112,6 +112,7 @@ functions:
 - blueapi.cover.v1.Cover/GetPayers
 - blueapi.cover.v1.Cover/GetRightSizingRecommendation
 - blueapi.cover.v1.Cover/GetServices
+- blueapi.cover.v1.Cover/GetTags
 - blueapi.cover.v1.Cover/GetUserDetails
 - blueapi.cover.v1.Cover/GetViews
 - blueapi.cover.v1.Cover/InviteMember
