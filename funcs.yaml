@@ -106,11 +106,11 @@ functions:
 - blueapi.cover.v1.Cover/GetAccountAccess
 - blueapi.cover.v1.Cover/GetAccountAccessTemplateUrl
 - blueapi.cover.v1.Cover/GetAccounts
+- blueapi.cover.v1.Cover/GetAssetsSummary
 - blueapi.cover.v1.Cover/GetCostGroupDetails
 - blueapi.cover.v1.Cover/GetCostGroups
 - blueapi.cover.v1.Cover/GetCostUsage
 - blueapi.cover.v1.Cover/GetCurrentView
-- blueapi.cover.v1.Cover/GetEC2Instances
 - blueapi.cover.v1.Cover/GetFavoriteViews
 - blueapi.cover.v1.Cover/GetMemberCostGroup
 - blueapi.cover.v1.Cover/GetMemberDetails
