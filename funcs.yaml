@@ -97,10 +97,12 @@ functions:
 - blueapi.cover.v1.Cover/AssignPayer
 - blueapi.cover.v1.Cover/CreateAccountAccess
 - blueapi.cover.v1.Cover/CreateCostGroup
+- blueapi.cover.v1.Cover/CreateFeeReallocation
 - blueapi.cover.v1.Cover/CreateMember
 - blueapi.cover.v1.Cover/CreateView
 - blueapi.cover.v1.Cover/DeleteAccountAccess
 - blueapi.cover.v1.Cover/DeleteCostGroup
+- blueapi.cover.v1.Cover/DeleteFeeDetails
 - blueapi.cover.v1.Cover/DeleteMember
 - blueapi.cover.v1.Cover/DeleteView
 - blueapi.cover.v1.Cover/GetAccountAccess
@@ -112,6 +114,7 @@ functions:
 - blueapi.cover.v1.Cover/GetCostUsage
 - blueapi.cover.v1.Cover/GetCurrentView
 - blueapi.cover.v1.Cover/GetFavoriteViews
+- blueapi.cover.v1.Cover/GetFeeDetails
 - blueapi.cover.v1.Cover/GetMemberCostGroup
 - blueapi.cover.v1.Cover/GetMemberDetails
 - blueapi.cover.v1.Cover/GetMembers
@@ -125,6 +128,7 @@ functions:
 - blueapi.cover.v1.Cover/InviteMember
 - blueapi.cover.v1.Cover/ListAccountAccess
 - blueapi.cover.v1.Cover/ListAssets
+- blueapi.cover.v1.Cover/ListFees
 - blueapi.cover.v1.Cover/ModifyResourceType
 - blueapi.cover.v1.Cover/OnboardOrg
 - blueapi.cover.v1.Cover/PublishView
@@ -143,6 +147,7 @@ functions:
 - blueapi.cover.v1.Cover/UpdateCostGroupIcon
 - blueapi.cover.v1.Cover/UpdateCostGroupImage
 - blueapi.cover.v1.Cover/UpdateCostGroupName
+- blueapi.cover.v1.Cover/UpdateFeeDetails
 - blueapi.cover.v1.Cover/UpdateMemberPermission
 - blueapi.cover.v1.Cover/UpdateSideMenuState
 - blueapi.cover.v1.Cover/UpdateUserAppTheme
