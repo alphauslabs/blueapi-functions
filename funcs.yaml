@@ -168,6 +168,7 @@ functions:
 - blueapi.iam.v1.Iam/CreateGroupRootUser
 - blueapi.iam.v1.Iam/CreateIdentityProvider
 - blueapi.iam.v1.Iam/CreateIpFilter
+- blueapi.iam.v1.Iam/CreatePartnerToken
 - blueapi.iam.v1.Iam/CreateRole
 - blueapi.iam.v1.Iam/CreateUser
 - blueapi.iam.v1.Iam/CreateUserRoleMapping
