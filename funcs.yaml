@@ -193,6 +193,7 @@ functions:
 - blueapi.iam.v1.Iam/ListRoles
 - blueapi.iam.v1.Iam/ListUserRoleMappings
 - blueapi.iam.v1.Iam/ListUsers
+- blueapi.iam.v1.Iam/RefreshPartnerToken
 - blueapi.iam.v1.Iam/UpdateFeatureFlags
 - blueapi.iam.v1.Iam/UpdateRole
 - blueapi.iam.v1.Iam/UpdateUserRoleMapping
