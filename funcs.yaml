@@ -134,6 +134,7 @@ functions:
 - blueapi.cover.v1.Cover/ListFees
 - blueapi.cover.v1.Cover/ModifyResourceType
 - blueapi.cover.v1.Cover/OnboardOrg
+- blueapi.cover.v1.Cover/ProxyCreateCompletion
 - blueapi.cover.v1.Cover/PublishView
 - blueapi.cover.v1.Cover/RecalculateFee
 - blueapi.cover.v1.Cover/RegisterAccount
