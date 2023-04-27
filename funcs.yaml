@@ -64,6 +64,7 @@ functions:
 - blueapi.cost.v1.Cost/GetAccountBudget
 - blueapi.cost.v1.Cost/GetBreakevenPoint
 - blueapi.cost.v1.Cost/GetCalculatorConfig
+- blueapi.cost.v1.Cost/GetCostAttributes
 - blueapi.cost.v1.Cost/GetCostReduction
 - blueapi.cost.v1.Cost/GetCoverageOndemand
 - blueapi.cost.v1.Cost/GetCoverageOptions
