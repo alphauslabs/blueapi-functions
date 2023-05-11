@@ -117,7 +117,6 @@ functions:
 - blueapi.cover.v1.Cover/GetCostUsage
 - blueapi.cover.v1.Cover/GetCurrentView
 - blueapi.cover.v1.Cover/GetFavoriteViews
-- blueapi.cover.v1.Cover/GetFeeDetails
 - blueapi.cover.v1.Cover/GetMemberCostGroup
 - blueapi.cover.v1.Cover/GetMemberDetails
 - blueapi.cover.v1.Cover/GetMembers
@@ -137,7 +136,6 @@ functions:
 - blueapi.cover.v1.Cover/OnboardOrg
 - blueapi.cover.v1.Cover/ProxyCreateCompletion
 - blueapi.cover.v1.Cover/PublishView
-- blueapi.cover.v1.Cover/RecalculateFee
 - blueapi.cover.v1.Cover/RegisterAccount
 - blueapi.cover.v1.Cover/RemoveCostGroupMember
 - blueapi.cover.v1.Cover/RemoveFavorite
@@ -168,6 +166,7 @@ functions:
 - blueapi.cover.v1.Cover/UpdateUserName
 - blueapi.cover.v1.Cover/UpdateUserTimezone
 - blueapi.cover.v1.Cover/UpdateView
+- blueapi.cover.v1.Cover/UpdateViewColorTheme
 - blueapi.cover.v1.Cover/UpdateViewLayout
 - blueapi.cover.v1.Cover/UpdateViewWidget
 - blueapi.cover.v1.Cover/UploadChargeCode
