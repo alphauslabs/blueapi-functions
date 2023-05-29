@@ -62,6 +62,7 @@ functions:
 - blueapi.cost.v1.Cost/ExportCostFiltersFile
 - blueapi.cost.v1.Cost/GetAccount
 - blueapi.cost.v1.Cost/GetAccountBudget
+- blueapi.cost.v1.Cost/GetAccountBudgetAlerts
 - blueapi.cost.v1.Cost/GetBreakevenPoint
 - blueapi.cost.v1.Cost/GetCalculatorConfig
 - blueapi.cost.v1.Cost/GetCostAttributes
