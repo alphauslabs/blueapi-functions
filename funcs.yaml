@@ -49,12 +49,14 @@ functions:
 - blueapi.cost.v1.Cost/CalculateCosts
 - blueapi.cost.v1.Cost/CreateAccount
 - blueapi.cost.v1.Cost/CreateAccountBudget
+- blueapi.cost.v1.Cost/CreateAccountBudgetAlerts
 - blueapi.cost.v1.Cost/CreateCalculationsSchedule
 - blueapi.cost.v1.Cost/CreateCalculatorCostModifier
 - blueapi.cost.v1.Cost/CreateCostFilters
 - blueapi.cost.v1.Cost/CreatePayerAccount
 - blueapi.cost.v1.Cost/DeleteAccount
 - blueapi.cost.v1.Cost/DeleteAccountBudget
+- blueapi.cost.v1.Cost/DeleteAccountBudgetAlerts
 - blueapi.cost.v1.Cost/DeleteCalculationsSchedule
 - blueapi.cost.v1.Cost/DeleteCalculatorCostModifier
 - blueapi.cost.v1.Cost/DeleteCostFilters
@@ -92,6 +94,7 @@ functions:
 - blueapi.cost.v1.Cost/ReadNonTagCosts
 - blueapi.cost.v1.Cost/ReadTagCosts
 - blueapi.cost.v1.Cost/UpdateAccountBudget
+- blueapi.cost.v1.Cost/UpdateAccountBudgetAlerts
 - blueapi.cost.v1.Cost/UpdateCostFilters
 - blueapi.cover.v1.Cover/ActivateUser
 - blueapi.cover.v1.Cover/AddFavorite
