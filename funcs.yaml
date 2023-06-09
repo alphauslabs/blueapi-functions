@@ -148,6 +148,7 @@ functions:
 - blueapi.cover.v1.Cover/ResetUserPassword
 - blueapi.cover.v1.Cover/ResolveCostGroupCombinations
 - blueapi.cover.v1.Cover/RestoreFee
+- blueapi.cover.v1.Cover/SimulateFeeAllocator
 - blueapi.cover.v1.Cover/TerminateResource
 - blueapi.cover.v1.Cover/UpdateAccountAccess
 - blueapi.cover.v1.Cover/UpdateCostGroupColorTheme
