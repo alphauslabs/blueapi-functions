@@ -208,6 +208,7 @@ functions:
 - blueapi.iam.v1.Iam/UpdateUserRoleMapping
 - blueapi.iam.v1.Iam/ValidateVerificationCode
 - blueapi.iam.v1.Iam/VerifyEmailForResetPassword
+- blueapi.iam.v1.Iam/VerifyUsernameForResetPassword
 - blueapi.iam.v1.Iam/WhoAmI
 - blueapi.invoice.v1.Invoice/ExportInvoiceFile
 - blueapi.invoice.v1.Invoice/GetInvoice
