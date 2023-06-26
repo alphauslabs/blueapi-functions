@@ -22,10 +22,12 @@ functions:
 - blueapi.admin.v1.Admin/UpdateDefaultCostAccess
 - blueapi.admin.v1.Admin/UpdateNotification
 - blueapi.admin.v1.Admin/UpdateNotificationChannel
+- blueapi.billing.v1.Billing/CreateAccessGroup
 - blueapi.billing.v1.Billing/CreateAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/CreateBillingGroup
 - blueapi.billing.v1.Billing/CreateInvoice
 - blueapi.billing.v1.Billing/CreateReseller
+- blueapi.billing.v1.Billing/DeleteAccessGroup
 - blueapi.billing.v1.Billing/DeleteAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/DeleteReseller
 - blueapi.billing.v1.Billing/ExportInvoiceFile
@@ -35,6 +37,7 @@ functions:
 - blueapi.billing.v1.Billing/GetInvoice
 - blueapi.billing.v1.Billing/GetInvoiceStatus
 - blueapi.billing.v1.Billing/GetReseller
+- blueapi.billing.v1.Billing/ListAccessGroups
 - blueapi.billing.v1.Billing/ListAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ListAwsDailyRunHistory
 - blueapi.billing.v1.Billing/ListBillingGroups
@@ -43,6 +46,7 @@ functions:
 - blueapi.billing.v1.Billing/ListResellers
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
 - blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/UpdateAccessGroup
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews
 - blueapi.billing.v1.Billing/UpdateReseller
