@@ -119,6 +119,7 @@ functions:
 - blueapi.cover.v1.Cover/GetAccountAccessTemplateUrl
 - blueapi.cover.v1.Cover/GetAccounts
 - blueapi.cover.v1.Cover/GetAssetsSummary
+- blueapi.cover.v1.Cover/GetCostGroupAllocation
 - blueapi.cover.v1.Cover/GetCostGroupDetails
 - blueapi.cover.v1.Cover/GetCostGroupFee
 - blueapi.cover.v1.Cover/GetCostGroups
@@ -137,9 +138,11 @@ functions:
 - blueapi.cover.v1.Cover/GetViews
 - blueapi.cover.v1.Cover/InviteMember
 - blueapi.cover.v1.Cover/ListAccountAccess
+- blueapi.cover.v1.Cover/ListAccountUsage
 - blueapi.cover.v1.Cover/ListAssets
 - blueapi.cover.v1.Cover/ListFeeAdjustmentAllocators
 - blueapi.cover.v1.Cover/ListFees
+- blueapi.cover.v1.Cover/ListSavings
 - blueapi.cover.v1.Cover/ModifyResourceType
 - blueapi.cover.v1.Cover/OnboardOrg
 - blueapi.cover.v1.Cover/ProxyCreateCompletion
@@ -151,9 +154,12 @@ functions:
 - blueapi.cover.v1.Cover/ResetPassword
 - blueapi.cover.v1.Cover/ResetUserPassword
 - blueapi.cover.v1.Cover/ResolveCostGroupCombinations
+- blueapi.cover.v1.Cover/RestoreAccountUsage
 - blueapi.cover.v1.Cover/RestoreFee
-- blueapi.cover.v1.Cover/SimulateAccountCostAllocator
+- blueapi.cover.v1.Cover/RestoreSavings
+- blueapi.cover.v1.Cover/SimulateAccountUsage
 - blueapi.cover.v1.Cover/SimulateFeeAllocator
+- blueapi.cover.v1.Cover/SimulateSavings
 - blueapi.cover.v1.Cover/TerminateResource
 - blueapi.cover.v1.Cover/UpdateAccountAccess
 - blueapi.cover.v1.Cover/UpdateCostGroupColorTheme
