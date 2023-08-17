@@ -151,6 +151,7 @@ functions:
 - blueapi.cover.v1.Cover/ProxyCreateCompletion
 - blueapi.cover.v1.Cover/PublishView
 - blueapi.cover.v1.Cover/RegisterAccount
+- blueapi.cover.v1.Cover/RegisterDataAccess
 - blueapi.cover.v1.Cover/RemoveCostGroupMember
 - blueapi.cover.v1.Cover/RemoveFavorite
 - blueapi.cover.v1.Cover/RemoveSideMenuFavorite
