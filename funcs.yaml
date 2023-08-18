@@ -173,6 +173,7 @@ functions:
 - blueapi.cover.v1.Cover/UpdateCostGroupIcon
 - blueapi.cover.v1.Cover/UpdateCostGroupImage
 - blueapi.cover.v1.Cover/UpdateCostGroupName
+- blueapi.cover.v1.Cover/UpdateDataAccess
 - blueapi.cover.v1.Cover/UpdateMemberPermission
 - blueapi.cover.v1.Cover/UpdateSideMenuState
 - blueapi.cover.v1.Cover/UpdateUserAppTheme
