@@ -101,6 +101,7 @@ functions:
 - blueapi.cost.v1.Cost/UpdateAccountBudgetAlerts
 - blueapi.cost.v1.Cost/UpdateCostFilters
 - blueapi.cover.v1.Cover/ActivateUser
+- blueapi.cover.v1.Cover/AddBillingAccount
 - blueapi.cover.v1.Cover/AddFavorite
 - blueapi.cover.v1.Cover/AddSideMenuFavorite
 - blueapi.cover.v1.Cover/AddUserFromAuth0AsRoot
