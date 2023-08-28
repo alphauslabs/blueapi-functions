@@ -103,6 +103,7 @@ functions:
 - blueapi.cover.v1.Cover/ActivateUser
 - blueapi.cover.v1.Cover/AddBillingAccount
 - blueapi.cover.v1.Cover/AddFavorite
+- blueapi.cover.v1.Cover/AddPartnerCenterCredentials
 - blueapi.cover.v1.Cover/AddSideMenuFavorite
 - blueapi.cover.v1.Cover/AddUserFromAuth0AsRoot
 - blueapi.cover.v1.Cover/AddUserFromAuth0asRoot
