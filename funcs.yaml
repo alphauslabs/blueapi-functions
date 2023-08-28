@@ -116,6 +116,7 @@ functions:
 - blueapi.cover.v1.Cover/DeleteAccountAccess
 - blueapi.cover.v1.Cover/DeleteAllocator
 - blueapi.cover.v1.Cover/DeleteCostGroup
+- blueapi.cover.v1.Cover/DeleteDataAccess
 - blueapi.cover.v1.Cover/DeleteMember
 - blueapi.cover.v1.Cover/DeleteView
 - blueapi.cover.v1.Cover/GetAccountAccess
@@ -169,6 +170,7 @@ functions:
 - blueapi.cover.v1.Cover/TerminateResource
 - blueapi.cover.v1.Cover/UpdateAccountAccess
 - blueapi.cover.v1.Cover/UpdateAllocator
+- blueapi.cover.v1.Cover/UpdateBillingAccount
 - blueapi.cover.v1.Cover/UpdateCostGroupColorTheme
 - blueapi.cover.v1.Cover/UpdateCostGroupCombinations
 - blueapi.cover.v1.Cover/UpdateCostGroupDescription
