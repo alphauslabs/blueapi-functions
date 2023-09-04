@@ -174,7 +174,6 @@ functions:
 - blueapi.cover.v1.Cover/TerminateResource
 - blueapi.cover.v1.Cover/UpdateAccountAccess
 - blueapi.cover.v1.Cover/UpdateAllocator
-- blueapi.cover.v1.Cover/UpdateBillingAccount
 - blueapi.cover.v1.Cover/UpdateCostGroupColorTheme
 - blueapi.cover.v1.Cover/UpdateCostGroupCombinations
 - blueapi.cover.v1.Cover/UpdateCostGroupDescription
