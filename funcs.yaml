@@ -4,6 +4,7 @@ functions:
 - blueapi.admin.v1.Admin/CreateDefaultNotificationChannel
 - blueapi.admin.v1.Admin/CreateNotification
 - blueapi.admin.v1.Admin/CreateNotificationChannel
+- blueapi.admin.v1.Admin/CreateProformaCur
 - blueapi.admin.v1.Admin/DeleteDefaultCostAccess
 - blueapi.admin.v1.Admin/DeleteNotification
 - blueapi.admin.v1.Admin/DeleteNotificationChannel
