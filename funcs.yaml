@@ -110,8 +110,6 @@ functions:
 - blueapi.cover.v1.Cover/AddMpnSetting
 - blueapi.cover.v1.Cover/AddPartnerCenterCredentials
 - blueapi.cover.v1.Cover/AddSideMenuFavorite
-- blueapi.cover.v1.Cover/AddUserFromAuth0AsRoot
-- blueapi.cover.v1.Cover/AddUserFromAuth0asRoot
 - blueapi.cover.v1.Cover/AssignCostGroupMember
 - blueapi.cover.v1.Cover/AssignPayer
 - blueapi.cover.v1.Cover/CreateAccountAccess
@@ -159,6 +157,7 @@ functions:
 - blueapi.cover.v1.Cover/ListSavings
 - blueapi.cover.v1.Cover/ModifyResourceType
 - blueapi.cover.v1.Cover/OnboardOrg
+- blueapi.cover.v1.Cover/ProcessAuth0User
 - blueapi.cover.v1.Cover/ProxyCreateCompletion
 - blueapi.cover.v1.Cover/PublishView
 - blueapi.cover.v1.Cover/RegisterAccount
