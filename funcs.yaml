@@ -49,6 +49,7 @@ functions:
 - blueapi.billing.v1.Billing/ListInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ListResellers
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
+- blueapi.billing.v1.Billing/ReadInvoiceAdjustments
 - blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/UpdateAccessGroup
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts
