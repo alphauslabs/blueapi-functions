@@ -151,6 +151,7 @@ functions:
 - blueapi.cover.v1.Cover/GetMembers
 - blueapi.cover.v1.Cover/GetPayers
 - blueapi.cover.v1.Cover/GetRegions
+- blueapi.cover.v1.Cover/GetRiSpRecommendations
 - blueapi.cover.v1.Cover/GetRightSizingRecommendation
 - blueapi.cover.v1.Cover/GetServices
 - blueapi.cover.v1.Cover/GetTags
