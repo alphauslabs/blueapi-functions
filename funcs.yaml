@@ -133,6 +133,7 @@ functions:
 - blueapi.cover.v1.Cover/GetAccounts
 - blueapi.cover.v1.Cover/GetAlertDetails
 - blueapi.cover.v1.Cover/GetAlerts
+- blueapi.cover.v1.Cover/GetAnomalyinCostGroup
 - blueapi.cover.v1.Cover/GetAssetsSummary
 - blueapi.cover.v1.Cover/GetCategories
 - blueapi.cover.v1.Cover/GetChannelDetails
