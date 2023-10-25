@@ -119,6 +119,7 @@ functions:
 - blueapi.cover.v1.Cover/CreateChannel
 - blueapi.cover.v1.Cover/CreateCostGroup
 - blueapi.cover.v1.Cover/CreateMember
+- blueapi.cover.v1.Cover/CreateRiSpExpirationAlert
 - blueapi.cover.v1.Cover/CreateView
 - blueapi.cover.v1.Cover/DeleteAccountAccess
 - blueapi.cover.v1.Cover/DeleteAlert
