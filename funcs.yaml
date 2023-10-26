@@ -102,6 +102,7 @@ functions:
 - blueapi.cost.v1.Cost/ReadCosts
 - blueapi.cost.v1.Cost/ReadNonTagCosts
 - blueapi.cost.v1.Cost/ReadTagCosts
+- blueapi.cost.v1.Cost/UpdateAccount
 - blueapi.cost.v1.Cost/UpdateAccountBudget
 - blueapi.cost.v1.Cost/UpdateAccountBudgetAlerts
 - blueapi.cost.v1.Cost/UpdateCostFilters
