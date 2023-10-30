@@ -154,6 +154,7 @@ functions:
 - blueapi.cover.v1.Cover/GetMembers
 - blueapi.cover.v1.Cover/GetPayers
 - blueapi.cover.v1.Cover/GetRegions
+- blueapi.cover.v1.Cover/GetRiSpExpirationAlert
 - blueapi.cover.v1.Cover/GetRiSpRecommendations
 - blueapi.cover.v1.Cover/GetRightSizingRecommendation
 - blueapi.cover.v1.Cover/GetServices
@@ -200,6 +201,7 @@ functions:
 - blueapi.cover.v1.Cover/UpdateCostGroupName
 - blueapi.cover.v1.Cover/UpdateDataAccess
 - blueapi.cover.v1.Cover/UpdateMemberPermission
+- blueapi.cover.v1.Cover/UpdateRiSpExpirationAlert
 - blueapi.cover.v1.Cover/UpdateSideMenuState
 - blueapi.cover.v1.Cover/UpdateUserAppTheme
 - blueapi.cover.v1.Cover/UpdateUserAttributes
