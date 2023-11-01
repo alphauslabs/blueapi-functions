@@ -42,6 +42,7 @@ functions:
 - blueapi.billing.v1.Billing/ListAbcBillingGroups
 - blueapi.billing.v1.Billing/ListAccessGroups
 - blueapi.billing.v1.Billing/ListAccountInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/ListAccountResources
 - blueapi.billing.v1.Billing/ListAwsDailyRunHistory
 - blueapi.billing.v1.Billing/ListBillingGroups
 - blueapi.billing.v1.Billing/ListExchangeRates
