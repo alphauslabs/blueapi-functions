@@ -130,6 +130,7 @@ functions:
 - blueapi.cover.v1.Cover/DeleteCostGroup
 - blueapi.cover.v1.Cover/DeleteDataAccess
 - blueapi.cover.v1.Cover/DeleteMember
+- blueapi.cover.v1.Cover/DeleteRiSpExpirationAlert
 - blueapi.cover.v1.Cover/DeleteView
 - blueapi.cover.v1.Cover/GetAccountAccess
 - blueapi.cover.v1.Cover/GetAccountAccessTemplateUrl
@@ -169,6 +170,7 @@ functions:
 - blueapi.cover.v1.Cover/ListAssets
 - blueapi.cover.v1.Cover/ListDataAccess
 - blueapi.cover.v1.Cover/ListFees
+- blueapi.cover.v1.Cover/ListRiSpExpirationAlert
 - blueapi.cover.v1.Cover/ListSavings
 - blueapi.cover.v1.Cover/ModifyResourceType
 - blueapi.cover.v1.Cover/OnboardOrg
