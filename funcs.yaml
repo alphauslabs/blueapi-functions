@@ -60,6 +60,7 @@ functions:
 - blueapi.cost.v1.Cost/CreateAccount
 - blueapi.cost.v1.Cost/CreateAccountBudget
 - blueapi.cost.v1.Cost/CreateAccountBudgetAlerts
+- blueapi.cost.v1.Cost/CreateBudgetAlerts
 - blueapi.cost.v1.Cost/CreateCalculationsSchedule
 - blueapi.cost.v1.Cost/CreateCalculatorCostModifier
 - blueapi.cost.v1.Cost/CreateCostFilters
@@ -67,6 +68,7 @@ functions:
 - blueapi.cost.v1.Cost/DeleteAccount
 - blueapi.cost.v1.Cost/DeleteAccountBudget
 - blueapi.cost.v1.Cost/DeleteAccountBudgetAlerts
+- blueapi.cost.v1.Cost/DeleteBudgetAlerts
 - blueapi.cost.v1.Cost/DeleteCalculationsSchedule
 - blueapi.cost.v1.Cost/DeleteCalculatorCostModifier
 - blueapi.cost.v1.Cost/DeleteCostFilters
@@ -76,6 +78,7 @@ functions:
 - blueapi.cost.v1.Cost/GetAccountBudget
 - blueapi.cost.v1.Cost/GetAccountBudgetAlerts
 - blueapi.cost.v1.Cost/GetBreakevenPoint
+- blueapi.cost.v1.Cost/GetBudgetAlerts
 - blueapi.cost.v1.Cost/GetCalculatorConfig
 - blueapi.cost.v1.Cost/GetCostAttributes
 - blueapi.cost.v1.Cost/GetCostReduction
@@ -106,6 +109,7 @@ functions:
 - blueapi.cost.v1.Cost/UpdateAccount
 - blueapi.cost.v1.Cost/UpdateAccountBudget
 - blueapi.cost.v1.Cost/UpdateAccountBudgetAlerts
+- blueapi.cost.v1.Cost/UpdateBudgetAlerts
 - blueapi.cost.v1.Cost/UpdateCostFilters
 - blueapi.cover.v1.Cover/ActivateUser
 - blueapi.cover.v1.Cover/AddBillingAccount
