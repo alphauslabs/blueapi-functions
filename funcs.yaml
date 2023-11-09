@@ -131,6 +131,7 @@ functions:
 - blueapi.cover.v1.Cover/DeleteAccountAccess
 - blueapi.cover.v1.Cover/DeleteAlert
 - blueapi.cover.v1.Cover/DeleteAllocator
+- blueapi.cover.v1.Cover/DeleteAnomalyAlert
 - blueapi.cover.v1.Cover/DeleteChannel
 - blueapi.cover.v1.Cover/DeleteCostGroup
 - blueapi.cover.v1.Cover/DeleteDataAccess
@@ -172,6 +173,7 @@ functions:
 - blueapi.cover.v1.Cover/ListAccountAccess
 - blueapi.cover.v1.Cover/ListAccountUsage
 - blueapi.cover.v1.Cover/ListAllocators
+- blueapi.cover.v1.Cover/ListAnomalyAlert
 - blueapi.cover.v1.Cover/ListAssets
 - blueapi.cover.v1.Cover/ListDataAccess
 - blueapi.cover.v1.Cover/ListDiscountExpirationAlert
