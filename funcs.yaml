@@ -143,6 +143,7 @@ functions:
 - blueapi.cover.v1.Cover/GetAccounts
 - blueapi.cover.v1.Cover/GetAlertDetails
 - blueapi.cover.v1.Cover/GetAlerts
+- blueapi.cover.v1.Cover/GetAnomalyAlert
 - blueapi.cover.v1.Cover/GetAnomalyinCostGroup
 - blueapi.cover.v1.Cover/GetAssetsSummary
 - blueapi.cover.v1.Cover/GetCategories
@@ -202,6 +203,7 @@ functions:
 - blueapi.cover.v1.Cover/UpdateAccountAccess
 - blueapi.cover.v1.Cover/UpdateAlertDetails
 - blueapi.cover.v1.Cover/UpdateAllocator
+- blueapi.cover.v1.Cover/UpdateAnomalyAlert
 - blueapi.cover.v1.Cover/UpdateChannelDetails
 - blueapi.cover.v1.Cover/UpdateCostGroupColorTheme
 - blueapi.cover.v1.Cover/UpdateCostGroupCombinations
