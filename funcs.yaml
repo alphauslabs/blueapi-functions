@@ -120,6 +120,7 @@ functions:
 - blueapi.cover.v1.Cover/AssignCostGroupMember
 - blueapi.cover.v1.Cover/AssignPayer
 - blueapi.cover.v1.Cover/CreateAccountAccess
+- blueapi.cover.v1.Cover/CreateAccountAccessCur
 - blueapi.cover.v1.Cover/CreateAlert
 - blueapi.cover.v1.Cover/CreateAllocator
 - blueapi.cover.v1.Cover/CreateAnomalyAlert
