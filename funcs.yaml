@@ -171,6 +171,7 @@ functions:
 - blueapi.cover.v1.Cover/GetServices
 - blueapi.cover.v1.Cover/GetTags
 - blueapi.cover.v1.Cover/GetUserDetails
+- blueapi.cover.v1.Cover/GetUserProfile
 - blueapi.cover.v1.Cover/GetViews
 - blueapi.cover.v1.Cover/InviteMember
 - blueapi.cover.v1.Cover/ListAccountAccess
