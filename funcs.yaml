@@ -1,287 +1,572 @@
 functions:
 - blueapi.admin.v1.Admin/CreateCloudWatchMetricsStream
+- blueapi.admin.v1.Admin/CreateCloudWatchMetricsStream, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/cwms
 - blueapi.admin.v1.Admin/CreateDefaultCostAccess
+- blueapi.admin.v1.Admin/CreateDefaultCostAccess, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/dca
 - blueapi.admin.v1.Admin/CreateDefaultNotificationChannel
+- blueapi.admin.v1.Admin/CreateDefaultNotificationChannel, runtime.WithHTTPPathPattern(/admin/v1/notification/default
 - blueapi.admin.v1.Admin/CreateNotification
+- blueapi.admin.v1.Admin/CreateNotification, runtime.WithHTTPPathPattern(/admin/v1/notifications
 - blueapi.admin.v1.Admin/CreateNotificationChannel
+- blueapi.admin.v1.Admin/CreateNotificationChannel, runtime.WithHTTPPathPattern(/admin/v1/notification/channels
 - blueapi.admin.v1.Admin/CreateProformaCur
+- blueapi.admin.v1.Admin/CreateProformaCur, runtime.WithHTTPPathPattern(/admin/v1/aws/reports/proforma
 - blueapi.admin.v1.Admin/DeleteDefaultCostAccess
+- blueapi.admin.v1.Admin/DeleteDefaultCostAccess, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/dca/{target}
 - blueapi.admin.v1.Admin/DeleteNotification
+- blueapi.admin.v1.Admin/DeleteNotification, runtime.WithHTTPPathPattern(/admin/v1/notifications/{id}
 - blueapi.admin.v1.Admin/DeleteNotificationChannel
+- blueapi.admin.v1.Admin/DeleteNotificationChannel, runtime.WithHTTPPathPattern(/admin/v1/notification/channels/{id}
 - blueapi.admin.v1.Admin/GetAccountGroup
+- blueapi.admin.v1.Admin/GetAccountGroup, runtime.WithHTTPPathPattern(/admin/v1/acctgroups/{id}
 - blueapi.admin.v1.Admin/GetCloudWatchMetricsStreamTemplateUrl
+- blueapi.admin.v1.Admin/GetCloudWatchMetricsStreamTemplateUrl, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/cwms
 - blueapi.admin.v1.Admin/GetDefaultCostAccess
+- blueapi.admin.v1.Admin/GetDefaultCostAccess, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/dca/{target}
 - blueapi.admin.v1.Admin/GetDefaultCostAccessTemplateUrl
+- blueapi.admin.v1.Admin/GetDefaultCostAccessTemplateUrl, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/dca
 - blueapi.admin.v1.Admin/GetNotification
+- blueapi.admin.v1.Admin/GetNotification, runtime.WithHTTPPathPattern(/admin/v1/notifications/{id}
 - blueapi.admin.v1.Admin/GetNotificationChannel
+- blueapi.admin.v1.Admin/GetNotificationChannel, runtime.WithHTTPPathPattern(/admin/v1/notification/channels/{id}
 - blueapi.admin.v1.Admin/GetNotificationSettings
+- blueapi.admin.v1.Admin/GetNotificationSettings, runtime.WithHTTPPathPattern(/admin/v1/notification/settings
 - blueapi.admin.v1.Admin/ListAccountGroups
+- blueapi.admin.v1.Admin/ListAccountGroups, runtime.WithHTTPPathPattern(/admin/v1/acctgroups
 - blueapi.admin.v1.Admin/ListDefaultCostAccess
+- blueapi.admin.v1.Admin/ListDefaultCostAccess, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/dca/all
 - blueapi.admin.v1.Admin/ListNotificationChannels
+- blueapi.admin.v1.Admin/ListNotificationChannels, runtime.WithHTTPPathPattern(/admin/v1/notification/channels
 - blueapi.admin.v1.Admin/ListNotifications
+- blueapi.admin.v1.Admin/ListNotifications, runtime.WithHTTPPathPattern(/admin/v1/notifications
 - blueapi.admin.v1.Admin/SaveNotificationSettings
+- blueapi.admin.v1.Admin/SaveNotificationSettings, runtime.WithHTTPPathPattern(/admin/v1/notification/settings
 - blueapi.admin.v1.Admin/UpdateDefaultCostAccess
+- blueapi.admin.v1.Admin/UpdateDefaultCostAccess, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/dca/{target}
 - blueapi.admin.v1.Admin/UpdateNotification
+- blueapi.admin.v1.Admin/UpdateNotification, runtime.WithHTTPPathPattern(/admin/v1/notifications/{id}
 - blueapi.admin.v1.Admin/UpdateNotificationChannel
+- blueapi.admin.v1.Admin/UpdateNotificationChannel, runtime.WithHTTPPathPattern(/admin/v1/notification/channels/{id}
 - blueapi.billing.v1.Billing/CreateAccessGroup
+- blueapi.billing.v1.Billing/CreateAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups
 - blueapi.billing.v1.Billing/CreateAccountInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/CreateAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/CreateBillingGroup
+- blueapi.billing.v1.Billing/CreateBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/CreateInvoice
+- blueapi.billing.v1.Billing/CreateInvoice, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/CreateReseller
+- blueapi.billing.v1.Billing/CreateReseller, runtime.WithHTTPPathPattern(/v1/resellers
 - blueapi.billing.v1.Billing/DeleteAccessGroup
+- blueapi.billing.v1.Billing/DeleteAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups/{id}
 - blueapi.billing.v1.Billing/DeleteAccountInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/DeleteAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/DeleteReseller
+- blueapi.billing.v1.Billing/DeleteReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
 - blueapi.billing.v1.Billing/ExportInvoiceFile
+- blueapi.billing.v1.Billing/ExportInvoiceFile, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/GetAccessGroup
+- blueapi.billing.v1.Billing/GetAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups/{accessGroupId}
 - blueapi.billing.v1.Billing/GetBillingGroup
+- blueapi.billing.v1.Billing/GetBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/{billingInternalId}
 - blueapi.billing.v1.Billing/GetBillingSetting
+- blueapi.billing.v1.Billing/GetBillingSetting, runtime.WithHTTPPathPattern(/v1/settings
 - blueapi.billing.v1.Billing/GetInvoice
+- blueapi.billing.v1.Billing/GetInvoice, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/GetInvoiceStatus
+- blueapi.billing.v1.Billing/GetInvoiceStatus, runtime.WithHTTPPathPattern(/v1/invoice/status/{id}
 - blueapi.billing.v1.Billing/GetReseller
+- blueapi.billing.v1.Billing/GetReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
 - blueapi.billing.v1.Billing/ListAbcBillingGroupAccounts
+- blueapi.billing.v1.Billing/ListAbcBillingGroupAccounts, runtime.WithHTTPPathPattern(/v1/billinggroups/billingconductor/{payerId}/accounts
 - blueapi.billing.v1.Billing/ListAbcBillingGroups
+- blueapi.billing.v1.Billing/ListAbcBillingGroups, runtime.WithHTTPPathPattern(/v1/billinggroups/billingconductor/{id}
 - blueapi.billing.v1.Billing/ListAccessGroups
+- blueapi.billing.v1.Billing/ListAccessGroups, runtime.WithHTTPPathPattern(/v1/accessgroups
 - blueapi.billing.v1.Billing/ListAccountInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/ListAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/ListAccountResources
+- blueapi.billing.v1.Billing/ListAccountResources, runtime.WithHTTPPathPattern(/v1/resources/accounts/{vendor}
 - blueapi.billing.v1.Billing/ListAwsDailyRunHistory
+- blueapi.billing.v1.Billing/ListAwsDailyRunHistory, runtime.WithHTTPPathPattern(/v1/aws/dailyrunhistory
 - blueapi.billing.v1.Billing/ListBillingGroups
+- blueapi.billing.v1.Billing/ListBillingGroups, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/ListExchangeRates
+- blueapi.billing.v1.Billing/ListExchangeRates, runtime.WithHTTPPathPattern(/v1/{vendor}/exchangerate/{month}
 - blueapi.billing.v1.Billing/ListInvoice
+- blueapi.billing.v1.Billing/ListInvoice, runtime.WithHTTPPathPattern(/v1/invoice
 - blueapi.billing.v1.Billing/ListInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/ListInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts
 - blueapi.billing.v1.Billing/ListResellers
+- blueapi.billing.v1.Billing/ListResellers, runtime.WithHTTPPathPattern(/v1/resellers
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
+- blueapi.billing.v1.Billing/ListUsageCostsDrift, runtime.WithHTTPPathPattern(/v1/{vendor}/usagecostsdrift
 - blueapi.billing.v1.Billing/ReadInvoiceAdjustments
+- blueapi.billing.v1.Billing/ReadInvoiceAdjustments, runtime.WithHTTPPathPattern(/v1/{vendor}/invoiceadjustments
 - blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/UpdateAccessGroup
+- blueapi.billing.v1.Billing/UpdateAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups/{id}
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews
+- blueapi.billing.v1.Billing/UpdateInvoicePreviews, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/UpdateReseller
+- blueapi.billing.v1.Billing/UpdateReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
 - blueapi.cost.v1.Cost/CalculateCosts
+- blueapi.cost.v1.Cost/CalculateCosts, runtime.WithHTTPPathPattern(/v1/{vendor}/costs
 - blueapi.cost.v1.Cost/CreateAccount
+- blueapi.cost.v1.Cost/CreateAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts
 - blueapi.cost.v1.Cost/CreateAccountBudget
+- blueapi.cost.v1.Cost/CreateAccountBudget, runtime.WithHTTPPathPattern(/v1/{vendor}/budget/{level}/{id}
 - blueapi.cost.v1.Cost/CreateAccountBudgetAlerts
+- blueapi.cost.v1.Cost/CreateAccountBudgetAlerts, runtime.WithHTTPPathPattern(/v1/{vendor}/alerts/{id}
 - blueapi.cost.v1.Cost/CreateBudgetAlerts
+- blueapi.cost.v1.Cost/CreateBudgetAlerts, runtime.WithHTTPPathPattern(/v1/alerts
 - blueapi.cost.v1.Cost/CreateCalculationsSchedule
+- blueapi.cost.v1.Cost/CreateCalculationsSchedule, runtime.WithHTTPPathPattern(/v1/{vendor}/calculations/schedules
 - blueapi.cost.v1.Cost/CreateCalculatorCostModifier
+- blueapi.cost.v1.Cost/CreateCalculatorCostModifier, runtime.WithHTTPPathPattern(/v1/{vendor}/calculator/config/costmods
 - blueapi.cost.v1.Cost/CreateCostFilters
+- blueapi.cost.v1.Cost/CreateCostFilters, runtime.WithHTTPPathPattern(/v1/{vendor}/costfilters
 - blueapi.cost.v1.Cost/CreatePayerAccount
+- blueapi.cost.v1.Cost/CreatePayerAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/payers
 - blueapi.cost.v1.Cost/DeleteAccount
+- blueapi.cost.v1.Cost/DeleteAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts/{id}
 - blueapi.cost.v1.Cost/DeleteAccountBudget
+- blueapi.cost.v1.Cost/DeleteAccountBudget, runtime.WithHTTPPathPattern(/v1/{vendor}/budget/{budgetId}
 - blueapi.cost.v1.Cost/DeleteAccountBudgetAlerts
+- blueapi.cost.v1.Cost/DeleteAccountBudgetAlerts, runtime.WithHTTPPathPattern(/v1/{vendor}/alerts/{id}
 - blueapi.cost.v1.Cost/DeleteBudgetAlerts
+- blueapi.cost.v1.Cost/DeleteBudgetAlerts, runtime.WithHTTPPathPattern(/v1/alerts/{id}
 - blueapi.cost.v1.Cost/DeleteCalculationsSchedule
+- blueapi.cost.v1.Cost/DeleteCalculationsSchedule, runtime.WithHTTPPathPattern(/v1/{vendor}/calculations/schedules/{id}
 - blueapi.cost.v1.Cost/DeleteCalculatorCostModifier
+- blueapi.cost.v1.Cost/DeleteCalculatorCostModifier, runtime.WithHTTPPathPattern(/v1/{vendor}/calculator/config/costmods/{id}
 - blueapi.cost.v1.Cost/DeleteCostFilters
+- blueapi.cost.v1.Cost/DeleteCostFilters, runtime.WithHTTPPathPattern(/v1/{vendor}/costfilters/{filterId}
 - blueapi.cost.v1.Cost/DeletePayerAccount
+- blueapi.cost.v1.Cost/DeletePayerAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/payers/{id}
 - blueapi.cost.v1.Cost/ExportCostFiltersFile
+- blueapi.cost.v1.Cost/ExportCostFiltersFile, runtime.WithHTTPPathPattern(/v1/{vendor}/costfilters/{filterId}
 - blueapi.cost.v1.Cost/GetAccount
+- blueapi.cost.v1.Cost/GetAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts/{id}
 - blueapi.cost.v1.Cost/GetAccountBudget
+- blueapi.cost.v1.Cost/GetAccountBudget, runtime.WithHTTPPathPattern(/v1/{vendor}/budget/{level}/{id}
 - blueapi.cost.v1.Cost/GetAccountBudgetAlerts
+- blueapi.cost.v1.Cost/GetAccountBudgetAlerts, runtime.WithHTTPPathPattern(/v1/{vendor}/alerts/{id}
 - blueapi.cost.v1.Cost/GetBreakevenPoint
+- blueapi.cost.v1.Cost/GetBreakevenPoint, runtime.WithHTTPPathPattern(/v1/{vendor}/bep/{orgId}
 - blueapi.cost.v1.Cost/GetBudgetAlerts
+- blueapi.cost.v1.Cost/GetBudgetAlerts, runtime.WithHTTPPathPattern(/v1/alerts/{id}
 - blueapi.cost.v1.Cost/GetCalculatorConfig
+- blueapi.cost.v1.Cost/GetCalculatorConfig, runtime.WithHTTPPathPattern(/v1/{vendor}/calculator/config
 - blueapi.cost.v1.Cost/GetCostAttributes
+- blueapi.cost.v1.Cost/GetCostAttributes, runtime.WithHTTPPathPattern(/v1/{vendor}/costattrs
 - blueapi.cost.v1.Cost/GetCostReduction
+- blueapi.cost.v1.Cost/GetCostReduction, runtime.WithHTTPPathPattern(/v1/{vendor}/reduction/{orgId}
 - blueapi.cost.v1.Cost/GetCoverageOndemand
+- blueapi.cost.v1.Cost/GetCoverageOndemand, runtime.WithHTTPPathPattern(/v1/{vendor}/coverage/ondemand/{orgId}
 - blueapi.cost.v1.Cost/GetCoverageOptions
+- blueapi.cost.v1.Cost/GetCoverageOptions, runtime.WithHTTPPathPattern(/v1/{vendor}/coverage/options/{orgId}
 - blueapi.cost.v1.Cost/GetForecasts
+- blueapi.cost.v1.Cost/GetForecasts, runtime.WithHTTPPathPattern(/v1/{vendor}/forecasts
 - blueapi.cost.v1.Cost/GetMonthOnMonthCostForecast
+- blueapi.cost.v1.Cost/GetMonthOnMonthCostForecast, runtime.WithHTTPPathPattern(/v1/{vendor}/forecasts/month-on-month/{level}/{id}
 - blueapi.cost.v1.Cost/GetMonthToDateCostForecast
+- blueapi.cost.v1.Cost/GetMonthToDateCostForecast, runtime.WithHTTPPathPattern(/v1/{vendor}/forecasts/month-to-date/{level}/{id}
 - blueapi.cost.v1.Cost/GetMonthlyCostForecast
+- blueapi.cost.v1.Cost/GetMonthlyCostForecast, runtime.WithHTTPPathPattern(/v1/{vendor}/forecasts/monthly/{level}/{id}
 - blueapi.cost.v1.Cost/GetPayerAccount
+- blueapi.cost.v1.Cost/GetPayerAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/payers/{id}
 - blueapi.cost.v1.Cost/GetPayerAccountImportHistory
+- blueapi.cost.v1.Cost/GetPayerAccountImportHistory, runtime.WithHTTPPathPattern(/v1/{vendor}/payers/{id}/importhistory
 - blueapi.cost.v1.Cost/GetRecommendations
+- blueapi.cost.v1.Cost/GetRecommendations, runtime.WithHTTPPathPattern(/v1/{vendor}/recommendations/{orgId}
 - blueapi.cost.v1.Cost/GetUtilization
+- blueapi.cost.v1.Cost/GetUtilization, runtime.WithHTTPPathPattern(/v1/{vendor}/utilization/{orgId}
 - blueapi.cost.v1.Cost/ImportCurFiles
+- blueapi.cost.v1.Cost/ImportCurFiles, runtime.WithHTTPPathPattern(/v1/aws/cur
 - blueapi.cost.v1.Cost/ListAccounts
+- blueapi.cost.v1.Cost/ListAccounts, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts
+- blueapi.cost.v1.Cost/ListAccounts, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts/groups/{groupId}
 - blueapi.cost.v1.Cost/ListCalculationsHistory
+- blueapi.cost.v1.Cost/ListCalculationsHistory, runtime.WithHTTPPathPattern(/v1/{vendor}/calculations/history
 - blueapi.cost.v1.Cost/ListCalculationsSchedules
+- blueapi.cost.v1.Cost/ListCalculationsSchedules, runtime.WithHTTPPathPattern(/v1/{vendor}/calculations/schedules
 - blueapi.cost.v1.Cost/ListCalculatorCostModifiers
+- blueapi.cost.v1.Cost/ListCalculatorCostModifiers, runtime.WithHTTPPathPattern(/v1/{vendor}/calculator/config/costmods
 - blueapi.cost.v1.Cost/ListCalculatorRunningAccounts
+- blueapi.cost.v1.Cost/ListCalculatorRunningAccounts, runtime.WithHTTPPathPattern(/v1/{vendor}/calculator/running
 - blueapi.cost.v1.Cost/ListCostFilters
+- blueapi.cost.v1.Cost/ListCostFilters, runtime.WithHTTPPathPattern(/v1/{vendor}/costfilters
 - blueapi.cost.v1.Cost/ListPayerAccounts
+- blueapi.cost.v1.Cost/ListPayerAccounts, runtime.WithHTTPPathPattern(/v1/{vendor}/payers
 - blueapi.cost.v1.Cost/ListTags
+- blueapi.cost.v1.Cost/ListTags, runtime.WithHTTPPathPattern(/v1/{vendor}/tags
+- blueapi.cost.v1.Cost/ListTags, runtime.WithHTTPPathPattern(/v1/{vendor}/tags/groups/{groupId}
 - blueapi.cost.v1.Cost/ReadAdjustments
+- blueapi.cost.v1.Cost/ReadAdjustments, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustments
 - blueapi.cost.v1.Cost/ReadBudgetAlerts
+- blueapi.cost.v1.Cost/ReadBudgetAlerts, runtime.WithHTTPPathPattern(/v1/alerts
 - blueapi.cost.v1.Cost/ReadCostAttributes
+- blueapi.cost.v1.Cost/ReadCostAttributes, runtime.WithHTTPPathPattern(/v1/{vendor}/costattrs
 - blueapi.cost.v1.Cost/ReadCosts
+- blueapi.cost.v1.Cost/ReadCosts, runtime.WithHTTPPathPattern(/v1/{vendor}/costs
 - blueapi.cost.v1.Cost/ReadNonTagCosts
+- blueapi.cost.v1.Cost/ReadNonTagCosts, runtime.WithHTTPPathPattern(/v1/{vendor}/nontagcosts
 - blueapi.cost.v1.Cost/ReadTagCosts
+- blueapi.cost.v1.Cost/ReadTagCosts, runtime.WithHTTPPathPattern(/v1/{vendor}/tagcosts
 - blueapi.cost.v1.Cost/UpdateAccount
+- blueapi.cost.v1.Cost/UpdateAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts/{id}
 - blueapi.cost.v1.Cost/UpdateAccountBudget
+- blueapi.cost.v1.Cost/UpdateAccountBudget, runtime.WithHTTPPathPattern(/v1/{vendor}/budget/{budgetId}
 - blueapi.cost.v1.Cost/UpdateAccountBudgetAlerts
+- blueapi.cost.v1.Cost/UpdateAccountBudgetAlerts, runtime.WithHTTPPathPattern(/v1/{vendor}/alerts/{id}
 - blueapi.cost.v1.Cost/UpdateBudgetAlerts
+- blueapi.cost.v1.Cost/UpdateBudgetAlerts, runtime.WithHTTPPathPattern(/v1/alerts/{id}
 - blueapi.cost.v1.Cost/UpdateCostFilters
+- blueapi.cost.v1.Cost/UpdateCostFilters, runtime.WithHTTPPathPattern(/v1/{vendor}/costfilters/{filterId}
 - blueapi.cover.v1.Cover/ActivateUser
+- blueapi.cover.v1.Cover/ActivateUser, runtime.WithHTTPPathPattern(/v1/members/activate
 - blueapi.cover.v1.Cover/AddBillingAccount
+- blueapi.cover.v1.Cover/AddBillingAccount, runtime.WithHTTPPathPattern(/v1/billingacct
 - blueapi.cover.v1.Cover/AddFavorite
+- blueapi.cover.v1.Cover/AddFavorite, runtime.WithHTTPPathPattern(/v1/views/favorite/add
 - blueapi.cover.v1.Cover/AddMpnSetting
+- blueapi.cover.v1.Cover/AddMpnSetting, runtime.WithHTTPPathPattern(/v1/azure/credentials/mpn
 - blueapi.cover.v1.Cover/AddPartnerCenterCredentials
+- blueapi.cover.v1.Cover/AddPartnerCenterCredentials, runtime.WithHTTPPathPattern(/v1/azure/credentials/partnercenter
 - blueapi.cover.v1.Cover/AddSideMenuFavorite
+- blueapi.cover.v1.Cover/AddSideMenuFavorite, runtime.WithHTTPPathPattern(/v1/views/{viewId}/sidemenufavorite
 - blueapi.cover.v1.Cover/AssignCostGroupMember
+- blueapi.cover.v1.Cover/AssignCostGroupMember, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/member/add
 - blueapi.cover.v1.Cover/AssignPayer
+- blueapi.cover.v1.Cover/AssignPayer, runtime.WithHTTPPathPattern(/v1/{vendor}/payers
 - blueapi.cover.v1.Cover/CreateAccountAccess
+- blueapi.cover.v1.Cover/CreateAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess
 - blueapi.cover.v1.Cover/CreateAccountAccessCur
+- blueapi.cover.v1.Cover/CreateAccountAccessCur, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/cur
 - blueapi.cover.v1.Cover/CreateAlert
+- blueapi.cover.v1.Cover/CreateAlert, runtime.WithHTTPPathPattern(/v1/alerts/cost
 - blueapi.cover.v1.Cover/CreateAllocator
+- blueapi.cover.v1.Cover/CreateAllocator, runtime.WithHTTPPathPattern(/v1/allocators
 - blueapi.cover.v1.Cover/CreateAnomalyAlert
+- blueapi.cover.v1.Cover/CreateAnomalyAlert, runtime.WithHTTPPathPattern(/v1/alerts/anomaly
 - blueapi.cover.v1.Cover/CreateChannel
+- blueapi.cover.v1.Cover/CreateChannel, runtime.WithHTTPPathPattern(/v1/channels
 - blueapi.cover.v1.Cover/CreateCostGroup
+- blueapi.cover.v1.Cover/CreateCostGroup, runtime.WithHTTPPathPattern(/v1/costgroups
 - blueapi.cover.v1.Cover/CreateDiscountExpirationAlert
+- blueapi.cover.v1.Cover/CreateDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount
 - blueapi.cover.v1.Cover/CreateMember
+- blueapi.cover.v1.Cover/CreateMember, runtime.WithHTTPPathPattern(/v1/members
 - blueapi.cover.v1.Cover/CreateView
+- blueapi.cover.v1.Cover/CreateView, runtime.WithHTTPPathPattern(/v1/views
 - blueapi.cover.v1.Cover/DeleteAccountAccess
+- blueapi.cover.v1.Cover/DeleteAccountAccess, runtime.WithHTTPPathPattern(/v1/acctaccess/{target}
 - blueapi.cover.v1.Cover/DeleteAlert
+- blueapi.cover.v1.Cover/DeleteAlert, runtime.WithHTTPPathPattern(/v1/alerts/cost/{id}
 - blueapi.cover.v1.Cover/DeleteAllocator
+- blueapi.cover.v1.Cover/DeleteAllocator, runtime.WithHTTPPathPattern(/v1/allocators/{id}
 - blueapi.cover.v1.Cover/DeleteAnomalyAlert
+- blueapi.cover.v1.Cover/DeleteAnomalyAlert, runtime.WithHTTPPathPattern(/v1/alerts/anomaly/{id}
 - blueapi.cover.v1.Cover/DeleteChannel
+- blueapi.cover.v1.Cover/DeleteChannel, runtime.WithHTTPPathPattern(/v1/channels/{id}
 - blueapi.cover.v1.Cover/DeleteCostGroup
+- blueapi.cover.v1.Cover/DeleteCostGroup, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}
 - blueapi.cover.v1.Cover/DeleteDataAccess
+- blueapi.cover.v1.Cover/DeleteDataAccess, runtime.WithHTTPPathPattern(/v1/account/{target}
 - blueapi.cover.v1.Cover/DeleteDiscountExpirationAlert
+- blueapi.cover.v1.Cover/DeleteDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount/{id}
 - blueapi.cover.v1.Cover/DeleteMember
+- blueapi.cover.v1.Cover/DeleteMember, runtime.WithHTTPPathPattern(/v1/members/{userId}
 - blueapi.cover.v1.Cover/DeleteView
+- blueapi.cover.v1.Cover/DeleteView, runtime.WithHTTPPathPattern(/v1/views/{viewId}
 - blueapi.cover.v1.Cover/GetAccountAccess
+- blueapi.cover.v1.Cover/GetAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/{target}
 - blueapi.cover.v1.Cover/GetAccountAccessTemplateUrl
+- blueapi.cover.v1.Cover/GetAccountAccessTemplateUrl, runtime.WithHTTPPathPattern(/v1/aws/acctaccess
 - blueapi.cover.v1.Cover/GetAccounts
+- blueapi.cover.v1.Cover/GetAccounts, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts/{costGroupId}
 - blueapi.cover.v1.Cover/GetAlertDetails
+- blueapi.cover.v1.Cover/GetAlertDetails, runtime.WithHTTPPathPattern(/v1/alerts/cost/{id}
 - blueapi.cover.v1.Cover/GetAlerts
+- blueapi.cover.v1.Cover/GetAlerts, runtime.WithHTTPPathPattern(/v1/alerts/cost
 - blueapi.cover.v1.Cover/GetAnomalyAlert
+- blueapi.cover.v1.Cover/GetAnomalyAlert, runtime.WithHTTPPathPattern(/v1/alerts/anomaly/{id}
 - blueapi.cover.v1.Cover/GetAnomalyinCostGroup
+- blueapi.cover.v1.Cover/GetAnomalyinCostGroup, runtime.WithHTTPPathPattern(/v1/anomaly
 - blueapi.cover.v1.Cover/GetAssetsSummary
+- blueapi.cover.v1.Cover/GetAssetsSummary, runtime.WithHTTPPathPattern(/v1/assets/summary/{costGroupId}
 - blueapi.cover.v1.Cover/GetCategories
+- blueapi.cover.v1.Cover/GetCategories, runtime.WithHTTPPathPattern(/v1/categories
 - blueapi.cover.v1.Cover/GetChannelDetails
+- blueapi.cover.v1.Cover/GetChannelDetails, runtime.WithHTTPPathPattern(/v1/channels/{id}
 - blueapi.cover.v1.Cover/GetChannels
+- blueapi.cover.v1.Cover/GetChannels, runtime.WithHTTPPathPattern(/v1/channels
 - blueapi.cover.v1.Cover/GetCostGroupAllocation
+- blueapi.cover.v1.Cover/GetCostGroupAllocation, runtime.WithHTTPPathPattern(/v1/allocations
 - blueapi.cover.v1.Cover/GetCostGroupAttribute
+- blueapi.cover.v1.Cover/GetCostGroupAttribute, runtime.WithHTTPPathPattern(/v1/attributes
 - blueapi.cover.v1.Cover/GetCostGroupDetails
+- blueapi.cover.v1.Cover/GetCostGroupDetails, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}
 - blueapi.cover.v1.Cover/GetCostGroupFee
+- blueapi.cover.v1.Cover/GetCostGroupFee, runtime.WithHTTPPathPattern(/v1/allocations/fees
 - blueapi.cover.v1.Cover/GetCostGroups
+- blueapi.cover.v1.Cover/GetCostGroups, runtime.WithHTTPPathPattern(/v1/costgroups
 - blueapi.cover.v1.Cover/GetCostUsage
+- blueapi.cover.v1.Cover/GetCostUsage, runtime.WithHTTPPathPattern(/v1/costusage
 - blueapi.cover.v1.Cover/GetCurrentView
+- blueapi.cover.v1.Cover/GetCurrentView, runtime.WithHTTPPathPattern(/v1/views/{viewId}
 - blueapi.cover.v1.Cover/GetDataAccess
+- blueapi.cover.v1.Cover/GetDataAccess, runtime.WithHTTPPathPattern(/v1/account/{target}
 - blueapi.cover.v1.Cover/GetDiscountExpirationAlert
+- blueapi.cover.v1.Cover/GetDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount/{id}
 - blueapi.cover.v1.Cover/GetDiscountRecommendations
+- blueapi.cover.v1.Cover/GetDiscountRecommendations, runtime.WithHTTPPathPattern(/v1/recommendations/discount
 - blueapi.cover.v1.Cover/GetFavoriteViews
+- blueapi.cover.v1.Cover/GetFavoriteViews, runtime.WithHTTPPathPattern(/v1/views/favorites
 - blueapi.cover.v1.Cover/GetMemberCostGroup
+- blueapi.cover.v1.Cover/GetMemberCostGroup, runtime.WithHTTPPathPattern(/v1/members/{userId}/costgroup
 - blueapi.cover.v1.Cover/GetMemberDetails
+- blueapi.cover.v1.Cover/GetMemberDetails, runtime.WithHTTPPathPattern(/v1/members/{userId}
 - blueapi.cover.v1.Cover/GetMembers
+- blueapi.cover.v1.Cover/GetMembers, runtime.WithHTTPPathPattern(/v1/members
 - blueapi.cover.v1.Cover/GetPayers
+- blueapi.cover.v1.Cover/GetPayers, runtime.WithHTTPPathPattern(/v1/{vendor}/payers
 - blueapi.cover.v1.Cover/GetRegions
+- blueapi.cover.v1.Cover/GetRegions, runtime.WithHTTPPathPattern(/v1/{vendor}/regions/{costGroupId}
 - blueapi.cover.v1.Cover/GetRightSizingRecommendation
+- blueapi.cover.v1.Cover/GetRightSizingRecommendation, runtime.WithHTTPPathPattern(/v1/rightsizingrecommendation/{costGroupId}
 - blueapi.cover.v1.Cover/GetServices
+- blueapi.cover.v1.Cover/GetServices, runtime.WithHTTPPathPattern(/v1/{vendor}/services/{costGroupId}
 - blueapi.cover.v1.Cover/GetTags
+- blueapi.cover.v1.Cover/GetTags, runtime.WithHTTPPathPattern(/v1/{vendor}/tags/{costGroupId}
 - blueapi.cover.v1.Cover/GetUserDetails
+- blueapi.cover.v1.Cover/GetUserDetails, runtime.WithHTTPPathPattern(/v1/me
 - blueapi.cover.v1.Cover/GetUserProfile
+- blueapi.cover.v1.Cover/GetUserProfile, runtime.WithHTTPPathPattern(/v1/members/profile/{email}
 - blueapi.cover.v1.Cover/GetViews
+- blueapi.cover.v1.Cover/GetViews, runtime.WithHTTPPathPattern(/v1/views
 - blueapi.cover.v1.Cover/InviteMember
+- blueapi.cover.v1.Cover/InviteMember, runtime.WithHTTPPathPattern(/v1/members/invite
 - blueapi.cover.v1.Cover/ListAccountAccess
+- blueapi.cover.v1.Cover/ListAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/all
 - blueapi.cover.v1.Cover/ListAccountUsage
+- blueapi.cover.v1.Cover/ListAccountUsage, runtime.WithHTTPPathPattern(/v1/allocations/accountusage/all
 - blueapi.cover.v1.Cover/ListAllocators
+- blueapi.cover.v1.Cover/ListAllocators, runtime.WithHTTPPathPattern(/v1/allocators
 - blueapi.cover.v1.Cover/ListAnomalyAlert
+- blueapi.cover.v1.Cover/ListAnomalyAlert, runtime.WithHTTPPathPattern(/v1/alerts/anomaly/all
 - blueapi.cover.v1.Cover/ListAssets
+- blueapi.cover.v1.Cover/ListAssets, runtime.WithHTTPPathPattern(/v1/assets
 - blueapi.cover.v1.Cover/ListDataAccess
+- blueapi.cover.v1.Cover/ListDataAccess, runtime.WithHTTPPathPattern(/v1/account/all
 - blueapi.cover.v1.Cover/ListDiscountExpirationAlert
+- blueapi.cover.v1.Cover/ListDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount/all
 - blueapi.cover.v1.Cover/ListFees
+- blueapi.cover.v1.Cover/ListFees, runtime.WithHTTPPathPattern(/v1/allocations/fees/all
 - blueapi.cover.v1.Cover/ListSavings
+- blueapi.cover.v1.Cover/ListSavings, runtime.WithHTTPPathPattern(/v1/allocations/savings/all
 - blueapi.cover.v1.Cover/ModifyResourceType
+- blueapi.cover.v1.Cover/ModifyResourceType, runtime.WithHTTPPathPattern(/v1/{vendor}/resource/modify
 - blueapi.cover.v1.Cover/OnboardOrg
+- blueapi.cover.v1.Cover/OnboardOrg, runtime.WithHTTPPathPattern(/v1/members/onboard
 - blueapi.cover.v1.Cover/ProcessAuth0User
+- blueapi.cover.v1.Cover/ProcessAuth0User, runtime.WithHTTPPathPattern(/v1/members/auth0
 - blueapi.cover.v1.Cover/ProxyCreateCompletion
+- blueapi.cover.v1.Cover/ProxyCreateCompletion, runtime.WithHTTPPathPattern(/v1/x/pcc
 - blueapi.cover.v1.Cover/PublishView
+- blueapi.cover.v1.Cover/PublishView, runtime.WithHTTPPathPattern(/v1/views/publish
 - blueapi.cover.v1.Cover/RegisterAccount
+- blueapi.cover.v1.Cover/RegisterAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/account
 - blueapi.cover.v1.Cover/RegisterDataAccess
+- blueapi.cover.v1.Cover/RegisterDataAccess, runtime.WithHTTPPathPattern(/v1/account
 - blueapi.cover.v1.Cover/RegisterNewUser
+- blueapi.cover.v1.Cover/RegisterNewUser, runtime.WithHTTPPathPattern(/v1/members/register
 - blueapi.cover.v1.Cover/RemoveCostGroupMember
+- blueapi.cover.v1.Cover/RemoveCostGroupMember, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/member/remove
 - blueapi.cover.v1.Cover/RemoveFavorite
+- blueapi.cover.v1.Cover/RemoveFavorite, runtime.WithHTTPPathPattern(/v1/views/favorite/remove
 - blueapi.cover.v1.Cover/RemoveSideMenuFavorite
+- blueapi.cover.v1.Cover/RemoveSideMenuFavorite, runtime.WithHTTPPathPattern(/v1/views/{viewId}/sidemenuunfavorite
 - blueapi.cover.v1.Cover/ResetPassword
+- blueapi.cover.v1.Cover/ResetPassword, runtime.WithHTTPPathPattern(/v1/members/resetpassword
 - blueapi.cover.v1.Cover/ResetUserPassword
+- blueapi.cover.v1.Cover/ResetUserPassword, runtime.WithHTTPPathPattern(/v1/me/password
 - blueapi.cover.v1.Cover/ResolveCostGroupCombinations
+- blueapi.cover.v1.Cover/ResolveCostGroupCombinations, runtime.WithHTTPPathPattern(/v1/costgroups/resolve/{costGroupId}
 - blueapi.cover.v1.Cover/RestoreAccountUsage
+- blueapi.cover.v1.Cover/RestoreAccountUsage, runtime.WithHTTPPathPattern(/v1/allocations/accountusage/restore
 - blueapi.cover.v1.Cover/RestoreFee
+- blueapi.cover.v1.Cover/RestoreFee, runtime.WithHTTPPathPattern(/v1/allocations/fees/restore
 - blueapi.cover.v1.Cover/RestoreSavings
+- blueapi.cover.v1.Cover/RestoreSavings, runtime.WithHTTPPathPattern(/v1/allocations/savings/restore
 - blueapi.cover.v1.Cover/SimulateAccountUsage
+- blueapi.cover.v1.Cover/SimulateAccountUsage, runtime.WithHTTPPathPattern(/v1/allocations/accountusage/simulate
 - blueapi.cover.v1.Cover/SimulateFeeAllocator
+- blueapi.cover.v1.Cover/SimulateFeeAllocator, runtime.WithHTTPPathPattern(/v1/allocations/fees/simulate
 - blueapi.cover.v1.Cover/SimulateSavings
+- blueapi.cover.v1.Cover/SimulateSavings, runtime.WithHTTPPathPattern(/v1/allocations/savings/simulate
 - blueapi.cover.v1.Cover/TerminateResource
+- blueapi.cover.v1.Cover/TerminateResource, runtime.WithHTTPPathPattern(/v1/{vendor}/resource/terminate
 - blueapi.cover.v1.Cover/UpdateAccountAccess
+- blueapi.cover.v1.Cover/UpdateAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/{target}
 - blueapi.cover.v1.Cover/UpdateAlertDetails
+- blueapi.cover.v1.Cover/UpdateAlertDetails, runtime.WithHTTPPathPattern(/v1/alerts/cost/{id}
 - blueapi.cover.v1.Cover/UpdateAllocator
+- blueapi.cover.v1.Cover/UpdateAllocator, runtime.WithHTTPPathPattern(/v1/allocators/{id}
 - blueapi.cover.v1.Cover/UpdateAnomalyAlert
+- blueapi.cover.v1.Cover/UpdateAnomalyAlert, runtime.WithHTTPPathPattern(/v1/alerts/anomaly/{id}
 - blueapi.cover.v1.Cover/UpdateChannelDetails
+- blueapi.cover.v1.Cover/UpdateChannelDetails, runtime.WithHTTPPathPattern(/v1/channels/{id}
 - blueapi.cover.v1.Cover/UpdateCostGroupColorTheme
+- blueapi.cover.v1.Cover/UpdateCostGroupColorTheme, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/colortheme
 - blueapi.cover.v1.Cover/UpdateCostGroupCombinations
+- blueapi.cover.v1.Cover/UpdateCostGroupCombinations, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/combinations
 - blueapi.cover.v1.Cover/UpdateCostGroupDescription
+- blueapi.cover.v1.Cover/UpdateCostGroupDescription, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/description
 - blueapi.cover.v1.Cover/UpdateCostGroupIcon
+- blueapi.cover.v1.Cover/UpdateCostGroupIcon, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/icon
 - blueapi.cover.v1.Cover/UpdateCostGroupImage
+- blueapi.cover.v1.Cover/UpdateCostGroupImage, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/image
 - blueapi.cover.v1.Cover/UpdateCostGroupName
+- blueapi.cover.v1.Cover/UpdateCostGroupName, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/name
 - blueapi.cover.v1.Cover/UpdateDataAccess
+- blueapi.cover.v1.Cover/UpdateDataAccess, runtime.WithHTTPPathPattern(/v1/account/{target}
 - blueapi.cover.v1.Cover/UpdateDiscountExpirationAlert
+- blueapi.cover.v1.Cover/UpdateDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount/{id}
 - blueapi.cover.v1.Cover/UpdateMemberPermission
+- blueapi.cover.v1.Cover/UpdateMemberPermission, runtime.WithHTTPPathPattern(/v1/members/{userId}/isadmin
 - blueapi.cover.v1.Cover/UpdateSideMenuState
+- blueapi.cover.v1.Cover/UpdateSideMenuState, runtime.WithHTTPPathPattern(/v1/views/{viewId}/sidemenustate
 - blueapi.cover.v1.Cover/UpdateUserAppTheme
+- blueapi.cover.v1.Cover/UpdateUserAppTheme, runtime.WithHTTPPathPattern(/v1/me/apptheme
 - blueapi.cover.v1.Cover/UpdateUserAttributes
+- blueapi.cover.v1.Cover/UpdateUserAttributes, runtime.WithHTTPPathPattern(/v1/me/attributes
 - blueapi.cover.v1.Cover/UpdateUserAvatar
+- blueapi.cover.v1.Cover/UpdateUserAvatar, runtime.WithHTTPPathPattern(/v1/me/avatar
 - blueapi.cover.v1.Cover/UpdateUserColorTheme
+- blueapi.cover.v1.Cover/UpdateUserColorTheme, runtime.WithHTTPPathPattern(/v1/me/colortheme
 - blueapi.cover.v1.Cover/UpdateUserEmail
+- blueapi.cover.v1.Cover/UpdateUserEmail, runtime.WithHTTPPathPattern(/v1/me/email
 - blueapi.cover.v1.Cover/UpdateUserIcon
+- blueapi.cover.v1.Cover/UpdateUserIcon, runtime.WithHTTPPathPattern(/v1/me/icon
 - blueapi.cover.v1.Cover/UpdateUserLocale
+- blueapi.cover.v1.Cover/UpdateUserLocale, runtime.WithHTTPPathPattern(/v1/me/locale
 - blueapi.cover.v1.Cover/UpdateUserMainView
+- blueapi.cover.v1.Cover/UpdateUserMainView, runtime.WithHTTPPathPattern(/v1/me/mainview
 - blueapi.cover.v1.Cover/UpdateUserName
+- blueapi.cover.v1.Cover/UpdateUserName, runtime.WithHTTPPathPattern(/v1/me/name
 - blueapi.cover.v1.Cover/UpdateUserTimezone
+- blueapi.cover.v1.Cover/UpdateUserTimezone, runtime.WithHTTPPathPattern(/v1/me/timezone
 - blueapi.cover.v1.Cover/UpdateView
+- blueapi.cover.v1.Cover/UpdateView, runtime.WithHTTPPathPattern(/v1/views/{viewId}
 - blueapi.cover.v1.Cover/UpdateViewColorTheme
+- blueapi.cover.v1.Cover/UpdateViewColorTheme, runtime.WithHTTPPathPattern(/v1/views/{viewId}/colortheme
 - blueapi.cover.v1.Cover/UpdateViewLayout
+- blueapi.cover.v1.Cover/UpdateViewLayout, runtime.WithHTTPPathPattern(/v1/views/layout/{viewId}
 - blueapi.cover.v1.Cover/UpdateViewWidget
+- blueapi.cover.v1.Cover/UpdateViewWidget, runtime.WithHTTPPathPattern(/v1/views/layout/{viewId}/{widgetId}
 - blueapi.cover.v1.Cover/UploadChargeCode
+- blueapi.cover.v1.Cover/UploadChargeCode, runtime.WithHTTPPathPattern(/v1/chargecode/upload
 - blueapi.iam.v1.Iam/CreateApiClient
+- blueapi.iam.v1.Iam/CreateApiClient, runtime.WithHTTPPathPattern(/iam/v1/apiclients
 - blueapi.iam.v1.Iam/CreateGroupRootUser
+- blueapi.iam.v1.Iam/CreateGroupRootUser, runtime.WithHTTPPathPattern(/iam/v1/grouprootusers
 - blueapi.iam.v1.Iam/CreateIdentityProvider
+- blueapi.iam.v1.Iam/CreateIdentityProvider, runtime.WithHTTPPathPattern(/iam/v1/idps
 - blueapi.iam.v1.Iam/CreateIpFilter
+- blueapi.iam.v1.Iam/CreateIpFilter, runtime.WithHTTPPathPattern(/iam/v1/ipfilters
 - blueapi.iam.v1.Iam/CreatePartnerToken
+- blueapi.iam.v1.Iam/CreatePartnerToken, runtime.WithHTTPPathPattern(/iam/v1/partners/{id}/token
 - blueapi.iam.v1.Iam/CreateRole
+- blueapi.iam.v1.Iam/CreateRole, runtime.WithHTTPPathPattern(/iam/v1/roles
 - blueapi.iam.v1.Iam/CreateUser
+- blueapi.iam.v1.Iam/CreateUser, runtime.WithHTTPPathPattern(/iam/v1/users
 - blueapi.iam.v1.Iam/CreateUserRoleMapping
+- blueapi.iam.v1.Iam/CreateUserRoleMapping, runtime.WithHTTPPathPattern(/iam/v1/userroles
 - blueapi.iam.v1.Iam/DeleteApiClient
+- blueapi.iam.v1.Iam/DeleteApiClient, runtime.WithHTTPPathPattern(/iam/v1/apiclients/{id}
 - blueapi.iam.v1.Iam/DeleteGroupRootUser
+- blueapi.iam.v1.Iam/DeleteGroupRootUser, runtime.WithHTTPPathPattern(/iam/v1/grouprootusers/{id}
 - blueapi.iam.v1.Iam/DeleteIdentityProvider
+- blueapi.iam.v1.Iam/DeleteIdentityProvider, runtime.WithHTTPPathPattern(/iam/v1/idps/{id}
 - blueapi.iam.v1.Iam/DeleteIpFilter
+- blueapi.iam.v1.Iam/DeleteIpFilter, runtime.WithHTTPPathPattern(/iam/v1/ipfilters/{id}
 - blueapi.iam.v1.Iam/DeleteRole
+- blueapi.iam.v1.Iam/DeleteRole, runtime.WithHTTPPathPattern(/iam/v1/roles/{namespace}/{name}
 - blueapi.iam.v1.Iam/DeleteUser
+- blueapi.iam.v1.Iam/DeleteUser, runtime.WithHTTPPathPattern(/iam/v1/users/{id}
 - blueapi.iam.v1.Iam/GetFeatureFlags
+- blueapi.iam.v1.Iam/GetFeatureFlags, runtime.WithHTTPPathPattern(/iam/v1/grouprootusers/{id}/features
 - blueapi.iam.v1.Iam/GetGroupRootUser
+- blueapi.iam.v1.Iam/GetGroupRootUser, runtime.WithHTTPPathPattern(/iam/v1/grouprootusers/{id}
 - blueapi.iam.v1.Iam/GetUser
+- blueapi.iam.v1.Iam/GetUser, runtime.WithHTTPPathPattern(/iam/v1/users/{id}
 - blueapi.iam.v1.Iam/ListApiClients
+- blueapi.iam.v1.Iam/ListApiClients, runtime.WithHTTPPathPattern(/iam/v1/apiclients
 - blueapi.iam.v1.Iam/ListGroupRootUsers
+- blueapi.iam.v1.Iam/ListGroupRootUsers, runtime.WithHTTPPathPattern(/iam/v1/grouprootusers
 - blueapi.iam.v1.Iam/ListIdentityProviders
+- blueapi.iam.v1.Iam/ListIdentityProviders, runtime.WithHTTPPathPattern(/iam/v1/idps
 - blueapi.iam.v1.Iam/ListIpFilters
+- blueapi.iam.v1.Iam/ListIpFilters, runtime.WithHTTPPathPattern(/iam/v1/ipfilters
 - blueapi.iam.v1.Iam/ListPermissions
+- blueapi.iam.v1.Iam/ListPermissions, runtime.WithHTTPPathPattern(/iam/v1/permissions
 - blueapi.iam.v1.Iam/ListRoles
+- blueapi.iam.v1.Iam/ListRoles, runtime.WithHTTPPathPattern(/iam/v1/roles
 - blueapi.iam.v1.Iam/ListUserRoleMappings
+- blueapi.iam.v1.Iam/ListUserRoleMappings, runtime.WithHTTPPathPattern(/iam/v1/userroles
 - blueapi.iam.v1.Iam/ListUsers
+- blueapi.iam.v1.Iam/ListUsers, runtime.WithHTTPPathPattern(/iam/v1/users
 - blueapi.iam.v1.Iam/RefreshPartnerToken
+- blueapi.iam.v1.Iam/RefreshPartnerToken, runtime.WithHTTPPathPattern(/iam/v1/partners/{id}/token
 - blueapi.iam.v1.Iam/UpdateFeatureFlags
+- blueapi.iam.v1.Iam/UpdateFeatureFlags, runtime.WithHTTPPathPattern(/iam/v1/grouprootusers/{id}/features
 - blueapi.iam.v1.Iam/UpdateRole
+- blueapi.iam.v1.Iam/UpdateRole, runtime.WithHTTPPathPattern(/iam/v1/roles/{namespace}/{name}
 - blueapi.iam.v1.Iam/UpdateUserRoleMapping
+- blueapi.iam.v1.Iam/UpdateUserRoleMapping, runtime.WithHTTPPathPattern(/iam/v1/userroles
 - blueapi.iam.v1.Iam/ValidateResetPasswordLinkAndChangePassword
+- blueapi.iam.v1.Iam/ValidateResetPasswordLinkAndChangePassword, runtime.WithHTTPPathPattern(/iam/v1/password
 - blueapi.iam.v1.Iam/VerifyUserForResetPassword
+- blueapi.iam.v1.Iam/VerifyUserForResetPassword, runtime.WithHTTPPathPattern(/iam/v1/{user}/password
 - blueapi.iam.v1.Iam/WhoAmI
+- blueapi.iam.v1.Iam/WhoAmI, runtime.WithHTTPPathPattern(/iam/v1/whoami
 - blueapi.invoice.v1.Invoice/ExportInvoiceFile
 - blueapi.invoice.v1.Invoice/GetInvoice
 - blueapi.kvstore.v1.KvStore/Delete
+- blueapi.kvstore.v1.KvStore/Delete, runtime.WithHTTPPathPattern(/v1/keys/{key}
 - blueapi.kvstore.v1.KvStore/Read
+- blueapi.kvstore.v1.KvStore/Read, runtime.WithHTTPPathPattern(/v1/keys/{key}
 - blueapi.kvstore.v1.KvStore/Scan
+- blueapi.kvstore.v1.KvStore/Scan, runtime.WithHTTPPathPattern(/v1/keys
 - blueapi.kvstore.v1.KvStore/Write
+- blueapi.kvstore.v1.KvStore/Write, runtime.WithHTTPPathPattern(/v1
 - blueapi.operations.v1.Operations/CancelOperation
+- blueapi.operations.v1.Operations/CancelOperation, runtime.WithHTTPPathPattern(/ops/v1/{name}
 - blueapi.operations.v1.Operations/DeleteOperation
+- blueapi.operations.v1.Operations/DeleteOperation, runtime.WithHTTPPathPattern(/ops/v1/{name}
 - blueapi.operations.v1.Operations/GetOperation
+- blueapi.operations.v1.Operations/GetOperation, runtime.WithHTTPPathPattern(/ops/v1/{name}
 - blueapi.operations.v1.Operations/ListOperations
+- blueapi.operations.v1.Operations/ListOperations, runtime.WithHTTPPathPattern(/ops/v1
 - blueapi.operations.v1.Operations/WaitOperation
 - blueapi.org.v1.Organization/CreateOrg
+- blueapi.org.v1.Organization/CreateOrg, runtime.WithHTTPPathPattern(/org/v1
 - blueapi.org.v1.Organization/DeleteOrg
+- blueapi.org.v1.Organization/DeleteOrg, runtime.WithHTTPPathPattern(/org/v1
 - blueapi.org.v1.Organization/GetOrg
+- blueapi.org.v1.Organization/GetOrg, runtime.WithHTTPPathPattern(/org/v1
 - blueapi.org.v1.Organization/SendVerification
+- blueapi.org.v1.Organization/SendVerification, runtime.WithHTTPPathPattern(/org/v1
 - blueapi.org.v1.Organization/UpdateMetadata
+- blueapi.org.v1.Organization/UpdateMetadata, runtime.WithHTTPPathPattern(/org/v1/metadata
 - blueapi.org.v1.Organization/UpdatePassword
+- blueapi.org.v1.Organization/UpdatePassword, runtime.WithHTTPPathPattern(/org/v1/passwd
 - blueapi.org.v1.Organization/VerifyOrg
+- blueapi.org.v1.Organization/VerifyOrg, runtime.WithHTTPPathPattern(/org/v1
 - blueapi.preferences.v1.Preferences/GetPreferences
+- blueapi.preferences.v1.Preferences/GetPreferences, runtime.WithHTTPPathPattern(/prefs/v1
