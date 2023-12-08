@@ -255,6 +255,8 @@ functions:
 - blueapi.cover.v1.Cover/CreateAllocator, runtime.WithHTTPPathPattern(/v1/allocators
 - blueapi.cover.v1.Cover/CreateAnomalyAlert
 - blueapi.cover.v1.Cover/CreateAnomalyAlert, runtime.WithHTTPPathPattern(/v1/alerts/anomaly
+- blueapi.cover.v1.Cover/CreateBudget
+- blueapi.cover.v1.Cover/CreateBudget, runtime.WithHTTPPathPattern(/v1/budget
 - blueapi.cover.v1.Cover/CreateChannel
 - blueapi.cover.v1.Cover/CreateChannel, runtime.WithHTTPPathPattern(/v1/channels
 - blueapi.cover.v1.Cover/CreateCostGroup
@@ -273,6 +275,8 @@ functions:
 - blueapi.cover.v1.Cover/DeleteAllocator, runtime.WithHTTPPathPattern(/v1/allocators/{id}
 - blueapi.cover.v1.Cover/DeleteAnomalyAlert
 - blueapi.cover.v1.Cover/DeleteAnomalyAlert, runtime.WithHTTPPathPattern(/v1/alerts/anomaly/{id}
+- blueapi.cover.v1.Cover/DeleteBudget
+- blueapi.cover.v1.Cover/DeleteBudget, runtime.WithHTTPPathPattern(/v1/budget/{id}
 - blueapi.cover.v1.Cover/DeleteChannel
 - blueapi.cover.v1.Cover/DeleteChannel, runtime.WithHTTPPathPattern(/v1/channels/{id}
 - blueapi.cover.v1.Cover/DeleteCostGroup
@@ -301,6 +305,8 @@ functions:
 - blueapi.cover.v1.Cover/GetAnomalyinCostGroup, runtime.WithHTTPPathPattern(/v1/anomaly
 - blueapi.cover.v1.Cover/GetAssetsSummary
 - blueapi.cover.v1.Cover/GetAssetsSummary, runtime.WithHTTPPathPattern(/v1/assets/summary/{costGroupId}
+- blueapi.cover.v1.Cover/GetBudget
+- blueapi.cover.v1.Cover/GetBudget, runtime.WithHTTPPathPattern(/v1/budget
 - blueapi.cover.v1.Cover/GetCategories
 - blueapi.cover.v1.Cover/GetCategories, runtime.WithHTTPPathPattern(/v1/categories
 - blueapi.cover.v1.Cover/GetChannelDetails
@@ -421,6 +427,8 @@ functions:
 - blueapi.cover.v1.Cover/UpdateAllocator, runtime.WithHTTPPathPattern(/v1/allocators/{id}
 - blueapi.cover.v1.Cover/UpdateAnomalyAlert
 - blueapi.cover.v1.Cover/UpdateAnomalyAlert, runtime.WithHTTPPathPattern(/v1/alerts/anomaly/{id}
+- blueapi.cover.v1.Cover/UpdateBudget
+- blueapi.cover.v1.Cover/UpdateBudget, runtime.WithHTTPPathPattern(/v1/budget/{id}
 - blueapi.cover.v1.Cover/UpdateChannelDetails
 - blueapi.cover.v1.Cover/UpdateChannelDetails, runtime.WithHTTPPathPattern(/v1/channels/{id}
 - blueapi.cover.v1.Cover/UpdateCostGroupColorTheme
