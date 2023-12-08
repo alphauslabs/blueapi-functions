@@ -369,6 +369,8 @@ functions:
 - blueapi.cover.v1.Cover/ListAnomalyAlert, runtime.WithHTTPPathPattern(/v1/alerts/anomaly/all
 - blueapi.cover.v1.Cover/ListAssets
 - blueapi.cover.v1.Cover/ListAssets, runtime.WithHTTPPathPattern(/v1/assets
+- blueapi.cover.v1.Cover/ListBudgets
+- blueapi.cover.v1.Cover/ListBudgets, runtime.WithHTTPPathPattern(/v1/budget
 - blueapi.cover.v1.Cover/ListDataAccess
 - blueapi.cover.v1.Cover/ListDataAccess, runtime.WithHTTPPathPattern(/v1/account/all
 - blueapi.cover.v1.Cover/ListDiscountExpirationAlert
