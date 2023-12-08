@@ -17,6 +17,8 @@ functions:
 - blueapi.admin.v1.Admin/DeleteNotification, runtime.WithHTTPPathPattern(/admin/v1/notifications/{id}
 - blueapi.admin.v1.Admin/DeleteNotificationChannel
 - blueapi.admin.v1.Admin/DeleteNotificationChannel, runtime.WithHTTPPathPattern(/admin/v1/notification/channels/{id}
+- blueapi.admin.v1.Admin/ExportAuditLogs
+- blueapi.admin.v1.Admin/ExportAuditLogs, runtime.WithHTTPPathPattern(/admin/v1/auditlogs
 - blueapi.admin.v1.Admin/GetAccountGroup
 - blueapi.admin.v1.Admin/GetAccountGroup, runtime.WithHTTPPathPattern(/admin/v1/acctgroups/{id}
 - blueapi.admin.v1.Admin/GetCloudWatchMetricsStreamTemplateUrl
