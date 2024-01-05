@@ -405,6 +405,8 @@ functions:
 - blueapi.cover.v1.Cover/ResetPassword, runtime.WithHTTPPathPattern(/v1/members/resetpassword
 - blueapi.cover.v1.Cover/ResetUserPassword
 - blueapi.cover.v1.Cover/ResetUserPassword, runtime.WithHTTPPathPattern(/v1/me/password
+- blueapi.cover.v1.Cover/ResolveAWSCustomerForOnboarding
+- blueapi.cover.v1.Cover/ResolveAWSCustomerForOnboarding, runtime.WithHTTPPathPattern(/v1/members/aws/subscription
 - blueapi.cover.v1.Cover/ResolveCostGroupCombinations
 - blueapi.cover.v1.Cover/ResolveCostGroupCombinations, runtime.WithHTTPPathPattern(/v1/costgroups/resolve/{costGroupId}
 - blueapi.cover.v1.Cover/RestoreAccountUsage
