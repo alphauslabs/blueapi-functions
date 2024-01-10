@@ -306,7 +306,7 @@ functions:
 - blueapi.cover.v1.Cover/GetAssetsSummary
 - blueapi.cover.v1.Cover/GetAssetsSummary, runtime.WithHTTPPathPattern(/v1/assets/summary/{costGroupId}
 - blueapi.cover.v1.Cover/GetBudget
-- blueapi.cover.v1.Cover/GetBudget, runtime.WithHTTPPathPattern(/v1/budget
+- blueapi.cover.v1.Cover/GetBudget, runtime.WithHTTPPathPattern(/v1/budget/{id}
 - blueapi.cover.v1.Cover/GetCategories
 - blueapi.cover.v1.Cover/GetCategories, runtime.WithHTTPPathPattern(/v1/categories
 - blueapi.cover.v1.Cover/GetChannelDetails
