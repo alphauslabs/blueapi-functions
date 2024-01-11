@@ -183,6 +183,8 @@ functions:
 - blueapi.cost.v1.Cost/GetPayerAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/payers/{id}
 - blueapi.cost.v1.Cost/GetPayerAccountImportHistory
 - blueapi.cost.v1.Cost/GetPayerAccountImportHistory, runtime.WithHTTPPathPattern(/v1/{vendor}/payers/{id}/importhistory
+- blueapi.cost.v1.Cost/GetPayerProformaReports
+- blueapi.cost.v1.Cost/GetPayerProformaReports, runtime.WithHTTPPathPattern(/v1/{vendor}/payers/{id}/proforma
 - blueapi.cost.v1.Cost/GetRecommendations
 - blueapi.cost.v1.Cost/GetRecommendations, runtime.WithHTTPPathPattern(/v1/{vendor}/recommendations/{orgId}
 - blueapi.cost.v1.Cost/GetUtilization
