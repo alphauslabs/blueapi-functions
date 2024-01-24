@@ -53,6 +53,8 @@ functions:
 - blueapi.billing.v1.Billing/CreateAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups
 - blueapi.billing.v1.Billing/CreateAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/CreateAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
+- blueapi.billing.v1.Billing/CreateAdjustmentConfig
+- blueapi.billing.v1.Billing/CreateAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
 - blueapi.billing.v1.Billing/CreateBillingGroup
 - blueapi.billing.v1.Billing/CreateBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/CreateInvoice
@@ -63,12 +65,16 @@ functions:
 - blueapi.billing.v1.Billing/DeleteAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups/{id}
 - blueapi.billing.v1.Billing/DeleteAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/DeleteAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
+- blueapi.billing.v1.Billing/DeleteAdjustmentConfig
+- blueapi.billing.v1.Billing/DeleteAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
 - blueapi.billing.v1.Billing/DeleteReseller
 - blueapi.billing.v1.Billing/DeleteReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
 - blueapi.billing.v1.Billing/ExportInvoiceFile
 - blueapi.billing.v1.Billing/ExportInvoiceFile, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/GetAccessGroup
 - blueapi.billing.v1.Billing/GetAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups/{accessGroupId}
+- blueapi.billing.v1.Billing/GetAdjustmentConfig
+- blueapi.billing.v1.Billing/GetAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
 - blueapi.billing.v1.Billing/GetBillingGroup
 - blueapi.billing.v1.Billing/GetBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/{billingInternalId}
 - blueapi.billing.v1.Billing/GetBillingSetting
@@ -111,6 +117,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups/{id}
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
+- blueapi.billing.v1.Billing/UpdateAdjustmentConfig
+- blueapi.billing.v1.Billing/UpdateAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/UpdateReseller
