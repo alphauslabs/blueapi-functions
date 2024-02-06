@@ -105,6 +105,8 @@ functions:
 - blueapi.billing.v1.Billing/ListInvoice, runtime.WithHTTPPathPattern(/v1/invoice
 - blueapi.billing.v1.Billing/ListInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ListInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts
+- blueapi.billing.v1.Billing/ListInvoiceStatus
+- blueapi.billing.v1.Billing/ListInvoiceStatus, runtime.WithHTTPPathPattern(/v1/invoice/status/{date}
 - blueapi.billing.v1.Billing/ListResellers
 - blueapi.billing.v1.Billing/ListResellers, runtime.WithHTTPPathPattern(/v1/resellers
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
