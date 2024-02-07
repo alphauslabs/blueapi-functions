@@ -279,6 +279,8 @@ functions:
 - blueapi.cover.v1.Cover/CreateDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount
 - blueapi.cover.v1.Cover/CreateMember
 - blueapi.cover.v1.Cover/CreateMember, runtime.WithHTTPPathPattern(/v1/members
+- blueapi.cover.v1.Cover/CreateProfiling
+- blueapi.cover.v1.Cover/CreateProfiling, runtime.WithHTTPPathPattern(/v1/members/profile
 - blueapi.cover.v1.Cover/CreateView
 - blueapi.cover.v1.Cover/CreateView, runtime.WithHTTPPathPattern(/v1/views
 - blueapi.cover.v1.Cover/DeleteAccountAccess
