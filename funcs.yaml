@@ -27,8 +27,6 @@ functions:
 - blueapi.admin.v1.Admin/GetDefaultCostAccess, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/dca/{target}
 - blueapi.admin.v1.Admin/GetDefaultCostAccessTemplateUrl
 - blueapi.admin.v1.Admin/GetDefaultCostAccessTemplateUrl, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/dca
-- blueapi.admin.v1.Admin/GetMFAUsersInfo
-- blueapi.admin.v1.Admin/GetMFAUsersInfo, runtime.WithHTTPPathPattern(/admin/v1/mfausersinfo
 - blueapi.admin.v1.Admin/GetNotification
 - blueapi.admin.v1.Admin/GetNotification, runtime.WithHTTPPathPattern(/admin/v1/notifications/{id}
 - blueapi.admin.v1.Admin/GetNotificationChannel
@@ -537,6 +535,8 @@ functions:
 - blueapi.iam.v1.Iam/GetFeatureFlags, runtime.WithHTTPPathPattern(/iam/v1/grouprootusers/{id}/features
 - blueapi.iam.v1.Iam/GetGroupRootUser
 - blueapi.iam.v1.Iam/GetGroupRootUser, runtime.WithHTTPPathPattern(/iam/v1/grouprootusers/{id}
+- blueapi.iam.v1.Iam/GetMFAUsers
+- blueapi.iam.v1.Iam/GetMFAUsers, runtime.WithHTTPPathPattern(/iam/v1/mfausers
 - blueapi.iam.v1.Iam/GetUser
 - blueapi.iam.v1.Iam/GetUser, runtime.WithHTTPPathPattern(/iam/v1/users/{id}
 - blueapi.iam.v1.Iam/ListApiClients
