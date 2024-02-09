@@ -351,8 +351,6 @@ functions:
 - blueapi.cover.v1.Cover/GetDiscountRecommendations, runtime.WithHTTPPathPattern(/v1/recommendations/discount
 - blueapi.cover.v1.Cover/GetFavoriteViews
 - blueapi.cover.v1.Cover/GetFavoriteViews, runtime.WithHTTPPathPattern(/v1/views/favorites
-- blueapi.cover.v1.Cover/GetFreeTrialExpiry
-- blueapi.cover.v1.Cover/GetFreeTrialExpiry, runtime.WithHTTPPathPattern(/v1/billing/free
 - blueapi.cover.v1.Cover/GetMemberCostGroup
 - blueapi.cover.v1.Cover/GetMemberCostGroup, runtime.WithHTTPPathPattern(/v1/members/{userId}/costgroup
 - blueapi.cover.v1.Cover/GetMemberDetails
