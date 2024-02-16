@@ -247,10 +247,10 @@ functions:
 - blueapi.cover.v1.Cover/AddBillingAccount, runtime.WithHTTPPathPattern(/v1/billingacct
 - blueapi.cover.v1.Cover/AddFavorite
 - blueapi.cover.v1.Cover/AddFavorite, runtime.WithHTTPPathPattern(/v1/views/favorite/add
+- blueapi.cover.v1.Cover/AddInfotoMarketplace
+- blueapi.cover.v1.Cover/AddInfotoMarketplace, runtime.WithHTTPPathPattern(/v1/marketplace/info
 - blueapi.cover.v1.Cover/AddMpnSetting
 - blueapi.cover.v1.Cover/AddMpnSetting, runtime.WithHTTPPathPattern(/v1/azure/credentials/mpn
-- blueapi.cover.v1.Cover/AddOrgIdtoMarketplace
-- blueapi.cover.v1.Cover/AddOrgIdtoMarketplace, runtime.WithHTTPPathPattern(/v1/marketplace/addorgId
 - blueapi.cover.v1.Cover/AddPartnerCenterCredentials
 - blueapi.cover.v1.Cover/AddPartnerCenterCredentials, runtime.WithHTTPPathPattern(/v1/azure/credentials/partnercenter
 - blueapi.cover.v1.Cover/AddSideMenuFavorite
