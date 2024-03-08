@@ -305,6 +305,8 @@ functions:
 - blueapi.cover.v1.Cover/DeleteMember, runtime.WithHTTPPathPattern(/v1/members/{userId}
 - blueapi.cover.v1.Cover/DeleteView
 - blueapi.cover.v1.Cover/DeleteView, runtime.WithHTTPPathPattern(/v1/views/{viewId}
+- blueapi.cover.v1.Cover/ExecuteOptimization
+- blueapi.cover.v1.Cover/ExecuteOptimization, runtime.WithHTTPPathPattern(/v1/recommendations/{id}
 - blueapi.cover.v1.Cover/GetAccountAccess
 - blueapi.cover.v1.Cover/GetAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/{target}
 - blueapi.cover.v1.Cover/GetAccountAccessTemplateUrl
@@ -361,6 +363,8 @@ functions:
 - blueapi.cover.v1.Cover/GetMembers, runtime.WithHTTPPathPattern(/v1/members
 - blueapi.cover.v1.Cover/GetPayers
 - blueapi.cover.v1.Cover/GetPayers, runtime.WithHTTPPathPattern(/v1/{vendor}/payers
+- blueapi.cover.v1.Cover/GetRecommendation
+- blueapi.cover.v1.Cover/GetRecommendation, runtime.WithHTTPPathPattern(/v1/recommendations/{id}
 - blueapi.cover.v1.Cover/GetRegions
 - blueapi.cover.v1.Cover/GetRegions, runtime.WithHTTPPathPattern(/v1/{vendor}/regions/{costGroupId}
 - blueapi.cover.v1.Cover/GetReportSummary
@@ -397,6 +401,8 @@ functions:
 - blueapi.cover.v1.Cover/ListDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount/all
 - blueapi.cover.v1.Cover/ListFees
 - blueapi.cover.v1.Cover/ListFees, runtime.WithHTTPPathPattern(/v1/allocations/fees/all
+- blueapi.cover.v1.Cover/ListRecommendations
+- blueapi.cover.v1.Cover/ListRecommendations, runtime.WithHTTPPathPattern(/v1/recommendations
 - blueapi.cover.v1.Cover/ListSavings
 - blueapi.cover.v1.Cover/ListSavings, runtime.WithHTTPPathPattern(/v1/allocations/savings/all
 - blueapi.cover.v1.Cover/ModifyResourceType
