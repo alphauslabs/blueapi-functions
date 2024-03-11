@@ -124,7 +124,7 @@ functions:
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/UpdateReseller
-- blueapi.billing.v1.Billing/UpdateReseller, runtime.WithHTTPPathPattern(/v1/{reseller.name=resellers/*}
+- blueapi.billing.v1.Billing/UpdateReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
 - blueapi.cost.v1.Cost/CalculateCosts
 - blueapi.cost.v1.Cost/CalculateCosts, runtime.WithHTTPPathPattern(/v1/{vendor}/costs
 - blueapi.cost.v1.Cost/CreateAccount
