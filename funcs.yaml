@@ -445,6 +445,8 @@ functions:
 - blueapi.cover.v1.Cover/RestoreFee, runtime.WithHTTPPathPattern(/v1/allocations/fees/restore
 - blueapi.cover.v1.Cover/RestoreSavings
 - blueapi.cover.v1.Cover/RestoreSavings, runtime.WithHTTPPathPattern(/v1/allocations/savings/restore
+- blueapi.cover.v1.Cover/SetCostGroupEventIndicator
+- blueapi.cover.v1.Cover/SetCostGroupEventIndicator, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/eventIndicator
 - blueapi.cover.v1.Cover/SimulateAccountUsage
 - blueapi.cover.v1.Cover/SimulateAccountUsage, runtime.WithHTTPPathPattern(/v1/allocations/accountusage/simulate
 - blueapi.cover.v1.Cover/SimulateFeeAllocator
