@@ -361,6 +361,8 @@ functions:
 - blueapi.cover.v1.Cover/GetMemberDetails, runtime.WithHTTPPathPattern(/v1/members/{userId}
 - blueapi.cover.v1.Cover/GetMembers
 - blueapi.cover.v1.Cover/GetMembers, runtime.WithHTTPPathPattern(/v1/members
+- blueapi.cover.v1.Cover/GetOrgFiscalMonth
+- blueapi.cover.v1.Cover/GetOrgFiscalMonth, runtime.WithHTTPPathPattern(/v1/reports/fiscalmonth
 - blueapi.cover.v1.Cover/GetPayers
 - blueapi.cover.v1.Cover/GetPayers, runtime.WithHTTPPathPattern(/v1/{vendor}/payers
 - blueapi.cover.v1.Cover/GetRecommendation
@@ -449,6 +451,8 @@ functions:
 - blueapi.cover.v1.Cover/SetCostGroupAnomalyOptions, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/anomaly
 - blueapi.cover.v1.Cover/SetCostGroupEventIndicator
 - blueapi.cover.v1.Cover/SetCostGroupEventIndicator, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/eventIndicator
+- blueapi.cover.v1.Cover/SetOrgFiscalMonth
+- blueapi.cover.v1.Cover/SetOrgFiscalMonth, runtime.WithHTTPPathPattern(/v1/reports/fiscalmonth
 - blueapi.cover.v1.Cover/SimulateAccountUsage
 - blueapi.cover.v1.Cover/SimulateAccountUsage, runtime.WithHTTPPathPattern(/v1/allocations/accountusage/simulate
 - blueapi.cover.v1.Cover/SimulateFeeAllocator
