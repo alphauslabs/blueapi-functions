@@ -181,6 +181,8 @@ functions:
 - blueapi.cost.v1.Cost/GetCoverageOndemand, runtime.WithHTTPPathPattern(/v1/{vendor}/coverage/ondemand/{orgId}
 - blueapi.cost.v1.Cost/GetCoverageOptions
 - blueapi.cost.v1.Cost/GetCoverageOptions, runtime.WithHTTPPathPattern(/v1/{vendor}/coverage/options/{orgId}
+- blueapi.cost.v1.Cost/GetCustomersByAccountIds
+- blueapi.cost.v1.Cost/GetCustomersByAccountIds, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts/customers
 - blueapi.cost.v1.Cost/GetForecasts
 - blueapi.cost.v1.Cost/GetForecasts, runtime.WithHTTPPathPattern(/v1/{vendor}/forecasts
 - blueapi.cost.v1.Cost/GetMonthOnMonthCostForecast
