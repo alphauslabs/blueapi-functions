@@ -113,6 +113,8 @@ functions:
 - blueapi.billing.v1.Billing/ListUsageCostsDrift, runtime.WithHTTPPathPattern(/v1/{vendor}/usagecostsdrift
 - blueapi.billing.v1.Billing/ReadInvoiceAdjustments
 - blueapi.billing.v1.Billing/ReadInvoiceAdjustments, runtime.WithHTTPPathPattern(/v1/{vendor}/invoiceadjustments
+- blueapi.billing.v1.Billing/ReadUntaggedGroups
+- blueapi.billing.v1.Billing/ReadUntaggedGroups, runtime.WithHTTPPathPattern(/v1/{vendor}/untaggedgroups
 - blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/UpdateAccessGroup
