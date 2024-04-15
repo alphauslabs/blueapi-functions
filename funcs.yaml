@@ -129,6 +129,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
 - blueapi.cost.v1.Cost/CalculateCosts
 - blueapi.cost.v1.Cost/CalculateCosts, runtime.WithHTTPPathPattern(/v1/{vendor}/costs
+- blueapi.cost.v1.Cost/CheckAccountsBelongToMsp
+- blueapi.cost.v1.Cost/CheckAccountsBelongToMsp, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts/customers/accounts
 - blueapi.cost.v1.Cost/CreateAccount
 - blueapi.cost.v1.Cost/CreateAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts
 - blueapi.cost.v1.Cost/CreateAccountBudget
@@ -183,8 +185,6 @@ functions:
 - blueapi.cost.v1.Cost/GetCoverageOndemand, runtime.WithHTTPPathPattern(/v1/{vendor}/coverage/ondemand/{orgId}
 - blueapi.cost.v1.Cost/GetCoverageOptions
 - blueapi.cost.v1.Cost/GetCoverageOptions, runtime.WithHTTPPathPattern(/v1/{vendor}/coverage/options/{orgId}
-- blueapi.cost.v1.Cost/GetCustomersByAccountIds
-- blueapi.cost.v1.Cost/GetCustomersByAccountIds, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts/customers
 - blueapi.cost.v1.Cost/GetForecasts
 - blueapi.cost.v1.Cost/GetForecasts, runtime.WithHTTPPathPattern(/v1/{vendor}/forecasts
 - blueapi.cost.v1.Cost/GetMonthOnMonthCostForecast
