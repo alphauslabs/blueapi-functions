@@ -267,6 +267,8 @@ functions:
 - blueapi.cover.v1.Cover/CreateAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess
 - blueapi.cover.v1.Cover/CreateAccountAccessCur
 - blueapi.cover.v1.Cover/CreateAccountAccessCur, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/cur
+- blueapi.cover.v1.Cover/CreateAccountAccessStackset
+- blueapi.cover.v1.Cover/CreateAccountAccessStackset, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/stackset
 - blueapi.cover.v1.Cover/CreateAlert
 - blueapi.cover.v1.Cover/CreateAlert, runtime.WithHTTPPathPattern(/v1/alerts/cost
 - blueapi.cover.v1.Cover/CreateAllocator
