@@ -391,6 +391,8 @@ functions:
 - blueapi.cover.v1.Cover/GetViews, runtime.WithHTTPPathPattern(/v1/views
 - blueapi.cover.v1.Cover/InviteMember
 - blueapi.cover.v1.Cover/InviteMember, runtime.WithHTTPPathPattern(/v1/members/invite
+- blueapi.cover.v1.Cover/LeaveOrganization
+- blueapi.cover.v1.Cover/LeaveOrganization, runtime.WithHTTPPathPattern(/v1/organizations/leave/{target}
 - blueapi.cover.v1.Cover/ListAccountAccess
 - blueapi.cover.v1.Cover/ListAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/all
 - blueapi.cover.v1.Cover/ListAccountUsage
