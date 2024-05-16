@@ -391,8 +391,6 @@ functions:
 - blueapi.cover.v1.Cover/GetViews, runtime.WithHTTPPathPattern(/v1/views
 - blueapi.cover.v1.Cover/InviteMember
 - blueapi.cover.v1.Cover/InviteMember, runtime.WithHTTPPathPattern(/v1/members/invite
-- blueapi.cover.v1.Cover/LeaveOrganization
-- blueapi.cover.v1.Cover/LeaveOrganization, runtime.WithHTTPPathPattern(/v1/organizations/leave/{target}
 - blueapi.cover.v1.Cover/ListAccountAccess
 - blueapi.cover.v1.Cover/ListAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/all
 - blueapi.cover.v1.Cover/ListAccountUsage
@@ -469,6 +467,8 @@ functions:
 - blueapi.cover.v1.Cover/SimulateSavings, runtime.WithHTTPPathPattern(/v1/allocations/savings/simulate
 - blueapi.cover.v1.Cover/TerminateResource
 - blueapi.cover.v1.Cover/TerminateResource, runtime.WithHTTPPathPattern(/v1/{vendor}/resource/terminate
+- blueapi.cover.v1.Cover/TransferOrganization
+- blueapi.cover.v1.Cover/TransferOrganization, runtime.WithHTTPPathPattern(/v1/organizations/transfer/{target}
 - blueapi.cover.v1.Cover/UpdateAccountAccess
 - blueapi.cover.v1.Cover/UpdateAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/{target}
 - blueapi.cover.v1.Cover/UpdateAlertDetails
