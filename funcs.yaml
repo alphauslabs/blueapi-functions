@@ -469,6 +469,8 @@ functions:
 - blueapi.cover.v1.Cover/TerminateResource, runtime.WithHTTPPathPattern(/v1/{vendor}/resource/terminate
 - blueapi.cover.v1.Cover/TransferOrganization
 - blueapi.cover.v1.Cover/TransferOrganization, runtime.WithHTTPPathPattern(/v1/organizations/transfer/{target}
+- blueapi.cover.v1.Cover/UndoExecutedRecommendation
+- blueapi.cover.v1.Cover/UndoExecutedRecommendation, runtime.WithHTTPPathPattern(/v1/recommendations/optimization/undo
 - blueapi.cover.v1.Cover/UpdateAccountAccess
 - blueapi.cover.v1.Cover/UpdateAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/{target}
 - blueapi.cover.v1.Cover/UpdateAlertDetails
