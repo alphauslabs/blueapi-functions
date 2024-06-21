@@ -487,6 +487,8 @@ functions:
 - blueapi.cover.v1.Cover/UpdateCostGroupColorTheme, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/colortheme
 - blueapi.cover.v1.Cover/UpdateCostGroupCombinations
 - blueapi.cover.v1.Cover/UpdateCostGroupCombinations, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/combinations
+- blueapi.cover.v1.Cover/UpdateCostGroupCreationUI
+- blueapi.cover.v1.Cover/UpdateCostGroupCreationUI, runtime.WithHTTPPathPattern(/v1/me/costgroupcreation
 - blueapi.cover.v1.Cover/UpdateCostGroupDescription
 - blueapi.cover.v1.Cover/UpdateCostGroupDescription, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/description
 - blueapi.cover.v1.Cover/UpdateCostGroupIcon
