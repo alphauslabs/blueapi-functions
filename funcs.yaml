@@ -638,5 +638,5 @@ functions:
 - blueapi.preferences.v1.Preferences/GetPreferences, runtime.WithHTTPPathPattern(/prefs/v1
 - blueapi.pricing.v1.Pricing/GetInfo
 - blueapi.pricing.v1.Pricing/GetInfo, runtime.WithHTTPPathPattern(/v0/info
-- blueapi.pricing.v1.Pricing/GetPricingInfo
-- blueapi.pricing.v1.Pricing/GetPricingInfo, runtime.WithHTTPPathPattern(/v0/pricingInfo
+- blueapi.pricing.v1.Pricing/GetPricing
+- blueapi.pricing.v1.Pricing/GetPricing, runtime.WithHTTPPathPattern(/v0/pricing
