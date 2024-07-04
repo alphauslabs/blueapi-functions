@@ -626,6 +626,8 @@ functions:
 - blueapi.org.v1.Organization/DeleteOrg, runtime.WithHTTPPathPattern(/org/v1
 - blueapi.org.v1.Organization/GetOrg
 - blueapi.org.v1.Organization/GetOrg, runtime.WithHTTPPathPattern(/org/v1
+- blueapi.org.v1.Organization/GetWaveFeatures
+- blueapi.org.v1.Organization/GetWaveFeatures, runtime.WithHTTPPathPattern(/org/v1/wavefeatures
 - blueapi.org.v1.Organization/SendVerification
 - blueapi.org.v1.Organization/SendVerification, runtime.WithHTTPPathPattern(/org/v1
 - blueapi.org.v1.Organization/UpdateMetadata
