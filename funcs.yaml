@@ -33,6 +33,8 @@ functions:
 - blueapi.admin.v1.Admin/GetNotificationChannel, runtime.WithHTTPPathPattern(/admin/v1/notification/channels/{id}
 - blueapi.admin.v1.Admin/GetNotificationSettings
 - blueapi.admin.v1.Admin/GetNotificationSettings, runtime.WithHTTPPathPattern(/admin/v1/notification/settings
+- blueapi.admin.v1.Admin/GetWaveFeatures
+- blueapi.admin.v1.Admin/GetWaveFeatures, runtime.WithHTTPPathPattern(/admin/v1/wavefeatures
 - blueapi.admin.v1.Admin/ListAccountGroups
 - blueapi.admin.v1.Admin/ListAccountGroups, runtime.WithHTTPPathPattern(/admin/v1/acctgroups
 - blueapi.admin.v1.Admin/ListDefaultCostAccess
@@ -626,8 +628,6 @@ functions:
 - blueapi.org.v1.Organization/DeleteOrg, runtime.WithHTTPPathPattern(/org/v1
 - blueapi.org.v1.Organization/GetOrg
 - blueapi.org.v1.Organization/GetOrg, runtime.WithHTTPPathPattern(/org/v1
-- blueapi.org.v1.Organization/GetWaveFeatures
-- blueapi.org.v1.Organization/GetWaveFeatures, runtime.WithHTTPPathPattern(/org/v1/wavefeatures
 - blueapi.org.v1.Organization/SendVerification
 - blueapi.org.v1.Organization/SendVerification, runtime.WithHTTPPathPattern(/org/v1
 - blueapi.org.v1.Organization/UpdateMetadata
