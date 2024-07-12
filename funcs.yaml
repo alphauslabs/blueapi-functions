@@ -233,8 +233,8 @@ functions:
 - blueapi.cost.v1.Cost/ReadCostAttributes, runtime.WithHTTPPathPattern(/v1/{vendor}/costattrs
 - blueapi.cost.v1.Cost/ReadCosts
 - blueapi.cost.v1.Cost/ReadCosts, runtime.WithHTTPPathPattern(/v1/{vendor}/costs
-- blueapi.cost.v1.Cost/ReadInvoiceId
-- blueapi.cost.v1.Cost/ReadInvoiceId, runtime.WithHTTPPathPattern(/v1/{vendor}/invoiceid
+- blueapi.cost.v1.Cost/ReadInvoiceIds
+- blueapi.cost.v1.Cost/ReadInvoiceIds, runtime.WithHTTPPathPattern(/v1/{vendor}/invoiceids
 - blueapi.cost.v1.Cost/ReadNonTagCosts
 - blueapi.cost.v1.Cost/ReadNonTagCosts, runtime.WithHTTPPathPattern(/v1/{vendor}/nontagcosts
 - blueapi.cost.v1.Cost/ReadTagCosts
