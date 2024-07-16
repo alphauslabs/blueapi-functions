@@ -34,7 +34,7 @@ functions:
 - blueapi.admin.v1.Admin/GetNotificationSettings
 - blueapi.admin.v1.Admin/GetNotificationSettings, runtime.WithHTTPPathPattern(/admin/v1/notification/settings
 - blueapi.admin.v1.Admin/GetWaveFeatures
-- blueapi.admin.v1.Admin/GetWaveFeatures, runtime.WithHTTPPathPattern(/admin/v1/wavefeatures/{id}
+- blueapi.admin.v1.Admin/GetWaveFeatures, runtime.WithHTTPPathPattern(/admin/v1/wavefeatures
 - blueapi.admin.v1.Admin/ListAccountGroups
 - blueapi.admin.v1.Admin/ListAccountGroups, runtime.WithHTTPPathPattern(/admin/v1/acctgroups
 - blueapi.admin.v1.Admin/ListDefaultCostAccess
