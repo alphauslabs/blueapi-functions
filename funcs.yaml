@@ -115,6 +115,8 @@ functions:
 - blueapi.billing.v1.Billing/ListResellers, runtime.WithHTTPPathPattern(/v1/resellers
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
 - blueapi.billing.v1.Billing/ListUsageCostsDrift, runtime.WithHTTPPathPattern(/v1/{vendor}/usagecostsdrift
+- blueapi.billing.v1.Billing/ReadCustomizeBillingServices
+- blueapi.billing.v1.Billing/ReadCustomizeBillingServices, runtime.WithHTTPPathPattern(/v1/customizebillingservices
 - blueapi.billing.v1.Billing/ReadInvoiceAdjustments
 - blueapi.billing.v1.Billing/ReadInvoiceAdjustments, runtime.WithHTTPPathPattern(/v1/{vendor}/invoiceadjustments
 - blueapi.billing.v1.Billing/ReadUntaggedGroups
