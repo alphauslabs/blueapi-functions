@@ -650,3 +650,5 @@ functions:
 - blueapi.pricing.v1.Pricing/GetInfo, runtime.WithHTTPPathPattern(/v0/info
 - blueapi.pricing.v1.Pricing/GetPricing
 - blueapi.pricing.v1.Pricing/GetPricing, runtime.WithHTTPPathPattern(/v0/{vendor}/pricing
+- blueapi.pricing.v1.Pricing/GetSupportedServices
+- blueapi.pricing.v1.Pricing/GetSupportedServices, runtime.WithHTTPPathPattern(/v0/{vendor}/services
