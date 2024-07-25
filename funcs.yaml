@@ -83,6 +83,8 @@ functions:
 - blueapi.billing.v1.Billing/GetBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/{billingInternalId}
 - blueapi.billing.v1.Billing/GetBillingSetting
 - blueapi.billing.v1.Billing/GetBillingSetting, runtime.WithHTTPPathPattern(/v1/settings
+- blueapi.billing.v1.Billing/GetCustomizeBillingService
+- blueapi.billing.v1.Billing/GetCustomizeBillingService, runtime.WithHTTPPathPattern(/v1/customizebillingservices/{id}
 - blueapi.billing.v1.Billing/GetInvoice
 - blueapi.billing.v1.Billing/GetInvoice, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/GetInvoiceStatus
