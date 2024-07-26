@@ -83,8 +83,8 @@ functions:
 - blueapi.billing.v1.Billing/GetBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/{billingInternalId}
 - blueapi.billing.v1.Billing/GetBillingSetting
 - blueapi.billing.v1.Billing/GetBillingSetting, runtime.WithHTTPPathPattern(/v1/settings
-- blueapi.billing.v1.Billing/GetCustomizeBillingService
-- blueapi.billing.v1.Billing/GetCustomizeBillingService, runtime.WithHTTPPathPattern(/v1/customizebillingservices/{id}
+- blueapi.billing.v1.Billing/GetCustomizedBillingService
+- blueapi.billing.v1.Billing/GetCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
 - blueapi.billing.v1.Billing/GetInvoice
 - blueapi.billing.v1.Billing/GetInvoice, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/GetInvoiceStatus
@@ -117,8 +117,8 @@ functions:
 - blueapi.billing.v1.Billing/ListResellers, runtime.WithHTTPPathPattern(/v1/resellers
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
 - blueapi.billing.v1.Billing/ListUsageCostsDrift, runtime.WithHTTPPathPattern(/v1/{vendor}/usagecostsdrift
-- blueapi.billing.v1.Billing/ReadCustomizeBillingServices
-- blueapi.billing.v1.Billing/ReadCustomizeBillingServices, runtime.WithHTTPPathPattern(/v1/customizebillingservices
+- blueapi.billing.v1.Billing/ReadCustomizedBillingServices
+- blueapi.billing.v1.Billing/ReadCustomizedBillingServices, runtime.WithHTTPPathPattern(/v1/customizedbillingservices
 - blueapi.billing.v1.Billing/ReadInvoiceAdjustments
 - blueapi.billing.v1.Billing/ReadInvoiceAdjustments, runtime.WithHTTPPathPattern(/v1/{vendor}/invoiceadjustments
 - blueapi.billing.v1.Billing/ReadUntaggedGroups
