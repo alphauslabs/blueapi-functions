@@ -61,6 +61,8 @@ functions:
 - blueapi.billing.v1.Billing/CreateAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
 - blueapi.billing.v1.Billing/CreateBillingGroup
 - blueapi.billing.v1.Billing/CreateBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups
+- blueapi.billing.v1.Billing/CreateCustomizedBillingService
+- blueapi.billing.v1.Billing/CreateCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices
 - blueapi.billing.v1.Billing/CreateInvoice
 - blueapi.billing.v1.Billing/CreateInvoice, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/CreateReseller
@@ -71,6 +73,8 @@ functions:
 - blueapi.billing.v1.Billing/DeleteAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/DeleteAdjustmentConfig
 - blueapi.billing.v1.Billing/DeleteAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
+- blueapi.billing.v1.Billing/DeleteCustomizedBillingService
+- blueapi.billing.v1.Billing/DeleteCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
 - blueapi.billing.v1.Billing/DeleteReseller
 - blueapi.billing.v1.Billing/DeleteReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
 - blueapi.billing.v1.Billing/ExportInvoiceFile
@@ -131,6 +135,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/UpdateAdjustmentConfig
 - blueapi.billing.v1.Billing/UpdateAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
+- blueapi.billing.v1.Billing/UpdateCustomizedBillingService
+- blueapi.billing.v1.Billing/UpdateCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/UpdateReseller
