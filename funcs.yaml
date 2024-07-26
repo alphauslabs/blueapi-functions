@@ -303,6 +303,8 @@ functions:
 - blueapi.cover.v1.Cover/CreateMember, runtime.WithHTTPPathPattern(/v1/members
 - blueapi.cover.v1.Cover/CreateProfiling
 - blueapi.cover.v1.Cover/CreateProfiling, runtime.WithHTTPPathPattern(/v1/members/profile
+- blueapi.cover.v1.Cover/CreateUnitType
+- blueapi.cover.v1.Cover/CreateUnitType, runtime.WithHTTPPathPattern(/v1/unitcost
 - blueapi.cover.v1.Cover/CreateView
 - blueapi.cover.v1.Cover/CreateView, runtime.WithHTTPPathPattern(/v1/views
 - blueapi.cover.v1.Cover/DeleteAccountAccess
@@ -325,6 +327,8 @@ functions:
 - blueapi.cover.v1.Cover/DeleteDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount/{id}
 - blueapi.cover.v1.Cover/DeleteMember
 - blueapi.cover.v1.Cover/DeleteMember, runtime.WithHTTPPathPattern(/v1/members/{userId}
+- blueapi.cover.v1.Cover/DeleteUnitType
+- blueapi.cover.v1.Cover/DeleteUnitType, runtime.WithHTTPPathPattern(/v1/unitcost/{id}
 - blueapi.cover.v1.Cover/DeleteView
 - blueapi.cover.v1.Cover/DeleteView, runtime.WithHTTPPathPattern(/v1/views/{viewId}
 - blueapi.cover.v1.Cover/ExecuteOptimization
@@ -399,6 +403,8 @@ functions:
 - blueapi.cover.v1.Cover/GetServices, runtime.WithHTTPPathPattern(/v1/{vendor}/services/{costGroupId}
 - blueapi.cover.v1.Cover/GetTags
 - blueapi.cover.v1.Cover/GetTags, runtime.WithHTTPPathPattern(/v1/{vendor}/tags/{costGroupId}
+- blueapi.cover.v1.Cover/GetUnitType
+- blueapi.cover.v1.Cover/GetUnitType, runtime.WithHTTPPathPattern(/v1/unitcost/{id}
 - blueapi.cover.v1.Cover/GetUserDetails
 - blueapi.cover.v1.Cover/GetUserDetails, runtime.WithHTTPPathPattern(/v1/me
 - blueapi.cover.v1.Cover/GetUserProfile
@@ -429,6 +435,8 @@ functions:
 - blueapi.cover.v1.Cover/ListRecommendations, runtime.WithHTTPPathPattern(/v1/recommendations/optimization
 - blueapi.cover.v1.Cover/ListSavings
 - blueapi.cover.v1.Cover/ListSavings, runtime.WithHTTPPathPattern(/v1/allocations/savings/all
+- blueapi.cover.v1.Cover/ListUnitTypes
+- blueapi.cover.v1.Cover/ListUnitTypes, runtime.WithHTTPPathPattern(/v1/unitcost
 - blueapi.cover.v1.Cover/MarkAsExecuted
 - blueapi.cover.v1.Cover/MarkAsExecuted, runtime.WithHTTPPathPattern(/v1/recommendations/optimization/executed
 - blueapi.cover.v1.Cover/ModifyResourceType
@@ -521,6 +529,8 @@ functions:
 - blueapi.cover.v1.Cover/UpdateMemberPermission, runtime.WithHTTPPathPattern(/v1/members/{userId}/isadmin
 - blueapi.cover.v1.Cover/UpdateSideMenuState
 - blueapi.cover.v1.Cover/UpdateSideMenuState, runtime.WithHTTPPathPattern(/v1/views/{viewId}/sidemenustate
+- blueapi.cover.v1.Cover/UpdateUnitType
+- blueapi.cover.v1.Cover/UpdateUnitType, runtime.WithHTTPPathPattern(/v1/unitcost/{id}
 - blueapi.cover.v1.Cover/UpdateUserAppTheme
 - blueapi.cover.v1.Cover/UpdateUserAppTheme, runtime.WithHTTPPathPattern(/v1/me/apptheme
 - blueapi.cover.v1.Cover/UpdateUserAttributes
