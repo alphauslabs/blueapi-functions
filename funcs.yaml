@@ -393,6 +393,8 @@ functions:
 - blueapi.cover.v1.Cover/GetPayers, runtime.WithHTTPPathPattern(/v1/{vendor}/payers
 - blueapi.cover.v1.Cover/GetRecommendation
 - blueapi.cover.v1.Cover/GetRecommendation, runtime.WithHTTPPathPattern(/v1/recommendations/optimization/{id}
+- blueapi.cover.v1.Cover/GetRecommendationV2
+- blueapi.cover.v1.Cover/GetRecommendationV2, runtime.WithHTTPPathPattern(/v1/recommendations/details/{id}
 - blueapi.cover.v1.Cover/GetRegions
 - blueapi.cover.v1.Cover/GetRegions, runtime.WithHTTPPathPattern(/v1/{vendor}/regions/{costGroupId}
 - blueapi.cover.v1.Cover/GetReportSummary
