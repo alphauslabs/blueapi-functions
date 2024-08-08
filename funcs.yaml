@@ -125,6 +125,8 @@ functions:
 - blueapi.billing.v1.Billing/ReadCustomizedBillingServices, runtime.WithHTTPPathPattern(/v1/customizedbillingservices
 - blueapi.billing.v1.Billing/ReadInvoiceAdjustments
 - blueapi.billing.v1.Billing/ReadInvoiceAdjustments, runtime.WithHTTPPathPattern(/v1/{vendor}/invoiceadjustments
+- blueapi.billing.v1.Billing/ReadServiceDiscountsService
+- blueapi.billing.v1.Billing/ReadServiceDiscountsService, runtime.WithHTTPPathPattern(/v1/servicediscounts/{vendor}/services
 - blueapi.billing.v1.Billing/ReadUntaggedGroups
 - blueapi.billing.v1.Billing/ReadUntaggedGroups, runtime.WithHTTPPathPattern(/v1/{vendor}/untaggedgroups
 - blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts
