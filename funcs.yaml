@@ -65,6 +65,8 @@ functions:
 - blueapi.billing.v1.Billing/CreateCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices
 - blueapi.billing.v1.Billing/CreateInvoice
 - blueapi.billing.v1.Billing/CreateInvoice, runtime.WithHTTPPathPattern(/v1/invoice/{date}
+- blueapi.billing.v1.Billing/CreateInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/CreateInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts
 - blueapi.billing.v1.Billing/CreateReseller
 - blueapi.billing.v1.Billing/CreateReseller, runtime.WithHTTPPathPattern(/v1/resellers
 - blueapi.billing.v1.Billing/DeleteAccessGroup
@@ -75,6 +77,8 @@ functions:
 - blueapi.billing.v1.Billing/DeleteAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
 - blueapi.billing.v1.Billing/DeleteCustomizedBillingService
 - blueapi.billing.v1.Billing/DeleteCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
+- blueapi.billing.v1.Billing/DeleteInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/DeleteInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{id}
 - blueapi.billing.v1.Billing/DeleteReseller
 - blueapi.billing.v1.Billing/DeleteReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
 - blueapi.billing.v1.Billing/ExportInvoiceFile
@@ -141,6 +145,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews, runtime.WithHTTPPathPattern(/v1/invoice/{date}
+- blueapi.billing.v1.Billing/UpdateInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/UpdateInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{id}
 - blueapi.billing.v1.Billing/UpdateReseller
 - blueapi.billing.v1.Billing/UpdateReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
 - blueapi.cost.v1.Cost/CalculateCosts
