@@ -99,6 +99,8 @@ functions:
 - blueapi.billing.v1.Billing/GetInvoiceStatus, runtime.WithHTTPPathPattern(/v1/invoice/status/{id}
 - blueapi.billing.v1.Billing/GetReseller
 - blueapi.billing.v1.Billing/GetReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
+- blueapi.billing.v1.Billing/GetTags
+- blueapi.billing.v1.Billing/GetTags, runtime.WithHTTPPathPattern(/v1/tags
 - blueapi.billing.v1.Billing/ListAbcBillingGroupAccounts
 - blueapi.billing.v1.Billing/ListAbcBillingGroupAccounts, runtime.WithHTTPPathPattern(/v1/billinggroups/billingconductor/{payerId}/accounts
 - blueapi.billing.v1.Billing/ListAbcBillingGroups
