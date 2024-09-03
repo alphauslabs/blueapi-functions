@@ -27,6 +27,8 @@ functions:
 - blueapi.admin.v1.Admin/GetDefaultCostAccess, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/dca/{target}
 - blueapi.admin.v1.Admin/GetDefaultCostAccessTemplateUrl
 - blueapi.admin.v1.Admin/GetDefaultCostAccessTemplateUrl, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/dca
+- blueapi.admin.v1.Admin/GetMSPDefaultMeta
+- blueapi.admin.v1.Admin/GetMSPDefaultMeta, runtime.WithHTTPPathPattern(/admin/v1/defaultmeta/{mspId}
 - blueapi.admin.v1.Admin/GetNotification
 - blueapi.admin.v1.Admin/GetNotification, runtime.WithHTTPPathPattern(/admin/v1/notifications/{id}
 - blueapi.admin.v1.Admin/GetNotificationChannel
