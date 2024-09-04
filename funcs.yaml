@@ -49,6 +49,8 @@ functions:
 - blueapi.admin.v1.Admin/SaveNotificationSettings, runtime.WithHTTPPathPattern(/admin/v1/notification/settings
 - blueapi.admin.v1.Admin/UpdateDefaultCostAccess
 - blueapi.admin.v1.Admin/UpdateDefaultCostAccess, runtime.WithHTTPPathPattern(/admin/v1/aws/xacct/dca/{target}
+- blueapi.admin.v1.Admin/UpdateMSPDefaultMeta
+- blueapi.admin.v1.Admin/UpdateMSPDefaultMeta, runtime.WithHTTPPathPattern(/admin/v1/defaultmeta
 - blueapi.admin.v1.Admin/UpdateNotification
 - blueapi.admin.v1.Admin/UpdateNotification, runtime.WithHTTPPathPattern(/admin/v1/notifications/{id}
 - blueapi.admin.v1.Admin/UpdateNotificationChannel
