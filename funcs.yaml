@@ -65,6 +65,8 @@ functions:
 - blueapi.billing.v1.Billing/CreateAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
 - blueapi.billing.v1.Billing/CreateBillingGroup
 - blueapi.billing.v1.Billing/CreateBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups
+- blueapi.billing.v1.Billing/CreateCustomField
+- blueapi.billing.v1.Billing/CreateCustomField, runtime.WithHTTPPathPattern(/v1/customfield
 - blueapi.billing.v1.Billing/CreateCustomizedBillingService
 - blueapi.billing.v1.Billing/CreateCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices
 - blueapi.billing.v1.Billing/CreateInvoice
@@ -79,6 +81,8 @@ functions:
 - blueapi.billing.v1.Billing/DeleteAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/DeleteAdjustmentConfig
 - blueapi.billing.v1.Billing/DeleteAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
+- blueapi.billing.v1.Billing/DeleteCustomField
+- blueapi.billing.v1.Billing/DeleteCustomField, runtime.WithHTTPPathPattern(/v1/customfield/{id}
 - blueapi.billing.v1.Billing/DeleteCustomizedBillingService
 - blueapi.billing.v1.Billing/DeleteCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
 - blueapi.billing.v1.Billing/DeleteInvoiceServiceDiscounts
@@ -119,6 +123,8 @@ functions:
 - blueapi.billing.v1.Billing/ListAwsDailyRunHistory, runtime.WithHTTPPathPattern(/v1/aws/dailyrunhistory
 - blueapi.billing.v1.Billing/ListBillingGroups
 - blueapi.billing.v1.Billing/ListBillingGroups, runtime.WithHTTPPathPattern(/v1/billinggroups
+- blueapi.billing.v1.Billing/ListCustomField
+- blueapi.billing.v1.Billing/ListCustomField, runtime.WithHTTPPathPattern(/v1/customfieldlist
 - blueapi.billing.v1.Billing/ListExchangeRates
 - blueapi.billing.v1.Billing/ListExchangeRates, runtime.WithHTTPPathPattern(/v1/{vendor}/exchangerate/{month}
 - blueapi.billing.v1.Billing/ListInvoice
@@ -147,6 +153,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/UpdateAdjustmentConfig
 - blueapi.billing.v1.Billing/UpdateAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
+- blueapi.billing.v1.Billing/UpdateCustomField
+- blueapi.billing.v1.Billing/UpdateCustomField, runtime.WithHTTPPathPattern(/v1/customfield/{id}
 - blueapi.billing.v1.Billing/UpdateCustomizedBillingService
 - blueapi.billing.v1.Billing/UpdateCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews
