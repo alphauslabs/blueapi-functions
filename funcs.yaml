@@ -124,7 +124,7 @@ functions:
 - blueapi.billing.v1.Billing/ListBillingGroups
 - blueapi.billing.v1.Billing/ListBillingGroups, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/ListCustomField
-- blueapi.billing.v1.Billing/ListCustomField, runtime.WithHTTPPathPattern(/v1/customfieldlist
+- blueapi.billing.v1.Billing/ListCustomField, runtime.WithHTTPPathPattern(/v1/customfield
 - blueapi.billing.v1.Billing/ListExchangeRates
 - blueapi.billing.v1.Billing/ListExchangeRates, runtime.WithHTTPPathPattern(/v1/{vendor}/exchangerate/{month}
 - blueapi.billing.v1.Billing/ListInvoice
