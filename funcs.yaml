@@ -563,6 +563,8 @@ functions:
 - blueapi.cover.v1.Cover/UpdateUserAvatar, runtime.WithHTTPPathPattern(/v1/me/avatar
 - blueapi.cover.v1.Cover/UpdateUserColorTheme
 - blueapi.cover.v1.Cover/UpdateUserColorTheme, runtime.WithHTTPPathPattern(/v1/me/colortheme
+- blueapi.cover.v1.Cover/UpdateUserCurrency
+- blueapi.cover.v1.Cover/UpdateUserCurrency, runtime.WithHTTPPathPattern(/v1/me/currency
 - blueapi.cover.v1.Cover/UpdateUserEmail
 - blueapi.cover.v1.Cover/UpdateUserEmail, runtime.WithHTTPPathPattern(/v1/me/email
 - blueapi.cover.v1.Cover/UpdateUserIcon
