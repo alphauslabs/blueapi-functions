@@ -69,6 +69,8 @@ functions:
 - blueapi.billing.v1.Billing/CreateCustomField, runtime.WithHTTPPathPattern(/v1/customfield
 - blueapi.billing.v1.Billing/CreateCustomizedBillingService
 - blueapi.billing.v1.Billing/CreateCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices
+- blueapi.billing.v1.Billing/CreateFreeFormat
+- blueapi.billing.v1.Billing/CreateFreeFormat, runtime.WithHTTPPathPattern(/v1/freeformat
 - blueapi.billing.v1.Billing/CreateInvoice
 - blueapi.billing.v1.Billing/CreateInvoice, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/CreateInvoiceServiceDiscounts
@@ -85,6 +87,8 @@ functions:
 - blueapi.billing.v1.Billing/DeleteCustomField, runtime.WithHTTPPathPattern(/v1/customfield/{id}
 - blueapi.billing.v1.Billing/DeleteCustomizedBillingService
 - blueapi.billing.v1.Billing/DeleteCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
+- blueapi.billing.v1.Billing/DeleteFreeFormat
+- blueapi.billing.v1.Billing/DeleteFreeFormat, runtime.WithHTTPPathPattern(/v1/freeformat/{id}
 - blueapi.billing.v1.Billing/DeleteInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/DeleteInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{id}
 - blueapi.billing.v1.Billing/DeleteReseller
