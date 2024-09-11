@@ -585,6 +585,8 @@ functions:
 - blueapi.cover.v1.Cover/UpdateView, runtime.WithHTTPPathPattern(/v1/views/{viewId}
 - blueapi.cover.v1.Cover/UpdateViewColorTheme
 - blueapi.cover.v1.Cover/UpdateViewColorTheme, runtime.WithHTTPPathPattern(/v1/views/{viewId}/colortheme
+- blueapi.cover.v1.Cover/UpdateViewCurrency
+- blueapi.cover.v1.Cover/UpdateViewCurrency, runtime.WithHTTPPathPattern(/v1/views/{viewId}/currency
 - blueapi.cover.v1.Cover/UpdateViewLayout
 - blueapi.cover.v1.Cover/UpdateViewLayout, runtime.WithHTTPPathPattern(/v1/views/layout/{viewId}
 - blueapi.cover.v1.Cover/UpdateViewWidget
