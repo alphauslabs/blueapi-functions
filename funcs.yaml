@@ -107,6 +107,8 @@ functions:
 - blueapi.billing.v1.Billing/GetCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
 - blueapi.billing.v1.Billing/GetInvoice
 - blueapi.billing.v1.Billing/GetInvoice, runtime.WithHTTPPathPattern(/v1/invoice/{date}
+- blueapi.billing.v1.Billing/GetInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/GetInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{id}
 - blueapi.billing.v1.Billing/GetInvoiceStatus
 - blueapi.billing.v1.Billing/GetInvoiceStatus, runtime.WithHTTPPathPattern(/v1/invoice/status/{id}
 - blueapi.billing.v1.Billing/GetReseller
