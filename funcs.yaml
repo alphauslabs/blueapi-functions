@@ -417,6 +417,8 @@ functions:
 - blueapi.cover.v1.Cover/GetMembers, runtime.WithHTTPPathPattern(/v1/members
 - blueapi.cover.v1.Cover/GetOrgFiscalMonth
 - blueapi.cover.v1.Cover/GetOrgFiscalMonth, runtime.WithHTTPPathPattern(/v1/reports/fiscalmonth
+- blueapi.cover.v1.Cover/GetOrgUpdateCurrency
+- blueapi.cover.v1.Cover/GetOrgUpdateCurrency, runtime.WithHTTPPathPattern(/v1/organizations/currency
 - blueapi.cover.v1.Cover/GetPayers
 - blueapi.cover.v1.Cover/GetPayers, runtime.WithHTTPPathPattern(/v1/{vendor}/payers
 - blueapi.cover.v1.Cover/GetRecommendation
@@ -515,6 +517,8 @@ functions:
 - blueapi.cover.v1.Cover/SetCostGroupEventIndicator, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/eventIndicator
 - blueapi.cover.v1.Cover/SetOrgFiscalMonth
 - blueapi.cover.v1.Cover/SetOrgFiscalMonth, runtime.WithHTTPPathPattern(/v1/reports/fiscalmonth
+- blueapi.cover.v1.Cover/SetOrgUpdateCurrency
+- blueapi.cover.v1.Cover/SetOrgUpdateCurrency, runtime.WithHTTPPathPattern(/v1/organizations/currency
 - blueapi.cover.v1.Cover/SimulateAccountUsage
 - blueapi.cover.v1.Cover/SimulateAccountUsage, runtime.WithHTTPPathPattern(/v1/allocations/accountusage/simulate
 - blueapi.cover.v1.Cover/SimulateFeeAllocator
@@ -571,8 +575,6 @@ functions:
 - blueapi.cover.v1.Cover/UpdateUserAvatar, runtime.WithHTTPPathPattern(/v1/me/avatar
 - blueapi.cover.v1.Cover/UpdateUserColorTheme
 - blueapi.cover.v1.Cover/UpdateUserColorTheme, runtime.WithHTTPPathPattern(/v1/me/colortheme
-- blueapi.cover.v1.Cover/UpdateUserCurrency
-- blueapi.cover.v1.Cover/UpdateUserCurrency, runtime.WithHTTPPathPattern(/v1/me/currency
 - blueapi.cover.v1.Cover/UpdateUserEmail
 - blueapi.cover.v1.Cover/UpdateUserEmail, runtime.WithHTTPPathPattern(/v1/me/email
 - blueapi.cover.v1.Cover/UpdateUserIcon
