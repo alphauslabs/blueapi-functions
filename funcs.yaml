@@ -462,7 +462,7 @@ functions:
 - blueapi.cover.v1.Cover/ListDiscountExpirationAlert
 - blueapi.cover.v1.Cover/ListDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount/all
 - blueapi.cover.v1.Cover/ListExchangeRates
-- blueapi.cover.v1.Cover/ListExchangeRates, runtime.WithHTTPPathPattern(/v1/views/{viewId}/exchangerates
+- blueapi.cover.v1.Cover/ListExchangeRates, runtime.WithHTTPPathPattern(/v1/organizations/rates
 - blueapi.cover.v1.Cover/ListFees
 - blueapi.cover.v1.Cover/ListFees, runtime.WithHTTPPathPattern(/v1/allocations/fees/all
 - blueapi.cover.v1.Cover/ListRecommendations
