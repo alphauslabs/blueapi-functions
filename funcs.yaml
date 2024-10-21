@@ -587,6 +587,8 @@ functions:
 - blueapi.cover.v1.Cover/UpdateUserMainView, runtime.WithHTTPPathPattern(/v1/me/mainview
 - blueapi.cover.v1.Cover/UpdateUserName
 - blueapi.cover.v1.Cover/UpdateUserName, runtime.WithHTTPPathPattern(/v1/me/name
+- blueapi.cover.v1.Cover/UpdateUserProfile
+- blueapi.cover.v1.Cover/UpdateUserProfile, runtime.WithHTTPPathPattern(/v1/members/profile/{email}
 - blueapi.cover.v1.Cover/UpdateUserTimezone
 - blueapi.cover.v1.Cover/UpdateUserTimezone, runtime.WithHTTPPathPattern(/v1/me/timezone
 - blueapi.cover.v1.Cover/UpdateView
