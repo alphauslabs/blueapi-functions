@@ -115,6 +115,8 @@ functions:
 - blueapi.billing.v1.Billing/GetReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
 - blueapi.billing.v1.Billing/GetTags
 - blueapi.billing.v1.Billing/GetTags, runtime.WithHTTPPathPattern(/v1/tags
+- blueapi.billing.v1.Billing/GetTagsAddingSetting
+- blueapi.billing.v1.Billing/GetTagsAddingSetting, runtime.WithHTTPPathPattern(/v1/{vendor}/tagsaddingsetting/{groupId}
 - blueapi.billing.v1.Billing/ListAbcBillingGroupAccounts
 - blueapi.billing.v1.Billing/ListAbcBillingGroupAccounts, runtime.WithHTTPPathPattern(/v1/billinggroups/billingconductor/{payerId}/accounts
 - blueapi.billing.v1.Billing/ListAbcBillingGroups
@@ -169,6 +171,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{id}
 - blueapi.billing.v1.Billing/UpdateReseller
 - blueapi.billing.v1.Billing/UpdateReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
+- blueapi.billing.v1.Billing/UpdateTagsAddingSetting
+- blueapi.billing.v1.Billing/UpdateTagsAddingSetting, runtime.WithHTTPPathPattern(/v1/{vendor}/tagsaddingsetting/{groupId}
 - blueapi.cost.v1.Cost/CalculateCosts
 - blueapi.cost.v1.Cost/CalculateCosts, runtime.WithHTTPPathPattern(/v1/{vendor}/costs
 - blueapi.cost.v1.Cost/CheckAccountsBelongToMsp
