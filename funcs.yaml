@@ -269,6 +269,8 @@ functions:
 - blueapi.cost.v1.Cost/ListTags
 - blueapi.cost.v1.Cost/ListTags, runtime.WithHTTPPathPattern(/v1/{vendor}/tags
 - blueapi.cost.v1.Cost/ListTags, runtime.WithHTTPPathPattern(/v1/{vendor}/tags/groups/{groupId}
+- blueapi.cost.v1.Cost/ReadAccountOriginalResources
+- blueapi.cost.v1.Cost/ReadAccountOriginalResources, runtime.WithHTTPPathPattern(/v1/{vendor}/aors
 - blueapi.cost.v1.Cost/ReadAdjustments
 - blueapi.cost.v1.Cost/ReadAdjustments, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustments
 - blueapi.cost.v1.Cost/ReadBudgetAlerts
