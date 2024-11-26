@@ -87,6 +87,8 @@ functions:
 - blueapi.billing.v1.Billing/DeleteCustomField, runtime.WithHTTPPathPattern(/v1/customfield/{id}
 - blueapi.billing.v1.Billing/DeleteCustomizedBillingService
 - blueapi.billing.v1.Billing/DeleteCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
+- blueapi.billing.v1.Billing/DeleteCustomizedBillingServiceBillingGroup
+- blueapi.billing.v1.Billing/DeleteCustomizedBillingServiceBillingGroup, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/billinggroup/{groupId}/{vendor}
 - blueapi.billing.v1.Billing/DeleteFreeFormat
 - blueapi.billing.v1.Billing/DeleteFreeFormat, runtime.WithHTTPPathPattern(/v1/freeformat/{groupId}
 - blueapi.billing.v1.Billing/DeleteInvoiceServiceDiscounts
@@ -111,6 +113,8 @@ functions:
 - blueapi.billing.v1.Billing/GetBillingSetting, runtime.WithHTTPPathPattern(/v1/settings
 - blueapi.billing.v1.Billing/GetCustomizedBillingService
 - blueapi.billing.v1.Billing/GetCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
+- blueapi.billing.v1.Billing/GetCustomizedBillingServiceBillingGroup
+- blueapi.billing.v1.Billing/GetCustomizedBillingServiceBillingGroup, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/billinggroup/{groupId}/{vendor}
 - blueapi.billing.v1.Billing/GetFreeFormat
 - blueapi.billing.v1.Billing/GetFreeFormat, runtime.WithHTTPPathPattern(/v1/freeformat/{groupId}
 - blueapi.billing.v1.Billing/GetInvoice
@@ -165,6 +169,8 @@ functions:
 - blueapi.billing.v1.Billing/ReadUntaggedGroups, runtime.WithHTTPPathPattern(/v1/{vendor}/untaggedgroups
 - blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
+- blueapi.billing.v1.Billing/SetCustomizedBillingServiceBillingGroup
+- blueapi.billing.v1.Billing/SetCustomizedBillingServiceBillingGroup, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/billinggroup/{groupId}/{vendor}
 - blueapi.billing.v1.Billing/UpdateAccessGroup
 - blueapi.billing.v1.Billing/UpdateAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups/{id}
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts
