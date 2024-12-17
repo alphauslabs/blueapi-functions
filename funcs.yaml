@@ -97,6 +97,8 @@ functions:
 - blueapi.billing.v1.Billing/DeleteReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
 - blueapi.billing.v1.Billing/ExportAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ExportAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/account
+- blueapi.billing.v1.Billing/ExportBillingGroupCsv
+- blueapi.billing.v1.Billing/ExportBillingGroupCsv, runtime.WithHTTPPathPattern(/v1/exportcsv/billing-group
 - blueapi.billing.v1.Billing/ExportBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ExportBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/billinggroup
 - blueapi.billing.v1.Billing/ExportInvoiceFile
