@@ -311,6 +311,8 @@ functions:
 - blueapi.cost.v1.Cost/ReadNonTagCosts, runtime.WithHTTPPathPattern(/v1/{vendor}/nontagcosts
 - blueapi.cost.v1.Cost/ReadTagCosts
 - blueapi.cost.v1.Cost/ReadTagCosts, runtime.WithHTTPPathPattern(/v1/{vendor}/tagcosts
+- blueapi.cost.v1.Cost/RegisterPayerAccount
+- blueapi.cost.v1.Cost/RegisterPayerAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/payers/basicdetails
 - blueapi.cost.v1.Cost/UpdateAccount
 - blueapi.cost.v1.Cost/UpdateAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts/{id}
 - blueapi.cost.v1.Cost/UpdateAccountBudget
