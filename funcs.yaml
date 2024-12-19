@@ -103,6 +103,8 @@ functions:
 - blueapi.billing.v1.Billing/ExportBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/billinggroup
 - blueapi.billing.v1.Billing/ExportInvoiceFile
 - blueapi.billing.v1.Billing/ExportInvoiceFile, runtime.WithHTTPPathPattern(/v1/invoice/{date}
+- blueapi.billing.v1.Billing/ExportInvoiceSettingCsv
+- blueapi.billing.v1.Billing/ExportInvoiceSettingCsv, runtime.WithHTTPPathPattern(/v1/exportcsv/invoice-setting
 - blueapi.billing.v1.Billing/ExportServiceDiscounts
 - blueapi.billing.v1.Billing/ExportServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts
 - blueapi.billing.v1.Billing/GetAccessGroup
