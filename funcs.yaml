@@ -396,7 +396,7 @@ functions:
 - blueapi.cover.v1.Cover/DeleteView
 - blueapi.cover.v1.Cover/DeleteView, runtime.WithHTTPPathPattern(/v1/views/{viewId}
 - blueapi.cover.v1.Cover/ExecuteOptimization
-- blueapi.cover.v1.Cover/ExecuteOptimization, runtime.WithHTTPPathPattern(/v1/recommendations/optimization/{recommendationId}
+- blueapi.cover.v1.Cover/ExecuteOptimization, runtime.WithHTTPPathPattern(/v1/recommendations/execute
 - blueapi.cover.v1.Cover/GetAccountAccess
 - blueapi.cover.v1.Cover/GetAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/{target}
 - blueapi.cover.v1.Cover/GetAccountAccessTemplateUrl
@@ -445,6 +445,8 @@ functions:
 - blueapi.cover.v1.Cover/GetDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount/{id}
 - blueapi.cover.v1.Cover/GetDiscountRecommendations
 - blueapi.cover.v1.Cover/GetDiscountRecommendations, runtime.WithHTTPPathPattern(/v1/discount
+- blueapi.cover.v1.Cover/GetExecutionStatus
+- blueapi.cover.v1.Cover/GetExecutionStatus, runtime.WithHTTPPathPattern(/v1/recommendations/execute/status
 - blueapi.cover.v1.Cover/GetFavoriteViews
 - blueapi.cover.v1.Cover/GetFavoriteViews, runtime.WithHTTPPathPattern(/v1/views/favorites
 - blueapi.cover.v1.Cover/GetMemberCostGroup
