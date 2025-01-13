@@ -679,6 +679,8 @@ functions:
 - blueapi.iam.v1.Iam/GetGroupRootUser, runtime.WithHTTPPathPattern(/iam/v1/grouprootusers/{id}
 - blueapi.iam.v1.Iam/GetMFAUsers
 - blueapi.iam.v1.Iam/GetMFAUsers, runtime.WithHTTPPathPattern(/iam/v1/mfausers
+- blueapi.iam.v1.Iam/GetSubUserMetadata
+- blueapi.iam.v1.Iam/GetSubUserMetadata, runtime.WithHTTPPathPattern(/iam/v1/metadata/{id}
 - blueapi.iam.v1.Iam/GetUser
 - blueapi.iam.v1.Iam/GetUser, runtime.WithHTTPPathPattern(/iam/v1/users/{id}
 - blueapi.iam.v1.Iam/ListApiClients
