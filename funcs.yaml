@@ -147,6 +147,8 @@ functions:
 - blueapi.billing.v1.Billing/ListAccountResources, runtime.WithHTTPPathPattern(/v1/resources/accounts/{vendor}
 - blueapi.billing.v1.Billing/ListAwsDailyRunHistory
 - blueapi.billing.v1.Billing/ListAwsDailyRunHistory, runtime.WithHTTPPathPattern(/v1/aws/dailyrunhistory
+- blueapi.billing.v1.Billing/ListBillingGroupCustomField
+- blueapi.billing.v1.Billing/ListBillingGroupCustomField, runtime.WithHTTPPathPattern(/v1/billinggroup/customfield
 - blueapi.billing.v1.Billing/ListBillingGroups
 - blueapi.billing.v1.Billing/ListBillingGroups, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/ListCustomField
