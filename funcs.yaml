@@ -515,6 +515,8 @@ functions:
 - blueapi.cover.v1.Cover/ListRecommendationsV2, runtime.WithHTTPPathPattern(/v1/recommendations/all
 - blueapi.cover.v1.Cover/ListSavings
 - blueapi.cover.v1.Cover/ListSavings, runtime.WithHTTPPathPattern(/v1/allocations/savings/all
+- blueapi.cover.v1.Cover/ListSuggestedUnits
+- blueapi.cover.v1.Cover/ListSuggestedUnits, runtime.WithHTTPPathPattern(/v1/unitcost/autosuggest
 - blueapi.cover.v1.Cover/ListUnitTypes
 - blueapi.cover.v1.Cover/ListUnitTypes, runtime.WithHTTPPathPattern(/v1/unitcost
 - blueapi.cover.v1.Cover/MarkAsExecuted
