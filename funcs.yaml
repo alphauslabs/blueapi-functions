@@ -85,6 +85,8 @@ functions:
 - blueapi.billing.v1.Billing/DeleteAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/DeleteAdjustmentConfig
 - blueapi.billing.v1.Billing/DeleteAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
+- blueapi.billing.v1.Billing/DeleteBillingGroupCustomField
+- blueapi.billing.v1.Billing/DeleteBillingGroupCustomField, runtime.WithHTTPPathPattern(/v1/billinggroup/customfield/{groupId}/{customFieldId}
 - blueapi.billing.v1.Billing/DeleteCustomField
 - blueapi.billing.v1.Billing/DeleteCustomField, runtime.WithHTTPPathPattern(/v1/customfield/{id}
 - blueapi.billing.v1.Billing/DeleteCustomizedBillingService
