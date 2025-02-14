@@ -57,6 +57,8 @@ functions:
 - blueapi.admin.v1.Admin/UpdateNotificationChannel, runtime.WithHTTPPathPattern(/admin/v1/notification/channels/{id}
 - blueapi.admin.v1.Admin/UpdateWaveFeatureSetting
 - blueapi.admin.v1.Admin/UpdateWaveFeatureSetting, runtime.WithHTTPPathPattern(/admin/v1/wavefeatures
+- blueapi.billing.v1.Billing/AddAccountToBillingGroup
+- blueapi.billing.v1.Billing/AddAccountToBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroup/account
 - blueapi.billing.v1.Billing/AddBillingGroupCustomField
 - blueapi.billing.v1.Billing/AddBillingGroupCustomField, runtime.WithHTTPPathPattern(/v1/billinggroup/customfield
 - blueapi.billing.v1.Billing/CreateAccessGroup
