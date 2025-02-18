@@ -71,6 +71,8 @@ functions:
 - blueapi.billing.v1.Billing/CreateAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
 - blueapi.billing.v1.Billing/CreateBillingGroup
 - blueapi.billing.v1.Billing/CreateBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups
+- blueapi.billing.v1.Billing/CreateBillingGroupInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/CreateBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}
 - blueapi.billing.v1.Billing/CreateCustomField
 - blueapi.billing.v1.Billing/CreateCustomField, runtime.WithHTTPPathPattern(/v1/customfield
 - blueapi.billing.v1.Billing/CreateCustomizedBillingService
@@ -91,6 +93,8 @@ functions:
 - blueapi.billing.v1.Billing/DeleteAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
 - blueapi.billing.v1.Billing/DeleteBillingGroupCustomField
 - blueapi.billing.v1.Billing/DeleteBillingGroupCustomField, runtime.WithHTTPPathPattern(/v1/billinggroup/customfield/{groupId}/{customFieldId}
+- blueapi.billing.v1.Billing/DeleteBillingGroupInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/DeleteBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}
 - blueapi.billing.v1.Billing/DeleteCustomField
 - blueapi.billing.v1.Billing/DeleteCustomField, runtime.WithHTTPPathPattern(/v1/customfield/{id}
 - blueapi.billing.v1.Billing/DeleteCustomizedBillingService
@@ -195,6 +199,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/UpdateAdjustmentConfig
 - blueapi.billing.v1.Billing/UpdateAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
+- blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceTemplate
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceTemplate, runtime.WithHTTPPathPattern(/v1/billinggroups/{id}/invoicetemplate
 - blueapi.billing.v1.Billing/UpdateCustomField
