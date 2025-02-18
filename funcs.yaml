@@ -61,6 +61,8 @@ functions:
 - blueapi.billing.v1.Billing/AddAccountToBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroup/account
 - blueapi.billing.v1.Billing/AddBillingGroupCustomField
 - blueapi.billing.v1.Billing/AddBillingGroupCustomField, runtime.WithHTTPPathPattern(/v1/billinggroup/customfield
+- blueapi.billing.v1.Billing/AddTagsToBillingGroup
+- blueapi.billing.v1.Billing/AddTagsToBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroup/tags
 - blueapi.billing.v1.Billing/CreateAccessGroup
 - blueapi.billing.v1.Billing/CreateAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups
 - blueapi.billing.v1.Billing/CreateAccountInvoiceServiceDiscounts
