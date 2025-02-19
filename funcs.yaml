@@ -199,6 +199,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/UpdateAdjustmentConfig
 - blueapi.billing.v1.Billing/UpdateAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
+- blueapi.billing.v1.Billing/UpdateBillingGroupBasicInformation
+- blueapi.billing.v1.Billing/UpdateBillingGroupBasicInformation, runtime.WithHTTPPathPattern(/v1/billinggroup
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/billinggroup
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceTemplate
