@@ -213,6 +213,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/UpdateInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/UpdateInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{id}
+- blueapi.billing.v1.Billing/UpdateNonTagGroupToBillingGroup
+- blueapi.billing.v1.Billing/UpdateNonTagGroupToBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}/{vendor}/untaggedgroups
 - blueapi.billing.v1.Billing/UpdateReseller
 - blueapi.billing.v1.Billing/UpdateReseller, runtime.WithHTTPPathPattern(/v1/resellers/{id}
 - blueapi.billing.v1.Billing/UpdateTagsAddingSetting
