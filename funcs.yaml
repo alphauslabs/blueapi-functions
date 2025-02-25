@@ -73,6 +73,8 @@ functions:
 - blueapi.billing.v1.Billing/CreateBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/CreateBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/CreateBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/billinggroup
+- blueapi.billing.v1.Billing/CreateBillingGroupMerged
+- blueapi.billing.v1.Billing/CreateBillingGroupMerged, runtime.WithHTTPPathPattern(/v1/billinggroups/merged
 - blueapi.billing.v1.Billing/CreateCustomField
 - blueapi.billing.v1.Billing/CreateCustomField, runtime.WithHTTPPathPattern(/v1/customfield
 - blueapi.billing.v1.Billing/CreateCustomizedBillingService
