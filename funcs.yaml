@@ -397,6 +397,8 @@ functions:
 - blueapi.cover.v1.Cover/CreateMember, runtime.WithHTTPPathPattern(/v1/members
 - blueapi.cover.v1.Cover/CreateProfiling
 - blueapi.cover.v1.Cover/CreateProfiling, runtime.WithHTTPPathPattern(/v1/members/profile
+- blueapi.cover.v1.Cover/CreateSharedResource
+- blueapi.cover.v1.Cover/CreateSharedResource, runtime.WithHTTPPathPattern(/v1/unitcost/sharedresources
 - blueapi.cover.v1.Cover/CreateUnitType
 - blueapi.cover.v1.Cover/CreateUnitType, runtime.WithHTTPPathPattern(/v1/unitcost
 - blueapi.cover.v1.Cover/CreateView
@@ -421,6 +423,8 @@ functions:
 - blueapi.cover.v1.Cover/DeleteDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount/{id}
 - blueapi.cover.v1.Cover/DeleteMember
 - blueapi.cover.v1.Cover/DeleteMember, runtime.WithHTTPPathPattern(/v1/members/{userId}
+- blueapi.cover.v1.Cover/DeleteSharedResource
+- blueapi.cover.v1.Cover/DeleteSharedResource, runtime.WithHTTPPathPattern(/v1/unitcost/sharedresources/{id}
 - blueapi.cover.v1.Cover/DeleteUnitType
 - blueapi.cover.v1.Cover/DeleteUnitType, runtime.WithHTTPPathPattern(/v1/unitcost/{id}
 - blueapi.cover.v1.Cover/DeleteView
@@ -503,6 +507,8 @@ functions:
 - blueapi.cover.v1.Cover/GetRightSizingRecommendation, runtime.WithHTTPPathPattern(/v1/rightsizingrecommendation/{costGroupId}
 - blueapi.cover.v1.Cover/GetServices
 - blueapi.cover.v1.Cover/GetServices, runtime.WithHTTPPathPattern(/v1/{vendor}/services/{costGroupId}
+- blueapi.cover.v1.Cover/GetSharedResource
+- blueapi.cover.v1.Cover/GetSharedResource, runtime.WithHTTPPathPattern(/v1/unitcost/sharedresources/{id}
 - blueapi.cover.v1.Cover/GetTags
 - blueapi.cover.v1.Cover/GetTags, runtime.WithHTTPPathPattern(/v1/{vendor}/tags/{costGroupId}
 - blueapi.cover.v1.Cover/GetUnitType
@@ -541,6 +547,8 @@ functions:
 - blueapi.cover.v1.Cover/ListRecommendationsV2, runtime.WithHTTPPathPattern(/v1/recommendations/all
 - blueapi.cover.v1.Cover/ListSavings
 - blueapi.cover.v1.Cover/ListSavings, runtime.WithHTTPPathPattern(/v1/allocations/savings/all
+- blueapi.cover.v1.Cover/ListSharedResources
+- blueapi.cover.v1.Cover/ListSharedResources, runtime.WithHTTPPathPattern(/v1/unitcost/sharedresources
 - blueapi.cover.v1.Cover/ListSuggestedUnits
 - blueapi.cover.v1.Cover/ListSuggestedUnits, runtime.WithHTTPPathPattern(/v1/unitcost/autosuggest
 - blueapi.cover.v1.Cover/ListUnitTypes
@@ -637,6 +645,8 @@ functions:
 - blueapi.cover.v1.Cover/UpdateDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount/{id}
 - blueapi.cover.v1.Cover/UpdateMemberPermission
 - blueapi.cover.v1.Cover/UpdateMemberPermission, runtime.WithHTTPPathPattern(/v1/members/{userId}/isadmin
+- blueapi.cover.v1.Cover/UpdateSharedResource
+- blueapi.cover.v1.Cover/UpdateSharedResource, runtime.WithHTTPPathPattern(/v1/unitcost/sharedresources/{id}
 - blueapi.cover.v1.Cover/UpdateSideMenuState
 - blueapi.cover.v1.Cover/UpdateSideMenuState, runtime.WithHTTPPathPattern(/v1/views/{viewId}/sidemenustate
 - blueapi.cover.v1.Cover/UpdateUnitType
