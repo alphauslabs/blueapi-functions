@@ -87,6 +87,8 @@ functions:
 - blueapi.billing.v1.Billing/CreateInvoice, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/CreateInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/CreateInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts
+- blueapi.billing.v1.Billing/CreateInvoiceWithSettings
+- blueapi.billing.v1.Billing/CreateInvoiceWithSettings, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/CreateReseller
 - blueapi.billing.v1.Billing/CreateReseller, runtime.WithHTTPPathPattern(/v1/resellers
 - blueapi.billing.v1.Billing/DeleteAccessGroup
