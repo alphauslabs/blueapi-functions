@@ -64,6 +64,7 @@ functions:
 - blueapi.billing.v1.Billing/AddTagsToBillingGroup
 - blueapi.billing.v1.Billing/AddTagsToBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroup/tags
 - blueapi.billing.v1.Billing/ApplyInvoiceAdjustments
+- blueapi.billing.v1.Billing/ApplyInvoiceAdjustments, runtime.WithHTTPPathPattern(/v1/{vendor}/invoiceadjustments
 - blueapi.billing.v1.Billing/CreateAccessGroup
 - blueapi.billing.v1.Billing/CreateAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups
 - blueapi.billing.v1.Billing/CreateAccountInvoiceServiceDiscounts
