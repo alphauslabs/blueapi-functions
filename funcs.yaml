@@ -133,6 +133,8 @@ functions:
 - blueapi.billing.v1.Billing/GetAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
 - blueapi.billing.v1.Billing/GetBillingGroup
 - blueapi.billing.v1.Billing/GetBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/{billingInternalId}
+- blueapi.billing.v1.Billing/GetBillingGroupAccountSupportPlan
+- blueapi.billing.v1.Billing/GetBillingGroupAccountSupportPlan, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}/{vendor}/supportplan
 - blueapi.billing.v1.Billing/GetBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/GetBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/billinggroup
 - blueapi.billing.v1.Billing/GetBillingSetting
@@ -207,6 +209,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/UpdateAdjustmentConfig
 - blueapi.billing.v1.Billing/UpdateAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
+- blueapi.billing.v1.Billing/UpdateBillingGroupAccountSupportPlan
+- blueapi.billing.v1.Billing/UpdateBillingGroupAccountSupportPlan, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}/{vendor}/supportplan
 - blueapi.billing.v1.Billing/UpdateBillingGroupBasicInformation
 - blueapi.billing.v1.Billing/UpdateBillingGroupBasicInformation, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
 - blueapi.billing.v1.Billing/UpdateBillingGroupCustomFields
