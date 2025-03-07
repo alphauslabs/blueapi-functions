@@ -63,8 +63,10 @@ functions:
 - blueapi.billing.v1.Billing/AddBillingGroupCustomField, runtime.WithHTTPPathPattern(/v1/billinggroup/customfield
 - blueapi.billing.v1.Billing/AddTagsToBillingGroup
 - blueapi.billing.v1.Billing/AddTagsToBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroup/tags
-- blueapi.billing.v1.Billing/ApplyInvoiceAdjustments
-- blueapi.billing.v1.Billing/ApplyInvoiceAdjustments, runtime.WithHTTPPathPattern(/v1/{vendor}/invoiceadjustments
+- blueapi.billing.v1.Billing/AllocateAdjustmentEntry
+- blueapi.billing.v1.Billing/AllocateAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries/{id}/allocate
+- blueapi.billing.v1.Billing/ApplyAdjustmentEntry
+- blueapi.billing.v1.Billing/ApplyAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries
 - blueapi.billing.v1.Billing/CreateAccessGroup
 - blueapi.billing.v1.Billing/CreateAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups
 - blueapi.billing.v1.Billing/CreateAccountInvoiceServiceDiscounts
@@ -189,6 +191,8 @@ functions:
 - blueapi.billing.v1.Billing/ListResellers, runtime.WithHTTPPathPattern(/v1/resellers
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
 - blueapi.billing.v1.Billing/ListUsageCostsDrift, runtime.WithHTTPPathPattern(/v1/{vendor}/usagecostsdrift
+- blueapi.billing.v1.Billing/ReadAdjustmentEntries
+- blueapi.billing.v1.Billing/ReadAdjustmentEntries, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries
 - blueapi.billing.v1.Billing/ReadCustomizedBillingServices
 - blueapi.billing.v1.Billing/ReadCustomizedBillingServices, runtime.WithHTTPPathPattern(/v1/customizedbillingservices
 - blueapi.billing.v1.Billing/ReadInvoiceAdjustments
@@ -199,10 +203,14 @@ functions:
 - blueapi.billing.v1.Billing/ReadUntaggedGroups, runtime.WithHTTPPathPattern(/v1/{vendor}/untaggedgroups
 - blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
+- blueapi.billing.v1.Billing/RestoreAdjustmentEntry
+- blueapi.billing.v1.Billing/RestoreAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries
 - blueapi.billing.v1.Billing/SaveInvoiceSettings
 - blueapi.billing.v1.Billing/SaveInvoiceSettings, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/SetCustomizedBillingServiceBillingGroup
 - blueapi.billing.v1.Billing/SetCustomizedBillingServiceBillingGroup, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/billinggroup/{groupId}/{vendor}
+- blueapi.billing.v1.Billing/SplitAdjustmentEntry
+- blueapi.billing.v1.Billing/SplitAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries/{id}/split
 - blueapi.billing.v1.Billing/UpdateAccessGroup
 - blueapi.billing.v1.Billing/UpdateAccessGroup, runtime.WithHTTPPathPattern(/v1/accessgroups/{id}
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts
