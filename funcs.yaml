@@ -417,6 +417,8 @@ functions:
 - blueapi.cover.v1.Cover/CreateProfiling, runtime.WithHTTPPathPattern(/v1/members/profile
 - blueapi.cover.v1.Cover/CreateSharedResource
 - blueapi.cover.v1.Cover/CreateSharedResource, runtime.WithHTTPPathPattern(/v1/unitcost/sharedresources
+- blueapi.cover.v1.Cover/CreateUnitMetric
+- blueapi.cover.v1.Cover/CreateUnitMetric, runtime.WithHTTPPathPattern(/v1/unitcost/metrics
 - blueapi.cover.v1.Cover/CreateUnitType
 - blueapi.cover.v1.Cover/CreateUnitType, runtime.WithHTTPPathPattern(/v1/unitcost
 - blueapi.cover.v1.Cover/CreateView
@@ -443,6 +445,8 @@ functions:
 - blueapi.cover.v1.Cover/DeleteMember, runtime.WithHTTPPathPattern(/v1/members/{userId}
 - blueapi.cover.v1.Cover/DeleteSharedResource
 - blueapi.cover.v1.Cover/DeleteSharedResource, runtime.WithHTTPPathPattern(/v1/unitcost/sharedresources/{id}
+- blueapi.cover.v1.Cover/DeleteUnitMetric
+- blueapi.cover.v1.Cover/DeleteUnitMetric, runtime.WithHTTPPathPattern(/v1/unitcost/metrics/{id}
 - blueapi.cover.v1.Cover/DeleteUnitType
 - blueapi.cover.v1.Cover/DeleteUnitType, runtime.WithHTTPPathPattern(/v1/unitcost/{id}
 - blueapi.cover.v1.Cover/DeleteView
@@ -529,6 +533,8 @@ functions:
 - blueapi.cover.v1.Cover/GetSharedResource, runtime.WithHTTPPathPattern(/v1/unitcost/sharedresources/{id}
 - blueapi.cover.v1.Cover/GetTags
 - blueapi.cover.v1.Cover/GetTags, runtime.WithHTTPPathPattern(/v1/{vendor}/tags/{costGroupId}
+- blueapi.cover.v1.Cover/GetUnitMetric
+- blueapi.cover.v1.Cover/GetUnitMetric, runtime.WithHTTPPathPattern(/v1/unitcost/metrics/{id}
 - blueapi.cover.v1.Cover/GetUnitType
 - blueapi.cover.v1.Cover/GetUnitType, runtime.WithHTTPPathPattern(/v1/unitcost/{id}
 - blueapi.cover.v1.Cover/GetUserDetails
@@ -569,6 +575,8 @@ functions:
 - blueapi.cover.v1.Cover/ListSharedResources, runtime.WithHTTPPathPattern(/v1/unitcost/sharedresources
 - blueapi.cover.v1.Cover/ListSuggestedUnits
 - blueapi.cover.v1.Cover/ListSuggestedUnits, runtime.WithHTTPPathPattern(/v1/unitcost/autosuggest
+- blueapi.cover.v1.Cover/ListUnitMetrics
+- blueapi.cover.v1.Cover/ListUnitMetrics, runtime.WithHTTPPathPattern(/v1/unitcost/metrics
 - blueapi.cover.v1.Cover/ListUnitTypes
 - blueapi.cover.v1.Cover/ListUnitTypes, runtime.WithHTTPPathPattern(/v1/unitcost
 - blueapi.cover.v1.Cover/MarkAsExecuted
@@ -667,6 +675,8 @@ functions:
 - blueapi.cover.v1.Cover/UpdateSharedResource, runtime.WithHTTPPathPattern(/v1/unitcost/sharedresources/{id}
 - blueapi.cover.v1.Cover/UpdateSideMenuState
 - blueapi.cover.v1.Cover/UpdateSideMenuState, runtime.WithHTTPPathPattern(/v1/views/{viewId}/sidemenustate
+- blueapi.cover.v1.Cover/UpdateUnitMetric
+- blueapi.cover.v1.Cover/UpdateUnitMetric, runtime.WithHTTPPathPattern(/v1/unitcost/metrics/{id}
 - blueapi.cover.v1.Cover/UpdateUnitType
 - blueapi.cover.v1.Cover/UpdateUnitType, runtime.WithHTTPPathPattern(/v1/unitcost/{id}
 - blueapi.cover.v1.Cover/UpdateUserAppTheme
