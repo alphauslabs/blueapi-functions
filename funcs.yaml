@@ -417,6 +417,8 @@ functions:
 - blueapi.cover.v1.Cover/CreateProfiling, runtime.WithHTTPPathPattern(/v1/members/profile
 - blueapi.cover.v1.Cover/CreateSharedResource
 - blueapi.cover.v1.Cover/CreateSharedResource, runtime.WithHTTPPathPattern(/v1/unitcost/sharedresources
+- blueapi.cover.v1.Cover/CreateUnitFromSuggested
+- blueapi.cover.v1.Cover/CreateUnitFromSuggested, runtime.WithHTTPPathPattern(/v1/unitcost/autosuggest/create
 - blueapi.cover.v1.Cover/CreateUnitMetric
 - blueapi.cover.v1.Cover/CreateUnitMetric, runtime.WithHTTPPathPattern(/v1/unitcost/metrics
 - blueapi.cover.v1.Cover/CreateUnitType
@@ -581,6 +583,8 @@ functions:
 - blueapi.cover.v1.Cover/ListUnitTypes, runtime.WithHTTPPathPattern(/v1/unitcost
 - blueapi.cover.v1.Cover/MarkAsExecuted
 - blueapi.cover.v1.Cover/MarkAsExecuted, runtime.WithHTTPPathPattern(/v1/recommendations/optimization/executed
+- blueapi.cover.v1.Cover/MergeSuggestedUnits
+- blueapi.cover.v1.Cover/MergeSuggestedUnits, runtime.WithHTTPPathPattern(/v1/unitcost/autosuggest/merge
 - blueapi.cover.v1.Cover/ModifyResourceType
 - blueapi.cover.v1.Cover/ModifyResourceType, runtime.WithHTTPPathPattern(/v1/{vendor}/resource/modify
 - blueapi.cover.v1.Cover/OnboardOrg
