@@ -211,6 +211,8 @@ functions:
 - blueapi.billing.v1.Billing/SaveInvoiceSettings, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/SetCustomizedBillingServiceBillingGroup
 - blueapi.billing.v1.Billing/SetCustomizedBillingServiceBillingGroup, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/billinggroup/{groupId}/{vendor}
+- blueapi.billing.v1.Billing/SetGlobalExchangeRate
+- blueapi.billing.v1.Billing/SetGlobalExchangeRate, runtime.WithHTTPPathPattern(/v1/exchangerate/global/{vendor}/{month}
 - blueapi.billing.v1.Billing/SplitAdjustmentEntry
 - blueapi.billing.v1.Billing/SplitAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries/{id}/split
 - blueapi.billing.v1.Billing/UpdateAccessGroup
