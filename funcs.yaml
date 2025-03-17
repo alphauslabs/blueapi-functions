@@ -583,6 +583,8 @@ functions:
 - blueapi.cover.v1.Cover/ListUnitMetrics, runtime.WithHTTPPathPattern(/v1/unitcost/metrics
 - blueapi.cover.v1.Cover/ListUnitTypes
 - blueapi.cover.v1.Cover/ListUnitTypes, runtime.WithHTTPPathPattern(/v1/unitcost
+- blueapi.cover.v1.Cover/ListUnregisteredAccounts
+- blueapi.cover.v1.Cover/ListUnregisteredAccounts, runtime.WithHTTPPathPattern(/v1/account/unregistered
 - blueapi.cover.v1.Cover/MarkAsExecuted
 - blueapi.cover.v1.Cover/MarkAsExecuted, runtime.WithHTTPPathPattern(/v1/recommendations/optimization/executed
 - blueapi.cover.v1.Cover/MergeSuggestedUnits
