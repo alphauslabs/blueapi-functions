@@ -209,10 +209,14 @@ functions:
 - blueapi.billing.v1.Billing/RestoreAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries
 - blueapi.billing.v1.Billing/SaveInvoiceSettings
 - blueapi.billing.v1.Billing/SaveInvoiceSettings, runtime.WithHTTPPathPattern(/v1/invoice/{date}
+- blueapi.billing.v1.Billing/SetBillingGroupExchangeRate
+- blueapi.billing.v1.Billing/SetBillingGroupExchangeRate, runtime.WithHTTPPathPattern(/v1/exchangerate/billinggroup/{month}
 - blueapi.billing.v1.Billing/SetCustomizedBillingServiceBillingGroup
 - blueapi.billing.v1.Billing/SetCustomizedBillingServiceBillingGroup, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/billinggroup/{groupId}/{vendor}
 - blueapi.billing.v1.Billing/SetGlobalExchangeRate
 - blueapi.billing.v1.Billing/SetGlobalExchangeRate, runtime.WithHTTPPathPattern(/v1/exchangerate/global/{vendor}/{month}
+- blueapi.billing.v1.Billing/SetPayerExchangeRate
+- blueapi.billing.v1.Billing/SetPayerExchangeRate, runtime.WithHTTPPathPattern(/v1/exchangerate/payer/{month}
 - blueapi.billing.v1.Billing/SplitAdjustmentEntry
 - blueapi.billing.v1.Billing/SplitAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries/{id}/split
 - blueapi.billing.v1.Billing/UpdateAccessGroup
