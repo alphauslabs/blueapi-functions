@@ -593,6 +593,8 @@ functions:
 - blueapi.cover.v1.Cover/MarkAsExecuted, runtime.WithHTTPPathPattern(/v1/recommendations/optimization/executed
 - blueapi.cover.v1.Cover/MergeSuggestedUnits
 - blueapi.cover.v1.Cover/MergeSuggestedUnits, runtime.WithHTTPPathPattern(/v1/unitcost/autosuggest/merge
+- blueapi.cover.v1.Cover/MergeUnits
+- blueapi.cover.v1.Cover/MergeUnits, runtime.WithHTTPPathPattern(/v1/unitcost/merge
 - blueapi.cover.v1.Cover/ModifyResourceType
 - blueapi.cover.v1.Cover/ModifyResourceType, runtime.WithHTTPPathPattern(/v1/{vendor}/resource/modify
 - blueapi.cover.v1.Cover/OnboardOrg
