@@ -151,6 +151,8 @@ functions:
 - blueapi.billing.v1.Billing/GetFreeFormat, runtime.WithHTTPPathPattern(/v1/freeformat/{groupId}
 - blueapi.billing.v1.Billing/GetInvoice
 - blueapi.billing.v1.Billing/GetInvoice, runtime.WithHTTPPathPattern(/v1/invoice/{date}
+- blueapi.billing.v1.Billing/GetInvoiceDisplaySettings
+- blueapi.billing.v1.Billing/GetInvoiceDisplaySettings, runtime.WithHTTPPathPattern(/v1/invoice/displaysettings
 - blueapi.billing.v1.Billing/GetInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/GetInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{id}
 - blueapi.billing.v1.Billing/GetInvoiceStatus
