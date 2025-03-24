@@ -209,6 +209,10 @@ functions:
 - blueapi.billing.v1.Billing/RemoveAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/RestoreAdjustmentEntry
 - blueapi.billing.v1.Billing/RestoreAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries
+- blueapi.billing.v1.Billing/RestoreAllocateAdjustmentEntry
+- blueapi.billing.v1.Billing/RestoreAllocateAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries/{id}/allocate
+- blueapi.billing.v1.Billing/RestoreSplitAdjustmentEntry
+- blueapi.billing.v1.Billing/RestoreSplitAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries/{id}/split
 - blueapi.billing.v1.Billing/SaveInvoiceSettings
 - blueapi.billing.v1.Billing/SaveInvoiceSettings, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/SetBillingGroupExchangeRate
