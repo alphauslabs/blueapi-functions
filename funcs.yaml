@@ -245,6 +245,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateCustomField, runtime.WithHTTPPathPattern(/v1/customfield/{id}
 - blueapi.billing.v1.Billing/UpdateCustomizedBillingService
 - blueapi.billing.v1.Billing/UpdateCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
+- blueapi.billing.v1.Billing/UpdateInvoiceDisplaySettings
+- blueapi.billing.v1.Billing/UpdateInvoiceDisplaySettings, runtime.WithHTTPPathPattern(/v1/invoice/displaysettings
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/UpdateInvoiceServiceDiscounts
