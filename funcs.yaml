@@ -743,6 +743,10 @@ functions:
 - blueapi.flow.v1.Flow/CreateSettings, runtime.WithHTTPPathPattern(/v1/settings
 - blueapi.flow.v1.Flow/GetInfo
 - blueapi.flow.v1.Flow/GetInfo, runtime.WithHTTPPathPattern(/v1/info
+- blueapi.flow.v1.Flow/GetSettings
+- blueapi.flow.v1.Flow/GetSettings, runtime.WithHTTPPathPattern(/v1/settings/{id}
+- blueapi.flow.v1.Flow/UpdateSettings
+- blueapi.flow.v1.Flow/UpdateSettings, runtime.WithHTTPPathPattern(/v1/settings/{id}
 - blueapi.iam.v1.Iam/CreateApiClient
 - blueapi.iam.v1.Iam/CreateApiClient, runtime.WithHTTPPathPattern(/iam/v1/apiclients
 - blueapi.iam.v1.Iam/CreateGroupRootUser
