@@ -305,8 +305,6 @@ functions:
 - blueapi.cost.v1.Cost/GetBreakevenPoint, runtime.WithHTTPPathPattern(/v1/{vendor}/bep/{orgId}
 - blueapi.cost.v1.Cost/GetBudgetAlerts
 - blueapi.cost.v1.Cost/GetBudgetAlerts, runtime.WithHTTPPathPattern(/v1/alerts/{id}
-- blueapi.cost.v1.Cost/GetCalculationPrerequisites
-- blueapi.cost.v1.Cost/GetCalculationPrerequisites, runtime.WithHTTPPathPattern(/v1/{vendor}/calculation/prerequisites/{month}
 - blueapi.cost.v1.Cost/GetCalculatorConfig
 - blueapi.cost.v1.Cost/GetCalculatorConfig, runtime.WithHTTPPathPattern(/v1/{vendor}/calculator/config
 - blueapi.cost.v1.Cost/GetCostAttributes
@@ -340,6 +338,8 @@ functions:
 - blueapi.cost.v1.Cost/ListAccounts
 - blueapi.cost.v1.Cost/ListAccounts, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts
 - blueapi.cost.v1.Cost/ListAccounts, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts/groups/{groupId}
+- blueapi.cost.v1.Cost/ListCalculationPrerequisites
+- blueapi.cost.v1.Cost/ListCalculationPrerequisites, runtime.WithHTTPPathPattern(/v1/{vendor}/calculation/prerequisites/{month}
 - blueapi.cost.v1.Cost/ListCalculationsHistory
 - blueapi.cost.v1.Cost/ListCalculationsHistory, runtime.WithHTTPPathPattern(/v1/{vendor}/calculations/history
 - blueapi.cost.v1.Cost/ListCalculationsSchedules
