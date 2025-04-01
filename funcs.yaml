@@ -237,6 +237,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateBillingGroupBasicInformation, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
 - blueapi.billing.v1.Billing/UpdateBillingGroupCustomFields
 - blueapi.billing.v1.Billing/UpdateBillingGroupCustomFields, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
+- blueapi.billing.v1.Billing/UpdateBillingGroupFreeFormat
+- blueapi.billing.v1.Billing/UpdateBillingGroupFreeFormat, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/billinggroup
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceTemplate
