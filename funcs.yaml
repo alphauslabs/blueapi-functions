@@ -135,6 +135,8 @@ functions:
 - blueapi.billing.v1.Billing/GetAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
 - blueapi.billing.v1.Billing/GetAdjustmentEntry
 - blueapi.billing.v1.Billing/GetAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries/{id}
+- blueapi.billing.v1.Billing/GetAnnouncement
+- blueapi.billing.v1.Billing/GetAnnouncement, runtime.WithHTTPPathPattern(/v1/reseller/announcements/{id}
 - blueapi.billing.v1.Billing/GetBillingGroup
 - blueapi.billing.v1.Billing/GetBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/{billingInternalId}
 - blueapi.billing.v1.Billing/GetBillingGroupAccountSupportPlan
