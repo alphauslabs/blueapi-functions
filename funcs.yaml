@@ -136,15 +136,21 @@ functions:
 - blueapi.billing.v1.Billing/GetAdjustmentEntry
 - blueapi.billing.v1.Billing/GetAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries/{id}
 - blueapi.billing.v1.Billing/GetAnnouncements
-- blueapi.billing.v1.Billing/GetAnnouncements, runtime.WithHTTPPathPattern(/v1/reseller/announcements/{id}
+- blueapi.billing.v1.Billing/GetAnnouncements, runtime.WithHTTPPathPattern(/v1/reseller/announcements/{announcementId}
 - blueapi.billing.v1.Billing/GetBillingGroup
 - blueapi.billing.v1.Billing/GetBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/{billingInternalId}
 - blueapi.billing.v1.Billing/GetBillingGroupAccountSupportPlan
 - blueapi.billing.v1.Billing/GetBillingGroupAccountSupportPlan, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}/{vendor}/supportplan
+- blueapi.billing.v1.Billing/GetBillingGroupAnnouncements
+- blueapi.billing.v1.Billing/GetBillingGroupAnnouncements, runtime.WithHTTPPathPattern(/v1/billinggroup/reseller/announcements/{groupId}
 - blueapi.billing.v1.Billing/GetBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/GetBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/billinggroup
 - blueapi.billing.v1.Billing/GetBillingSetting
 - blueapi.billing.v1.Billing/GetBillingSetting, runtime.WithHTTPPathPattern(/v1/settings
+- blueapi.billing.v1.Billing/GetCredits
+- blueapi.billing.v1.Billing/GetCredits, runtime.WithHTTPPathPattern(/v1/credits
+- blueapi.billing.v1.Billing/GetCsvSettings
+- blueapi.billing.v1.Billing/GetCsvSettings, runtime.WithHTTPPathPattern(/v1/csvsettings
 - blueapi.billing.v1.Billing/GetCustomizedBillingService
 - blueapi.billing.v1.Billing/GetCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
 - blueapi.billing.v1.Billing/GetCustomizedBillingServiceBillingGroup
