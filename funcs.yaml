@@ -73,6 +73,8 @@ functions:
 - blueapi.billing.v1.Billing/CreateAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/CreateAdjustmentConfig
 - blueapi.billing.v1.Billing/CreateAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
+- blueapi.billing.v1.Billing/CreateAnnouncement
+- blueapi.billing.v1.Billing/CreateAnnouncement, runtime.WithHTTPPathPattern(/v1/reseller/announcement
 - blueapi.billing.v1.Billing/CreateBillingGroup
 - blueapi.billing.v1.Billing/CreateBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/CreateBillingGroupInvoiceServiceDiscounts
@@ -99,6 +101,8 @@ functions:
 - blueapi.billing.v1.Billing/DeleteAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/DeleteAdjustmentConfig
 - blueapi.billing.v1.Billing/DeleteAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
+- blueapi.billing.v1.Billing/DeleteAnnouncement
+- blueapi.billing.v1.Billing/DeleteAnnouncement, runtime.WithHTTPPathPattern(/v1/reseller/announcement/{announcementId}
 - blueapi.billing.v1.Billing/DeleteBillinGroup
 - blueapi.billing.v1.Billing/DeleteBillinGroup, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
 - blueapi.billing.v1.Billing/DeleteBillingGroupCustomField
@@ -239,6 +243,12 @@ functions:
 - blueapi.billing.v1.Billing/UpdateAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/UpdateAdjustmentConfig
 - blueapi.billing.v1.Billing/UpdateAdjustmentConfig, runtime.WithHTTPPathPattern(/v1/adjustmentconfig/{vendor}
+- blueapi.billing.v1.Billing/UpdateAnnouncement
+- blueapi.billing.v1.Billing/UpdateAnnouncement, runtime.WithHTTPPathPattern(/v1/reseller/announcement/{announcementId}
+- blueapi.billing.v1.Billing/UpdateAnnouncementDate
+- blueapi.billing.v1.Billing/UpdateAnnouncementDate, runtime.WithHTTPPathPattern(/v1/reseller/announcements/{announcementId}/date
+- blueapi.billing.v1.Billing/UpdateAnnouncementsStatus
+- blueapi.billing.v1.Billing/UpdateAnnouncementsStatus, runtime.WithHTTPPathPattern(/v1/reseller/announcements/bulk/status
 - blueapi.billing.v1.Billing/UpdateBillingGroupAccountSupportPlan
 - blueapi.billing.v1.Billing/UpdateBillingGroupAccountSupportPlan, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}/{vendor}/supportplan
 - blueapi.billing.v1.Billing/UpdateBillingGroupBasicInformation
