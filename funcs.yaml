@@ -259,8 +259,12 @@ functions:
 - blueapi.billing.v1.Billing/UpdateBillingGroupFreeFormat, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/billinggroup
+- blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceSettings
+- blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceSettings, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceTemplate
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceTemplate, runtime.WithHTTPPathPattern(/v1/billinggroups/{id}/invoicetemplate
+- blueapi.billing.v1.Billing/UpdateBillingGroupLinkedResources
+- blueapi.billing.v1.Billing/UpdateBillingGroupLinkedResources, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
 - blueapi.billing.v1.Billing/UpdateCustomField
 - blueapi.billing.v1.Billing/UpdateCustomField, runtime.WithHTTPPathPattern(/v1/customfield/{id}
 - blueapi.billing.v1.Billing/UpdateCustomizedBillingService
