@@ -635,6 +635,8 @@ functions:
 - blueapi.cover.v1.Cover/OnboardOrg, runtime.WithHTTPPathPattern(/v1/members/onboard
 - blueapi.cover.v1.Cover/OptimizationHistory
 - blueapi.cover.v1.Cover/OptimizationHistory, runtime.WithHTTPPathPattern(/v1/recommendations/optimization/history
+- blueapi.cover.v1.Cover/PreviewGoogleSheet
+- blueapi.cover.v1.Cover/PreviewGoogleSheet, runtime.WithHTTPPathPattern(/v1/unitcost/metrics/preview/googlesheet
 - blueapi.cover.v1.Cover/ProcessAuth0User
 - blueapi.cover.v1.Cover/ProcessAuth0User, runtime.WithHTTPPathPattern(/v1/members/auth0
 - blueapi.cover.v1.Cover/ProxyCreateCompletion
