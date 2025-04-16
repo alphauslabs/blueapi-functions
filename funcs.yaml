@@ -499,6 +499,8 @@ functions:
 - blueapi.cover.v1.Cover/DeleteView, runtime.WithHTTPPathPattern(/v1/views/{viewId}
 - blueapi.cover.v1.Cover/ExecuteOptimization
 - blueapi.cover.v1.Cover/ExecuteOptimization, runtime.WithHTTPPathPattern(/v1/recommendations/execute
+- blueapi.cover.v1.Cover/GetAICostAndUsage
+- blueapi.cover.v1.Cover/GetAICostAndUsage, runtime.WithHTTPPathPattern(/v1/ai/costusage
 - blueapi.cover.v1.Cover/GetAccountAccess
 - blueapi.cover.v1.Cover/GetAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/{target}
 - blueapi.cover.v1.Cover/GetAccountAccessTemplateUrl
