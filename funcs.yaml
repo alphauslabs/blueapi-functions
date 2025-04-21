@@ -527,6 +527,8 @@ functions:
 - blueapi.cover.v1.Cover/GetChannelDetails, runtime.WithHTTPPathPattern(/v1/channels/{id}
 - blueapi.cover.v1.Cover/GetChannels
 - blueapi.cover.v1.Cover/GetChannels, runtime.WithHTTPPathPattern(/v1/channels
+- blueapi.cover.v1.Cover/GetContainerCostUsage
+- blueapi.cover.v1.Cover/GetContainerCostUsage, runtime.WithHTTPPathPattern(/v1/containers/costusage
 - blueapi.cover.v1.Cover/GetCostGroupAllocation
 - blueapi.cover.v1.Cover/GetCostGroupAllocation, runtime.WithHTTPPathPattern(/v1/allocations
 - blueapi.cover.v1.Cover/GetCostGroupAttribute
