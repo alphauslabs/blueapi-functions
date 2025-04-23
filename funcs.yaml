@@ -251,6 +251,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateAnnouncementsStatus, runtime.WithHTTPPathPattern(/v1/reseller/announcements/bulk/status
 - blueapi.billing.v1.Billing/UpdateBillingGroupAccountSupportPlan
 - blueapi.billing.v1.Billing/UpdateBillingGroupAccountSupportPlan, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}/{vendor}/supportplan
+- blueapi.billing.v1.Billing/UpdateBillingGroupAdditionalCharges
+- blueapi.billing.v1.Billing/UpdateBillingGroupAdditionalCharges, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
 - blueapi.billing.v1.Billing/UpdateBillingGroupBasicInformation
 - blueapi.billing.v1.Billing/UpdateBillingGroupBasicInformation, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
 - blueapi.billing.v1.Billing/UpdateBillingGroupCustomFields
@@ -265,6 +267,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateBillingGroupInvoiceTemplate, runtime.WithHTTPPathPattern(/v1/billinggroups/{id}/invoicetemplate
 - blueapi.billing.v1.Billing/UpdateBillingGroupLinkedResources
 - blueapi.billing.v1.Billing/UpdateBillingGroupLinkedResources, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
+- blueapi.billing.v1.Billing/UpdateBillingGroupResellerCharges
+- blueapi.billing.v1.Billing/UpdateBillingGroupResellerCharges, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
 - blueapi.billing.v1.Billing/UpdateCustomField
 - blueapi.billing.v1.Billing/UpdateCustomField, runtime.WithHTTPPathPattern(/v1/customfield/{id}
 - blueapi.billing.v1.Billing/UpdateCustomizedBillingService
