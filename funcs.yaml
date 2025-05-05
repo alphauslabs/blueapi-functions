@@ -140,7 +140,7 @@ functions:
 - blueapi.billing.v1.Billing/GetAdjustmentEntry
 - blueapi.billing.v1.Billing/GetAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries/{id}
 - blueapi.billing.v1.Billing/GetAnnouncements
-- blueapi.billing.v1.Billing/GetAnnouncements, runtime.WithHTTPPathPattern(/v1/reseller/announcements/{announcementId}
+- blueapi.billing.v1.Billing/GetAnnouncements, runtime.WithHTTPPathPattern(/billing/v1/reseller/announcements/{announcementId}
 - blueapi.billing.v1.Billing/GetBillingGroup
 - blueapi.billing.v1.Billing/GetBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/{billingInternalId}
 - blueapi.billing.v1.Billing/GetBillingGroupAccountSupportPlan
