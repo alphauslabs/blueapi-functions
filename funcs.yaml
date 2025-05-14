@@ -275,6 +275,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/{id}
 - blueapi.billing.v1.Billing/UpdateInvoiceDisplaySettings
 - blueapi.billing.v1.Billing/UpdateInvoiceDisplaySettings, runtime.WithHTTPPathPattern(/v1/invoice/displaysettings
+- blueapi.billing.v1.Billing/UpdateInvoiceExchangeRate
+- blueapi.billing.v1.Billing/UpdateInvoiceExchangeRate, runtime.WithHTTPPathPattern(/v1/invoice/exchangerate/{month}
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/UpdateInvoiceServiceDiscounts
