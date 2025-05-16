@@ -791,6 +791,8 @@ functions:
 - blueapi.flow.v1.Flow/GetRecommendationDetails, runtime.WithHTTPPathPattern(/v1/settings/recommendations/{id}
 - blueapi.flow.v1.Flow/GetSettings
 - blueapi.flow.v1.Flow/GetSettings, runtime.WithHTTPPathPattern(/v1/settings/{id}
+- blueapi.flow.v1.Flow/GetSettingsHistory
+- blueapi.flow.v1.Flow/GetSettingsHistory, runtime.WithHTTPPathPattern(/v1/settings/history/{id}
 - blueapi.flow.v1.Flow/UpdateSettings
 - blueapi.flow.v1.Flow/UpdateSettings, runtime.WithHTTPPathPattern(/v1/settings/{id}
 - blueapi.iam.v1.Iam/CreateApiClient
