@@ -857,6 +857,8 @@ functions:
 - blueapi.iam.v1.Iam/RefreshPartnerToken, runtime.WithHTTPPathPattern(/iam/v1/partners/{id}/token
 - blueapi.iam.v1.Iam/ResetRipplePassword
 - blueapi.iam.v1.Iam/ResetRipplePassword, runtime.WithHTTPPathPattern(/iam/v1/ripple/password
+- blueapi.iam.v1.Iam/SendRipplePasswordResetCode
+- blueapi.iam.v1.Iam/SendRipplePasswordResetCode, runtime.WithHTTPPathPattern(/iam/v1/ripple/password
 - blueapi.iam.v1.Iam/UpdateFeatureFlags
 - blueapi.iam.v1.Iam/UpdateFeatureFlags, runtime.WithHTTPPathPattern(/iam/v1/grouprootusers/{id}/features
 - blueapi.iam.v1.Iam/UpdateRole
