@@ -912,3 +912,5 @@ functions:
 - blueapi.pricing.v1.Pricing/GetPricing, runtime.WithHTTPPathPattern(/v0/{vendor}/pricing
 - blueapi.pricing.v1.Pricing/GetSupportedServices
 - blueapi.pricing.v1.Pricing/GetSupportedServices, runtime.WithHTTPPathPattern(/v0/{vendor}/services
+- blueapi.prism.v1.Prism/Test
+- blueapi.prism.v1.Prism/Test, runtime.WithHTTPPathPattern(/v1/test
