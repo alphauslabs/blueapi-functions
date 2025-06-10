@@ -912,5 +912,13 @@ functions:
 - blueapi.pricing.v1.Pricing/GetPricing, runtime.WithHTTPPathPattern(/v0/{vendor}/pricing
 - blueapi.pricing.v1.Pricing/GetSupportedServices
 - blueapi.pricing.v1.Pricing/GetSupportedServices, runtime.WithHTTPPathPattern(/v0/{vendor}/services
+- blueapi.prism.v1.Prism/CreateProject
+- blueapi.prism.v1.Prism/CreateProject, runtime.WithHTTPPathPattern(/v1/project
+- blueapi.prism.v1.Prism/DeleteProject
+- blueapi.prism.v1.Prism/DeleteProject, runtime.WithHTTPPathPattern(/v1/project/{id}
+- blueapi.prism.v1.Prism/GetProject
+- blueapi.prism.v1.Prism/GetProject, runtime.WithHTTPPathPattern(/v1/project/{id}
+- blueapi.prism.v1.Prism/ListProjects
+- blueapi.prism.v1.Prism/ListProjects, runtime.WithHTTPPathPattern(/v1/project/all
 - blueapi.prism.v1.Prism/Test
 - blueapi.prism.v1.Prism/Test, runtime.WithHTTPPathPattern(/v1/test
