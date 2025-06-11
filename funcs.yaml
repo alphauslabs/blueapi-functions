@@ -930,3 +930,5 @@ functions:
 - blueapi.prism.v1.Prism/Test, runtime.WithHTTPPathPattern(/v1/test
 - blueapi.prism.v1.Prism/UpdateOrg
 - blueapi.prism.v1.Prism/UpdateOrg, runtime.WithHTTPPathPattern(/v1/org/{id}
+- blueapi.prism.v1.Prism/VerifyUser
+- blueapi.prism.v1.Prism/VerifyUser, runtime.WithHTTPPathPattern(/v1/verify
