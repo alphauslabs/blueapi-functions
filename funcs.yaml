@@ -916,12 +916,12 @@ functions:
 - blueapi.prism.v1.Prism/CreateOrganization, runtime.WithHTTPPathPattern(/v1/org
 - blueapi.prism.v1.Prism/CreateProject
 - blueapi.prism.v1.Prism/CreateProject, runtime.WithHTTPPathPattern(/v1/project
-- blueapi.prism.v1.Prism/DeleteOrg
-- blueapi.prism.v1.Prism/DeleteOrg, runtime.WithHTTPPathPattern(/v1/org/{id}
+- blueapi.prism.v1.Prism/DeleteOrganization
+- blueapi.prism.v1.Prism/DeleteOrganization, runtime.WithHTTPPathPattern(/v1/org/{id}
 - blueapi.prism.v1.Prism/DeleteProject
 - blueapi.prism.v1.Prism/DeleteProject, runtime.WithHTTPPathPattern(/v1/project/{id}
-- blueapi.prism.v1.Prism/GetOrg
-- blueapi.prism.v1.Prism/GetOrg, runtime.WithHTTPPathPattern(/v1/org/{id}
+- blueapi.prism.v1.Prism/GetOrganization
+- blueapi.prism.v1.Prism/GetOrganization, runtime.WithHTTPPathPattern(/v1/org/{id}
 - blueapi.prism.v1.Prism/GetProject
 - blueapi.prism.v1.Prism/GetProject, runtime.WithHTTPPathPattern(/v1/project/{id}
 - blueapi.prism.v1.Prism/GetTeam
@@ -934,7 +934,7 @@ functions:
 - blueapi.prism.v1.Prism/ListTeams, runtime.WithHTTPPathPattern(/v1/team/all
 - blueapi.prism.v1.Prism/Test
 - blueapi.prism.v1.Prism/Test, runtime.WithHTTPPathPattern(/v1/test
-- blueapi.prism.v1.Prism/UpdateOrg
-- blueapi.prism.v1.Prism/UpdateOrg, runtime.WithHTTPPathPattern(/v1/org/{id}
+- blueapi.prism.v1.Prism/UpdateOrganization
+- blueapi.prism.v1.Prism/UpdateOrganization, runtime.WithHTTPPathPattern(/v1/org/{id}
 - blueapi.prism.v1.Prism/VerifyUser
 - blueapi.prism.v1.Prism/VerifyUser, runtime.WithHTTPPathPattern(/v1/verify
