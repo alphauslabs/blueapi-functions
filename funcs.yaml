@@ -920,6 +920,8 @@ functions:
 - blueapi.prism.v1.Prism/CreateProduct, runtime.WithHTTPPathPattern(/v1/product
 - blueapi.prism.v1.Prism/CreateProject
 - blueapi.prism.v1.Prism/CreateProject, runtime.WithHTTPPathPattern(/v1/project
+- blueapi.prism.v1.Prism/CreateTeam
+- blueapi.prism.v1.Prism/CreateTeam, runtime.WithHTTPPathPattern(/v1/team
 - blueapi.prism.v1.Prism/DeleteOrganization
 - blueapi.prism.v1.Prism/DeleteOrganization, runtime.WithHTTPPathPattern(/v1/org/{id}
 - blueapi.prism.v1.Prism/DeleteProject
