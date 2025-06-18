@@ -914,6 +914,8 @@ functions:
 - blueapi.pricing.v1.Pricing/GetPricing, runtime.WithHTTPPathPattern(/v0/{vendor}/pricing
 - blueapi.pricing.v1.Pricing/GetSupportedServices
 - blueapi.pricing.v1.Pricing/GetSupportedServices, runtime.WithHTTPPathPattern(/v0/{vendor}/services
+- blueapi.prism.v1.Prism/AssignProjectToTeam
+- blueapi.prism.v1.Prism/AssignProjectToTeam, runtime.WithHTTPPathPattern(/v1/projecttoteam/assign
 - blueapi.prism.v1.Prism/CreateOrganization
 - blueapi.prism.v1.Prism/CreateOrganization, runtime.WithHTTPPathPattern(/v1/org
 - blueapi.prism.v1.Prism/CreateProduct
@@ -924,6 +926,8 @@ functions:
 - blueapi.prism.v1.Prism/CreateTeam, runtime.WithHTTPPathPattern(/v1/team
 - blueapi.prism.v1.Prism/DeleteOrganization
 - blueapi.prism.v1.Prism/DeleteOrganization, runtime.WithHTTPPathPattern(/v1/org/{id}
+- blueapi.prism.v1.Prism/DeleteProduct
+- blueapi.prism.v1.Prism/DeleteProduct, runtime.WithHTTPPathPattern(/v1/product/{id}
 - blueapi.prism.v1.Prism/DeleteProject
 - blueapi.prism.v1.Prism/DeleteProject, runtime.WithHTTPPathPattern(/v1/project/{id}
 - blueapi.prism.v1.Prism/GetOrganization
