@@ -932,6 +932,8 @@ functions:
 - blueapi.prism.v1.Prism/DeleteProject, runtime.WithHTTPPathPattern(/v1/project/{id}
 - blueapi.prism.v1.Prism/DeleteTeam
 - blueapi.prism.v1.Prism/DeleteTeam, runtime.WithHTTPPathPattern(/v1/team/{id}
+- blueapi.prism.v1.Prism/GetIntegrationStatus
+- blueapi.prism.v1.Prism/GetIntegrationStatus, runtime.WithHTTPPathPattern(/v1/integration/status
 - blueapi.prism.v1.Prism/GetOrganization
 - blueapi.prism.v1.Prism/GetOrganization, runtime.WithHTTPPathPattern(/v1/org/{id}
 - blueapi.prism.v1.Prism/GetProject
