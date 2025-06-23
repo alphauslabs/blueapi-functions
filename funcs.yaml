@@ -942,6 +942,8 @@ functions:
 - blueapi.prism.v1.Prism/GetProject, runtime.WithHTTPPathPattern(/v1/project/{id}
 - blueapi.prism.v1.Prism/GetTeam
 - blueapi.prism.v1.Prism/GetTeam, runtime.WithHTTPPathPattern(/v1/team/{id}
+- blueapi.prism.v1.Prism/ListIntegrationStatus
+- blueapi.prism.v1.Prism/ListIntegrationStatus, runtime.WithHTTPPathPattern(/v1/integration/status/all
 - blueapi.prism.v1.Prism/ListProducts
 - blueapi.prism.v1.Prism/ListProducts, runtime.WithHTTPPathPattern(/v1/product/all
 - blueapi.prism.v1.Prism/ListProjectToTeam
