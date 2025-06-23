@@ -956,6 +956,8 @@ functions:
 - blueapi.prism.v1.Prism/ListTeams, runtime.WithHTTPPathPattern(/v1/team/all
 - blueapi.prism.v1.Prism/Test
 - blueapi.prism.v1.Prism/Test, runtime.WithHTTPPathPattern(/v1/test
+- blueapi.prism.v1.Prism/UpdateOrgTimezone
+- blueapi.prism.v1.Prism/UpdateOrgTimezone, runtime.WithHTTPPathPattern(/v1/org/{id}/timezone
 - blueapi.prism.v1.Prism/UpdateOrganization
 - blueapi.prism.v1.Prism/UpdateOrganization, runtime.WithHTTPPathPattern(/v1/org/{id}
 - blueapi.prism.v1.Prism/UpdateReportSchedule
