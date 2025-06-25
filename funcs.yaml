@@ -956,6 +956,8 @@ functions:
 - blueapi.prism.v1.Prism/ListTeamMembers, runtime.WithHTTPPathPattern(/v1/member/all
 - blueapi.prism.v1.Prism/ListTeams
 - blueapi.prism.v1.Prism/ListTeams, runtime.WithHTTPPathPattern(/v1/team/all
+- blueapi.prism.v1.Prism/ListWorkflows
+- blueapi.prism.v1.Prism/ListWorkflows, runtime.WithHTTPPathPattern(/v1/workflow/all
 - blueapi.prism.v1.Prism/Test
 - blueapi.prism.v1.Prism/Test, runtime.WithHTTPPathPattern(/v1/test
 - blueapi.prism.v1.Prism/UpdateOrgTimezone
@@ -964,5 +966,7 @@ functions:
 - blueapi.prism.v1.Prism/UpdateOrganization, runtime.WithHTTPPathPattern(/v1/org/{id}
 - blueapi.prism.v1.Prism/UpdateReportSchedule
 - blueapi.prism.v1.Prism/UpdateReportSchedule, runtime.WithHTTPPathPattern(/v1/reportschedule/{id}
+- blueapi.prism.v1.Prism/UpdateWorkflow
+- blueapi.prism.v1.Prism/UpdateWorkflow, runtime.WithHTTPPathPattern(/v1/workflow/{name}
 - blueapi.prism.v1.Prism/VerifyUser
 - blueapi.prism.v1.Prism/VerifyUser, runtime.WithHTTPPathPattern(/v1/verify
