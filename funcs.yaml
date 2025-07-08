@@ -964,6 +964,8 @@ functions:
 - blueapi.prism.v1.Prism/ListTeams, runtime.WithHTTPPathPattern(/v1/team/all
 - blueapi.prism.v1.Prism/ListWorkflows
 - blueapi.prism.v1.Prism/ListWorkflows, runtime.WithHTTPPathPattern(/v1/workflow/all
+- blueapi.prism.v1.Prism/ShareGDrive
+- blueapi.prism.v1.Prism/ShareGDrive, runtime.WithHTTPPathPattern(/v1/gdrive/share
 - blueapi.prism.v1.Prism/Test
 - blueapi.prism.v1.Prism/Test, runtime.WithHTTPPathPattern(/v1/test
 - blueapi.prism.v1.Prism/UpdateOrgTimezone
