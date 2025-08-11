@@ -988,5 +988,7 @@ functions:
 - blueapi.prism.v1.Prism/UpdateWorkflow, runtime.WithHTTPPathPattern(/v1/workflow/{name}
 - blueapi.prism.v1.Prism/VerifyUser
 - blueapi.prism.v1.Prism/VerifyUser, runtime.WithHTTPPathPattern(/v1/verify
+- blueapi.vortex.v1.Vortex/CreateOrg
+- blueapi.vortex.v1.Vortex/CreateOrg, runtime.WithHTTPPathPattern(/v1/organizations
 - blueapi.vortex.v1.Vortex/Test
-- blueapi.vortex.v1.Vortex/Test, runtime.WithHTTPPathPattern(/v1/test
+- blueapi.vortex.v1.Vortex/Test, runtime.WithHTTPPathPattern(/v1/testing
