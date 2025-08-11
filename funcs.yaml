@@ -990,5 +990,7 @@ functions:
 - blueapi.prism.v1.Prism/VerifyUser, runtime.WithHTTPPathPattern(/v1/verify
 - blueapi.vortex.v1.Vortex/CreateOrg
 - blueapi.vortex.v1.Vortex/CreateOrg, runtime.WithHTTPPathPattern(/v1/organizations
+- blueapi.vortex.v1.Vortex/GetUser
+- blueapi.vortex.v1.Vortex/GetUser, runtime.WithHTTPPathPattern(/v1/user/{email}
 - blueapi.vortex.v1.Vortex/Test
 - blueapi.vortex.v1.Vortex/Test, runtime.WithHTTPPathPattern(/v1/testing
