@@ -521,6 +521,8 @@ functions:
 - blueapi.cover.v1.Cover/GetAlerts, runtime.WithHTTPPathPattern(/v1/alerts/cost
 - blueapi.cover.v1.Cover/GetAllocationAttributes
 - blueapi.cover.v1.Cover/GetAllocationAttributes, runtime.WithHTTPPathPattern(/v1/allocators/attribute
+- blueapi.cover.v1.Cover/GetAllocationSources
+- blueapi.cover.v1.Cover/GetAllocationSources, runtime.WithHTTPPathPattern(/v1/allocators/source
 - blueapi.cover.v1.Cover/GetAnomalyAlert
 - blueapi.cover.v1.Cover/GetAnomalyAlert, runtime.WithHTTPPathPattern(/v1/alerts/anomaly/{id}
 - blueapi.cover.v1.Cover/GetAnomalyinCostGroup
