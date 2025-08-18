@@ -799,6 +799,8 @@ functions:
 - blueapi.flow.v1.Flow/GetAwsAccounts, runtime.WithHTTPPathPattern(/v1/aws/{billingInternalId}/accounts
 - blueapi.flow.v1.Flow/GetCostExplorerAccessTemplateUrl
 - blueapi.flow.v1.Flow/GetCostExplorerAccessTemplateUrl, runtime.WithHTTPPathPattern(/v1/aws/xacct/cea
+- blueapi.flow.v1.Flow/GetCrossAccountAccessDetails
+- blueapi.flow.v1.Flow/GetCrossAccountAccessDetails, runtime.WithHTTPPathPattern(/v1/aws/xacct
 - blueapi.flow.v1.Flow/GetDailyUsageCostDetails
 - blueapi.flow.v1.Flow/GetDailyUsageCostDetails, runtime.WithHTTPPathPattern(/v1/usagecost
 - blueapi.flow.v1.Flow/GetInfo
