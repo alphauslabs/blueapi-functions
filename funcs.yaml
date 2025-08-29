@@ -793,8 +793,6 @@ functions:
 - blueapi.flow.v1.Flow/CreateCostExplorerAccess, runtime.WithHTTPPathPattern(/v1/aws/xacct/cea
 - blueapi.flow.v1.Flow/CreateSPPurchaseAccess
 - blueapi.flow.v1.Flow/CreateSPPurchaseAccess, runtime.WithHTTPPathPattern(/v1/aws/xacct/spa
-- blueapi.flow.v1.Flow/CreateSettings
-- blueapi.flow.v1.Flow/CreateSettings, runtime.WithHTTPPathPattern(/v1/settings
 - blueapi.flow.v1.Flow/GetAwsAccounts
 - blueapi.flow.v1.Flow/GetAwsAccounts, runtime.WithHTTPPathPattern(/v1/aws/{billingInternalId}/accounts
 - blueapi.flow.v1.Flow/GetCostExplorerAccessTemplateUrl
@@ -813,8 +811,8 @@ functions:
 - blueapi.flow.v1.Flow/GetSettings, runtime.WithHTTPPathPattern(/v1/settings/{id}
 - blueapi.flow.v1.Flow/GetSettingsHistory
 - blueapi.flow.v1.Flow/GetSettingsHistory, runtime.WithHTTPPathPattern(/v1/settings/history/{id}
-- blueapi.flow.v1.Flow/UpdateSettings
-- blueapi.flow.v1.Flow/UpdateSettings, runtime.WithHTTPPathPattern(/v1/settings/{id}
+- blueapi.flow.v1.Flow/SetSettings
+- blueapi.flow.v1.Flow/SetSettings, runtime.WithHTTPPathPattern(/v1/settings/{id}
 - blueapi.iam.v1.Iam/CreateApiClient
 - blueapi.iam.v1.Iam/CreateApiClient, runtime.WithHTTPPathPattern(/iam/v1/apiclients
 - blueapi.iam.v1.Iam/CreateGroupRootUser
