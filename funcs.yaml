@@ -561,6 +561,8 @@ functions:
 - blueapi.cover.v1.Cover/GetDataAccess, runtime.WithHTTPPathPattern(/v1/account/{target}
 - blueapi.cover.v1.Cover/GetDiscountExpirationAlert
 - blueapi.cover.v1.Cover/GetDiscountExpirationAlert, runtime.WithHTTPPathPattern(/v1/alerts/expire/discount/{id}
+- blueapi.cover.v1.Cover/GetDiscountPlan
+- blueapi.cover.v1.Cover/GetDiscountPlan, runtime.WithHTTPPathPattern(/v1/{vendor}/discountplan/{orgId}
 - blueapi.cover.v1.Cover/GetDiscountRecommendations
 - blueapi.cover.v1.Cover/GetDiscountRecommendations, runtime.WithHTTPPathPattern(/v1/discount
 - blueapi.cover.v1.Cover/GetExecutionStatus
