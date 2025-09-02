@@ -1002,3 +1002,5 @@ functions:
 - blueapi.vortex.v1.Vortex/ListPrompts, runtime.WithHTTPPathPattern(/v1/prompts
 - blueapi.vortex.v1.Vortex/Test
 - blueapi.vortex.v1.Vortex/Test, runtime.WithHTTPPathPattern(/v1/testing
+- blueapi.vortex.v1.Vortex/VerifyInvitedUser
+- blueapi.vortex.v1.Vortex/VerifyInvitedUser, runtime.WithHTTPPathPattern(/v1/invite/verify
