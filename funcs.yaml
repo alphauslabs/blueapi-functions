@@ -793,6 +793,8 @@ functions:
 - blueapi.cover.v1.Cover/VerifyAPIAccess, runtime.WithHTTPPathPattern(/v1/apiaccess/verify
 - blueapi.flow.v1.Flow/CreateCostExplorerAccess
 - blueapi.flow.v1.Flow/CreateCostExplorerAccess, runtime.WithHTTPPathPattern(/v1/aws/xacct/cea
+- blueapi.flow.v1.Flow/CreateMessageToSlack
+- blueapi.flow.v1.Flow/CreateMessageToSlack, runtime.WithHTTPPathPattern(/v1/notification/slack
 - blueapi.flow.v1.Flow/CreateSPPurchaseAccess
 - blueapi.flow.v1.Flow/CreateSPPurchaseAccess, runtime.WithHTTPPathPattern(/v1/aws/xacct/spa
 - blueapi.flow.v1.Flow/GetAwsAccounts
