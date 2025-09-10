@@ -811,6 +811,8 @@ functions:
 - blueapi.flow.v1.Flow/GetRecommendationDetails, runtime.WithHTTPPathPattern(/v1/settings/recommendations/{id}
 - blueapi.flow.v1.Flow/GetSPPurchaseAccessTemplateUrl
 - blueapi.flow.v1.Flow/GetSPPurchaseAccessTemplateUrl, runtime.WithHTTPPathPattern(/v1/aws/xacct/spa
+- blueapi.flow.v1.Flow/GetSPToPurchaseDetails
+- blueapi.flow.v1.Flow/GetSPToPurchaseDetails, runtime.WithHTTPPathPattern(/v1/sp/purchase/details/{payerId}
 - blueapi.flow.v1.Flow/GetSettings
 - blueapi.flow.v1.Flow/GetSettings, runtime.WithHTTPPathPattern(/v1/settings/{id}
 - blueapi.flow.v1.Flow/GetSettingsHistory
