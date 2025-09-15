@@ -553,6 +553,8 @@ functions:
 - blueapi.cover.v1.Cover/GetCostGroups, runtime.WithHTTPPathPattern(/v1/costgroups
 - blueapi.cover.v1.Cover/GetCostUsage
 - blueapi.cover.v1.Cover/GetCostUsage, runtime.WithHTTPPathPattern(/v1/costusage
+- blueapi.cover.v1.Cover/GetCostUsageV2
+- blueapi.cover.v1.Cover/GetCostUsageV2, runtime.WithHTTPPathPattern(/v1/costusage
 - blueapi.cover.v1.Cover/GetCurrentView
 - blueapi.cover.v1.Cover/GetCurrentView, runtime.WithHTTPPathPattern(/v1/views/{viewId}
 - blueapi.cover.v1.Cover/GetCustomerSubscriptionStatus
