@@ -423,6 +423,8 @@ functions:
 - blueapi.cost.v1.Cost/UpdateBudgetAlerts, runtime.WithHTTPPathPattern(/v1/alerts/{id}
 - blueapi.cost.v1.Cost/UpdateCostFilters
 - blueapi.cost.v1.Cost/UpdateCostFilters, runtime.WithHTTPPathPattern(/v1/{vendor}/costfilters/{filterId}
+- blueapi.cost.v1.Cost/UpdatePayerAccount
+- blueapi.cost.v1.Cost/UpdatePayerAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/payers/basicdetails/{id}
 - blueapi.cover.v1.Cover/ActivateUser
 - blueapi.cover.v1.Cover/ActivateUser, runtime.WithHTTPPathPattern(/v1/members/activate
 - blueapi.cover.v1.Cover/AddBillingAccount
