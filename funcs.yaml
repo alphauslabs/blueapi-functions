@@ -822,13 +822,13 @@ functions:
 - blueapi.flow.v1.Flow/GetSettingsHistory
 - blueapi.flow.v1.Flow/GetSettingsHistory, runtime.WithHTTPPathPattern(/v1/settings/history/{id}
 - blueapi.flow.v1.Flow/GetUserAccountSettings
-- blueapi.flow.v1.Flow/GetUserAccountSettings, runtime.WithHTTPPathPattern(/v1/user/settings
+- blueapi.flow.v1.Flow/GetUserAccountSettings, runtime.WithHTTPPathPattern(/v1/user/settings/{id}
 - blueapi.flow.v1.Flow/SendSPToPurchaseDetailsNotification
 - blueapi.flow.v1.Flow/SendSPToPurchaseDetailsNotification, runtime.WithHTTPPathPattern(/v1/sp/purchaseDetails/notification
 - blueapi.flow.v1.Flow/SetSettings
 - blueapi.flow.v1.Flow/SetSettings, runtime.WithHTTPPathPattern(/v1/settings/{id}
 - blueapi.flow.v1.Flow/SetUserAccountSettings
-- blueapi.flow.v1.Flow/SetUserAccountSettings, runtime.WithHTTPPathPattern(/v1/user/settings
+- blueapi.flow.v1.Flow/SetUserAccountSettings, runtime.WithHTTPPathPattern(/v1/user/settings/{id}
 - blueapi.iam.v1.Iam/CreateApiClient
 - blueapi.iam.v1.Iam/CreateApiClient, runtime.WithHTTPPathPattern(/iam/v1/apiclients
 - blueapi.iam.v1.Iam/CreateGroupRootUser
