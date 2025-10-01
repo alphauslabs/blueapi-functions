@@ -633,6 +633,8 @@ functions:
 - blueapi.cover.v1.Cover/ListExchangeRates, runtime.WithHTTPPathPattern(/v1/organizations/rates
 - blueapi.cover.v1.Cover/ListFees
 - blueapi.cover.v1.Cover/ListFees, runtime.WithHTTPPathPattern(/v1/allocations/fees/all
+- blueapi.cover.v1.Cover/ListNonperformingRate
+- blueapi.cover.v1.Cover/ListNonperformingRate, runtime.WithHTTPPathPattern(/v1/reports/rate/nonperforming
 - blueapi.cover.v1.Cover/ListRecommendations
 - blueapi.cover.v1.Cover/ListRecommendations, runtime.WithHTTPPathPattern(/v1/recommendations/optimization
 - blueapi.cover.v1.Cover/ListRecommendationsV2
