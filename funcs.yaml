@@ -57,6 +57,46 @@ functions:
 - blueapi.admin.v1.Admin/UpdateNotificationChannel, runtime.WithHTTPPathPattern(/admin/v1/notification/channels/{id}
 - blueapi.admin.v1.Admin/UpdateWaveFeatureSetting
 - blueapi.admin.v1.Admin/UpdateWaveFeatureSetting, runtime.WithHTTPPathPattern(/admin/v1/wavefeatures
+- blueapi.archera.v1.Archera/CommitmentPlanApply
+- blueapi.archera.v1.Archera/CommitmentPlanApply, runtime.WithHTTPPathPattern(/v1/org/{orgId}/commitment-plans/{planId}/apply
+- blueapi.archera.v1.Archera/GetAwsCloudFormationTemplate
+- blueapi.archera.v1.Archera/GetAwsCloudFormationTemplate, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation-template
+- blueapi.archera.v1.Archera/GetAwsLaunchStackUrl
+- blueapi.archera.v1.Archera/GetAwsLaunchStackUrl, runtime.WithHTTPPathPattern(/v1/onboarding/aws/launch-stack-url
+- blueapi.archera.v1.Archera/GetCommitmentPlanDetails
+- blueapi.archera.v1.Archera/GetCommitmentPlanDetails, runtime.WithHTTPPathPattern(/v1/org/{orgId}/commitment-plans/{planId}
+- blueapi.archera.v1.Archera/GetCommitmentsChart
+- blueapi.archera.v1.Archera/GetCommitmentsChart, runtime.WithHTTPPathPattern(/v1/org/{orgId}/commitments/chart
+- blueapi.archera.v1.Archera/GetMetrics
+- blueapi.archera.v1.Archera/GetMetrics, runtime.WithHTTPPathPattern(/v1/org/{orgId}/metrics
+- blueapi.archera.v1.Archera/GetRecommendedCommitmentPlan
+- blueapi.archera.v1.Archera/GetRecommendedCommitmentPlan, runtime.WithHTTPPathPattern(/v1/org/{orgId}/commitment-plans/recommended
+- blueapi.archera.v1.Archera/GetResourceDailyUsage
+- blueapi.archera.v1.Archera/GetResourceDailyUsage, runtime.WithHTTPPathPattern(/v1/org/{orgId}/resources/{resourceId}/daily-usage
+- blueapi.archera.v1.Archera/GetSegmentDetails
+- blueapi.archera.v1.Archera/GetSegmentDetails, runtime.WithHTTPPathPattern(/v1/org/{orgId}/segments/{segmentId}
+- blueapi.archera.v1.Archera/ListCommitmentPlanLineItems
+- blueapi.archera.v1.Archera/ListCommitmentPlanLineItems, runtime.WithHTTPPathPattern(/v1/org/{orgId}/commitment-plans/{planId}/line-items
+- blueapi.archera.v1.Archera/ListCommitmentPlanResourceMatches
+- blueapi.archera.v1.Archera/ListCommitmentPlanResourceMatches, runtime.WithHTTPPathPattern(/v1/org/{orgId}/commitment-plans/{planId}/resource-matches
+- blueapi.archera.v1.Archera/ListCommitments
+- blueapi.archera.v1.Archera/ListCommitments, runtime.WithHTTPPathPattern(/v1/org/{orgId}/commitments
+- blueapi.archera.v1.Archera/ListDefaultCommitmentPlans
+- blueapi.archera.v1.Archera/ListDefaultCommitmentPlans, runtime.WithHTTPPathPattern(/v1/org/{orgId}/commitment-plans/default
+- blueapi.archera.v1.Archera/ListDefaultPurchasePlans
+- blueapi.archera.v1.Archera/ListDefaultPurchasePlans, runtime.WithHTTPPathPattern(/v1/org/{orgId}/purchase-plans-v1/default
+- blueapi.archera.v1.Archera/ListOrgs
+- blueapi.archera.v1.Archera/ListOrgs, runtime.WithHTTPPathPattern(/v1/organizations
+- blueapi.archera.v1.Archera/ListResources
+- blueapi.archera.v1.Archera/ListResources, runtime.WithHTTPPathPattern(/v1/org/{orgId}/resources
+- blueapi.archera.v1.Archera/ListSegments
+- blueapi.archera.v1.Archera/ListSegments, runtime.WithHTTPPathPattern(/v1/org/{orgId}/segments/info
+- blueapi.archera.v1.Archera/RegisterOrg
+- blueapi.archera.v1.Archera/RegisterOrg, runtime.WithHTTPPathPattern(/v1/onboarding
+- blueapi.archera.v1.Archera/StartAwsOnboarding
+- blueapi.archera.v1.Archera/StartAwsOnboarding, runtime.WithHTTPPathPattern(/v1/onboarding/aws/start
+- blueapi.archera.v1.Archera/VerifyAwsOnboarding
+- blueapi.archera.v1.Archera/VerifyAwsOnboarding, runtime.WithHTTPPathPattern(/v1/onboarding/aws/verify
 - blueapi.billing.v1.Billing/AddAccountToBillingGroup
 - blueapi.billing.v1.Billing/AddAccountToBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroup/account
 - blueapi.billing.v1.Billing/AddBillingGroupCustomField
@@ -67,6 +107,8 @@ functions:
 - blueapi.billing.v1.Billing/AllocateAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries/{id}/allocate
 - blueapi.billing.v1.Billing/ApplyAdjustmentEntry
 - blueapi.billing.v1.Billing/ApplyAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries
+- blueapi.billing.v1.Billing/BulkCreateBillingGroup
+- blueapi.billing.v1.Billing/BulkCreateBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/ConvertInvoiceToPdf
 - blueapi.billing.v1.Billing/ConvertInvoiceToPdf, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/CreateAccessGroup
@@ -83,6 +125,8 @@ functions:
 - blueapi.billing.v1.Billing/CreateBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/billinggroup
 - blueapi.billing.v1.Billing/CreateBillingGroupMerged
 - blueapi.billing.v1.Billing/CreateBillingGroupMerged, runtime.WithHTTPPathPattern(/v1/billinggroups/merged
+- blueapi.billing.v1.Billing/CreateChildBillingGroup
+- blueapi.billing.v1.Billing/CreateChildBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/child
 - blueapi.billing.v1.Billing/CreateCustomField
 - blueapi.billing.v1.Billing/CreateCustomField, runtime.WithHTTPPathPattern(/v1/customfield
 - blueapi.billing.v1.Billing/CreateCustomizedBillingService
@@ -153,6 +197,8 @@ functions:
 - blueapi.billing.v1.Billing/GetBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/billinggroup
 - blueapi.billing.v1.Billing/GetBillingSetting
 - blueapi.billing.v1.Billing/GetBillingSetting, runtime.WithHTTPPathPattern(/v1/settings
+- blueapi.billing.v1.Billing/GetChildBillingGroup
+- blueapi.billing.v1.Billing/GetChildBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/child/{internalId}
 - blueapi.billing.v1.Billing/GetCredits
 - blueapi.billing.v1.Billing/GetCredits, runtime.WithHTTPPathPattern(/v1/credits
 - blueapi.billing.v1.Billing/GetCsvSettings
@@ -193,6 +239,10 @@ functions:
 - blueapi.billing.v1.Billing/ListBillingGroupCustomField, runtime.WithHTTPPathPattern(/v1/billinggroup/customfield
 - blueapi.billing.v1.Billing/ListBillingGroups
 - blueapi.billing.v1.Billing/ListBillingGroups, runtime.WithHTTPPathPattern(/v1/billinggroups
+- blueapi.billing.v1.Billing/ListBillingGroupsPaginated
+- blueapi.billing.v1.Billing/ListBillingGroupsPaginated, runtime.WithHTTPPathPattern(/v1/billinggroups
+- blueapi.billing.v1.Billing/ListChildBillingGroups
+- blueapi.billing.v1.Billing/ListChildBillingGroups, runtime.WithHTTPPathPattern(/v1/billinggroups/child
 - blueapi.billing.v1.Billing/ListCustomField
 - blueapi.billing.v1.Billing/ListCustomField, runtime.WithHTTPPathPattern(/v1/customfield
 - blueapi.billing.v1.Billing/ListExchangeRates
@@ -359,6 +409,8 @@ functions:
 - blueapi.cost.v1.Cost/GetMonthlyCostForecast, runtime.WithHTTPPathPattern(/v1/{vendor}/forecasts/monthly/{level}/{id}
 - blueapi.cost.v1.Cost/GetPayerAccount
 - blueapi.cost.v1.Cost/GetPayerAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/payers/{id}
+- blueapi.cost.v1.Cost/GetPayerAccountExtended
+- blueapi.cost.v1.Cost/GetPayerAccountExtended, runtime.WithHTTPPathPattern(/v1/{vendor}/payersextended/{id}
 - blueapi.cost.v1.Cost/GetPayerAccountImportHistory
 - blueapi.cost.v1.Cost/GetPayerAccountImportHistory, runtime.WithHTTPPathPattern(/v1/{vendor}/payers/{id}/importhistory
 - blueapi.cost.v1.Cost/GetPayerProformaReports
@@ -386,6 +438,8 @@ functions:
 - blueapi.cost.v1.Cost/ListCostFilters, runtime.WithHTTPPathPattern(/v1/{vendor}/costfilters
 - blueapi.cost.v1.Cost/ListPayerAccounts
 - blueapi.cost.v1.Cost/ListPayerAccounts, runtime.WithHTTPPathPattern(/v1/{vendor}/payers
+- blueapi.cost.v1.Cost/ListPayerAccountsExtended
+- blueapi.cost.v1.Cost/ListPayerAccountsExtended, runtime.WithHTTPPathPattern(/v1/{vendor}/payersextended
 - blueapi.cost.v1.Cost/ListTags
 - blueapi.cost.v1.Cost/ListTags, runtime.WithHTTPPathPattern(/v1/{vendor}/tags
 - blueapi.cost.v1.Cost/ListTags, runtime.WithHTTPPathPattern(/v1/{vendor}/tags/groups/{groupId}
@@ -461,6 +515,8 @@ functions:
 - blueapi.cover.v1.Cover/CreateBudget, runtime.WithHTTPPathPattern(/v1/budget
 - blueapi.cover.v1.Cover/CreateChannel
 - blueapi.cover.v1.Cover/CreateChannel, runtime.WithHTTPPathPattern(/v1/channels
+- blueapi.cover.v1.Cover/CreateCostForecast
+- blueapi.cover.v1.Cover/CreateCostForecast, runtime.WithHTTPPathPattern(/v1/forecasts
 - blueapi.cover.v1.Cover/CreateCostGroup
 - blueapi.cover.v1.Cover/CreateCostGroup, runtime.WithHTTPPathPattern(/v1/costgroups
 - blueapi.cover.v1.Cover/CreateDiscountExpirationAlert
@@ -491,6 +547,8 @@ functions:
 - blueapi.cover.v1.Cover/DeleteBudget, runtime.WithHTTPPathPattern(/v1/budget/{id}
 - blueapi.cover.v1.Cover/DeleteChannel
 - blueapi.cover.v1.Cover/DeleteChannel, runtime.WithHTTPPathPattern(/v1/channels/{id}
+- blueapi.cover.v1.Cover/DeleteCostForecast
+- blueapi.cover.v1.Cover/DeleteCostForecast, runtime.WithHTTPPathPattern(/v1/forecasts/{id}
 - blueapi.cover.v1.Cover/DeleteCostGroup
 - blueapi.cover.v1.Cover/DeleteCostGroup, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}
 - blueapi.cover.v1.Cover/DeleteDataAccess
@@ -509,6 +567,8 @@ functions:
 - blueapi.cover.v1.Cover/DeleteView, runtime.WithHTTPPathPattern(/v1/views/{viewId}
 - blueapi.cover.v1.Cover/ExecuteOptimization
 - blueapi.cover.v1.Cover/ExecuteOptimization, runtime.WithHTTPPathPattern(/v1/recommendations/execute
+- blueapi.cover.v1.Cover/ExecuteRecommendationV3
+- blueapi.cover.v1.Cover/ExecuteRecommendationV3, runtime.WithHTTPPathPattern(/v1/recommendation/execute
 - blueapi.cover.v1.Cover/GetAICostAndUsage
 - blueapi.cover.v1.Cover/GetAICostAndUsage, runtime.WithHTTPPathPattern(/v1/ai/costusage
 - blueapi.cover.v1.Cover/GetAccountAccess
@@ -543,6 +603,10 @@ functions:
 - blueapi.cover.v1.Cover/GetCloudwatchMetadata, runtime.WithHTTPPathPattern(/v1/unitcost/metrics/cloudwatch/metadata
 - blueapi.cover.v1.Cover/GetContainerCostUsage
 - blueapi.cover.v1.Cover/GetContainerCostUsage, runtime.WithHTTPPathPattern(/v1/containers/costusage
+- blueapi.cover.v1.Cover/GetCostForecast
+- blueapi.cover.v1.Cover/GetCostForecast, runtime.WithHTTPPathPattern(/v1/forecasts/{id}
+- blueapi.cover.v1.Cover/GetCostForecastsData
+- blueapi.cover.v1.Cover/GetCostForecastsData, runtime.WithHTTPPathPattern(/v1/forecasts/data
 - blueapi.cover.v1.Cover/GetCostGroupAllocation
 - blueapi.cover.v1.Cover/GetCostGroupAllocation, runtime.WithHTTPPathPattern(/v1/allocations
 - blueapi.cover.v1.Cover/GetCostGroupAttribute
@@ -589,6 +653,8 @@ functions:
 - blueapi.cover.v1.Cover/GetRecommendation, runtime.WithHTTPPathPattern(/v1/recommendations/optimization/{id}
 - blueapi.cover.v1.Cover/GetRecommendationV2
 - blueapi.cover.v1.Cover/GetRecommendationV2, runtime.WithHTTPPathPattern(/v1/recommendations/details/{id}
+- blueapi.cover.v1.Cover/GetRecommendationV3
+- blueapi.cover.v1.Cover/GetRecommendationV3, runtime.WithHTTPPathPattern(/v1/recommendations
 - blueapi.cover.v1.Cover/GetRegions
 - blueapi.cover.v1.Cover/GetRegions, runtime.WithHTTPPathPattern(/v1/{vendor}/regions/{costGroupId}
 - blueapi.cover.v1.Cover/GetReportSummary
@@ -633,12 +699,16 @@ functions:
 - blueapi.cover.v1.Cover/ListExchangeRates, runtime.WithHTTPPathPattern(/v1/organizations/rates
 - blueapi.cover.v1.Cover/ListFees
 - blueapi.cover.v1.Cover/ListFees, runtime.WithHTTPPathPattern(/v1/allocations/fees/all
+- blueapi.cover.v1.Cover/ListForecasts
+- blueapi.cover.v1.Cover/ListForecasts, runtime.WithHTTPPathPattern(/v1/forecasts
 - blueapi.cover.v1.Cover/ListNonperformingRate
 - blueapi.cover.v1.Cover/ListNonperformingRate, runtime.WithHTTPPathPattern(/v1/reports/rate/nonperforming
 - blueapi.cover.v1.Cover/ListRecommendations
 - blueapi.cover.v1.Cover/ListRecommendations, runtime.WithHTTPPathPattern(/v1/recommendations/optimization
 - blueapi.cover.v1.Cover/ListRecommendationsV2
 - blueapi.cover.v1.Cover/ListRecommendationsV2, runtime.WithHTTPPathPattern(/v1/recommendations/all
+- blueapi.cover.v1.Cover/ListRecommendationsV3
+- blueapi.cover.v1.Cover/ListRecommendationsV3, runtime.WithHTTPPathPattern(/v1/recommendations/summaries
 - blueapi.cover.v1.Cover/ListSavings
 - blueapi.cover.v1.Cover/ListSavings, runtime.WithHTTPPathPattern(/v1/allocations/savings/all
 - blueapi.cover.v1.Cover/ListSharedResources
@@ -651,6 +721,8 @@ functions:
 - blueapi.cover.v1.Cover/ListUnitTypes, runtime.WithHTTPPathPattern(/v1/unitcost
 - blueapi.cover.v1.Cover/ListUnregisteredAccounts
 - blueapi.cover.v1.Cover/ListUnregisteredAccounts, runtime.WithHTTPPathPattern(/v1/account/unregistered
+- blueapi.cover.v1.Cover/ListUntaggedResources
+- blueapi.cover.v1.Cover/ListUntaggedResources, runtime.WithHTTPPathPattern(/v1/reports/resources/untagged
 - blueapi.cover.v1.Cover/MarkAsExecuted
 - blueapi.cover.v1.Cover/MarkAsExecuted, runtime.WithHTTPPathPattern(/v1/recommendations/optimization/executed
 - blueapi.cover.v1.Cover/MergeSuggestedUnits
@@ -733,6 +805,8 @@ functions:
 - blueapi.cover.v1.Cover/UpdateBudget, runtime.WithHTTPPathPattern(/v1/budget/{id}
 - blueapi.cover.v1.Cover/UpdateChannelDetails
 - blueapi.cover.v1.Cover/UpdateChannelDetails, runtime.WithHTTPPathPattern(/v1/channels/{id}
+- blueapi.cover.v1.Cover/UpdateCostForecast
+- blueapi.cover.v1.Cover/UpdateCostForecast, runtime.WithHTTPPathPattern(/v1/forecasts/{id}
 - blueapi.cover.v1.Cover/UpdateCostGroupColorTheme
 - blueapi.cover.v1.Cover/UpdateCostGroupColorTheme, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/colortheme
 - blueapi.cover.v1.Cover/UpdateCostGroupCombinations
@@ -833,6 +907,46 @@ functions:
 - blueapi.flow.v1.Flow/SetSettings, runtime.WithHTTPPathPattern(/v1/settings/{id}
 - blueapi.flow.v1.Flow/SetUserAccountSettings
 - blueapi.flow.v1.Flow/SetUserAccountSettings, runtime.WithHTTPPathPattern(/v1/user/settings/{id}
+- blueapi.gc.v1.GuaranteedCommitment/CommitmentPlanApply
+- blueapi.gc.v1.GuaranteedCommitment/CommitmentPlanApply, runtime.WithHTTPPathPattern(/v1/commitment-plans/{planId}/apply
+- blueapi.gc.v1.GuaranteedCommitment/GetAwsCloudFormationTemplate
+- blueapi.gc.v1.GuaranteedCommitment/GetAwsCloudFormationTemplate, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation-template
+- blueapi.gc.v1.GuaranteedCommitment/GetAwsLaunchStackUrl
+- blueapi.gc.v1.GuaranteedCommitment/GetAwsLaunchStackUrl, runtime.WithHTTPPathPattern(/v1/onboarding/aws/launch-stack-url
+- blueapi.gc.v1.GuaranteedCommitment/GetCommitmentPlanDetails
+- blueapi.gc.v1.GuaranteedCommitment/GetCommitmentPlanDetails, runtime.WithHTTPPathPattern(/v1/commitment-plans/{planId}
+- blueapi.gc.v1.GuaranteedCommitment/GetCommitmentsChart
+- blueapi.gc.v1.GuaranteedCommitment/GetCommitmentsChart, runtime.WithHTTPPathPattern(/v1/commitments/chart
+- blueapi.gc.v1.GuaranteedCommitment/GetMetrics
+- blueapi.gc.v1.GuaranteedCommitment/GetMetrics, runtime.WithHTTPPathPattern(/v1/metrics
+- blueapi.gc.v1.GuaranteedCommitment/GetRecommendedCommitmentPlan
+- blueapi.gc.v1.GuaranteedCommitment/GetRecommendedCommitmentPlan, runtime.WithHTTPPathPattern(/v1/commitment-plans/recommended
+- blueapi.gc.v1.GuaranteedCommitment/GetResourceDailyUsage
+- blueapi.gc.v1.GuaranteedCommitment/GetResourceDailyUsage, runtime.WithHTTPPathPattern(/v1/resources/{resourceId}/daily-usage
+- blueapi.gc.v1.GuaranteedCommitment/GetSegmentDetails
+- blueapi.gc.v1.GuaranteedCommitment/GetSegmentDetails, runtime.WithHTTPPathPattern(/v1/segments/{segmentId}
+- blueapi.gc.v1.GuaranteedCommitment/ListCommitmentPlanLineItems
+- blueapi.gc.v1.GuaranteedCommitment/ListCommitmentPlanLineItems, runtime.WithHTTPPathPattern(/v1/commitment-plans/{planId}/line-items
+- blueapi.gc.v1.GuaranteedCommitment/ListCommitmentPlanResourceMatches
+- blueapi.gc.v1.GuaranteedCommitment/ListCommitmentPlanResourceMatches, runtime.WithHTTPPathPattern(/v1/commitment-plans/{planId}/resource-matches
+- blueapi.gc.v1.GuaranteedCommitment/ListCommitments
+- blueapi.gc.v1.GuaranteedCommitment/ListCommitments, runtime.WithHTTPPathPattern(/v1/commitments
+- blueapi.gc.v1.GuaranteedCommitment/ListDefaultCommitmentPlans
+- blueapi.gc.v1.GuaranteedCommitment/ListDefaultCommitmentPlans, runtime.WithHTTPPathPattern(/v1/commitment-plans/default
+- blueapi.gc.v1.GuaranteedCommitment/ListDefaultPurchasePlans
+- blueapi.gc.v1.GuaranteedCommitment/ListDefaultPurchasePlans, runtime.WithHTTPPathPattern(/v1/purchase-plans-v1/default
+- blueapi.gc.v1.GuaranteedCommitment/ListOrgs
+- blueapi.gc.v1.GuaranteedCommitment/ListOrgs, runtime.WithHTTPPathPattern(/v1/organizations
+- blueapi.gc.v1.GuaranteedCommitment/ListResources
+- blueapi.gc.v1.GuaranteedCommitment/ListResources, runtime.WithHTTPPathPattern(/v1/resources
+- blueapi.gc.v1.GuaranteedCommitment/ListSegments
+- blueapi.gc.v1.GuaranteedCommitment/ListSegments, runtime.WithHTTPPathPattern(/v1/segments/info
+- blueapi.gc.v1.GuaranteedCommitment/RegisterOrg
+- blueapi.gc.v1.GuaranteedCommitment/RegisterOrg, runtime.WithHTTPPathPattern(/v1/onboarding
+- blueapi.gc.v1.GuaranteedCommitment/StartAwsOnboarding
+- blueapi.gc.v1.GuaranteedCommitment/StartAwsOnboarding, runtime.WithHTTPPathPattern(/v1/onboarding/aws/start
+- blueapi.gc.v1.GuaranteedCommitment/VerifyAwsOnboarding
+- blueapi.gc.v1.GuaranteedCommitment/VerifyAwsOnboarding, runtime.WithHTTPPathPattern(/v1/onboarding/aws/verify
 - blueapi.iam.v1.Iam/CreateApiClient
 - blueapi.iam.v1.Iam/CreateApiClient, runtime.WithHTTPPathPattern(/iam/v1/apiclients
 - blueapi.iam.v1.Iam/CreateGroupRootUser
