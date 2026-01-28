@@ -321,6 +321,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateBillingGroupLinkedResources, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
 - blueapi.billing.v1.Billing/UpdateBillingGroupResellerCharges
 - blueapi.billing.v1.Billing/UpdateBillingGroupResellerCharges, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
+- blueapi.billing.v1.Billing/UpdateChildBillingGroupBasicInformation
+- blueapi.billing.v1.Billing/UpdateChildBillingGroupBasicInformation, runtime.WithHTTPPathPattern(/v1/billinggroups/child
 - blueapi.billing.v1.Billing/UpdateCustomField
 - blueapi.billing.v1.Billing/UpdateCustomField, runtime.WithHTTPPathPattern(/v1/customfield/{id}
 - blueapi.billing.v1.Billing/UpdateCustomizedBillingService
