@@ -289,6 +289,10 @@ functions:
 - blueapi.billing.v1.Billing/SaveInvoiceSettings, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/SetBillingGroupExchangeRate
 - blueapi.billing.v1.Billing/SetBillingGroupExchangeRate, runtime.WithHTTPPathPattern(/v1/exchangerate/billinggroup/{month}
+- blueapi.billing.v1.Billing/SetChildBillingGroupCustomizedBillingService
+- blueapi.billing.v1.Billing/SetChildBillingGroupCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/billinggroups/child/{internalId}/customizedbillingservice/{vendor}
+- blueapi.billing.v1.Billing/SetChildBillingGroupInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/SetChildBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/billinggroups/child/{internalId}/servicediscounts
 - blueapi.billing.v1.Billing/SetCustomizedBillingServiceBillingGroup
 - blueapi.billing.v1.Billing/SetCustomizedBillingServiceBillingGroup, runtime.WithHTTPPathPattern(/v1/customizedbillingservices/billinggroup/{groupId}/{vendor}
 - blueapi.billing.v1.Billing/SetGlobalExchangeRate
