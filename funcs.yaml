@@ -929,34 +929,34 @@ functions:
 - blueapi.flow.v1.Flow/SetSettings, runtime.WithHTTPPathPattern(/v1/settings/{id}
 - blueapi.flow.v1.Flow/SetUserAccountSettings
 - blueapi.flow.v1.Flow/SetUserAccountSettings, runtime.WithHTTPPathPattern(/v1/user/settings/{id}
-- blueapi.gc.v1.GuaranteedCommitments/CommitmentPlanApply
-- blueapi.gc.v1.GuaranteedCommitments/CommitmentPlanApply, runtime.WithHTTPPathPattern(/v1/commitment-plans/{planId}/apply
+- blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply
+- blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}/apply
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsCloudFormationTemplate
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsCloudFormationTemplate, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation-template
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl, runtime.WithHTTPPathPattern(/v1/onboarding/aws/launch-stack-url
-- blueapi.gc.v1.GuaranteedCommitments/GetCommitmentPlanDetails
-- blueapi.gc.v1.GuaranteedCommitments/GetCommitmentPlanDetails, runtime.WithHTTPPathPattern(/v1/commitment-plans/{planId}
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart, runtime.WithHTTPPathPattern(/v1/commitments/chart
+- blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsPlanDetails
+- blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsPlanDetails, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}
 - blueapi.gc.v1.GuaranteedCommitments/GetMetrics
 - blueapi.gc.v1.GuaranteedCommitments/GetMetrics, runtime.WithHTTPPathPattern(/v1/metrics
-- blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentPlan
-- blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentPlan, runtime.WithHTTPPathPattern(/v1/commitment-plans/recommended
+- blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentsPlan
+- blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentsPlan, runtime.WithHTTPPathPattern(/v1/commitments/plan/recommended
 - blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage
 - blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage, runtime.WithHTTPPathPattern(/v1/resources/{resourceId}/daily-usage
 - blueapi.gc.v1.GuaranteedCommitments/GetSegmentDetails
 - blueapi.gc.v1.GuaranteedCommitments/GetSegmentDetails, runtime.WithHTTPPathPattern(/v1/segments/{segmentId}
-- blueapi.gc.v1.GuaranteedCommitments/ListCommitmentPlanLineItems
-- blueapi.gc.v1.GuaranteedCommitments/ListCommitmentPlanLineItems, runtime.WithHTTPPathPattern(/v1/commitment-plans/{planId}/line-items
-- blueapi.gc.v1.GuaranteedCommitments/ListCommitmentPlanResourceMatches
-- blueapi.gc.v1.GuaranteedCommitments/ListCommitmentPlanResourceMatches, runtime.WithHTTPPathPattern(/v1/commitment-plans/{planId}/resource-matches
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitments
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitments, runtime.WithHTTPPathPattern(/v1/commitments
-- blueapi.gc.v1.GuaranteedCommitments/ListDefaultCommitmentPlans
-- blueapi.gc.v1.GuaranteedCommitments/ListDefaultCommitmentPlans, runtime.WithHTTPPathPattern(/v1/commitment-plans/default
+- blueapi.gc.v1.GuaranteedCommitments/ListCommitmentsPlanLineItems
+- blueapi.gc.v1.GuaranteedCommitments/ListCommitmentsPlanLineItems, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}/line-items
+- blueapi.gc.v1.GuaranteedCommitments/ListCommitmentsPlanResourceMatches
+- blueapi.gc.v1.GuaranteedCommitments/ListCommitmentsPlanResourceMatches, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}/resource-matches
+- blueapi.gc.v1.GuaranteedCommitments/ListDefaultCommitmentsPlan
+- blueapi.gc.v1.GuaranteedCommitments/ListDefaultCommitmentsPlan, runtime.WithHTTPPathPattern(/v1/commitments/plan/default
 - blueapi.gc.v1.GuaranteedCommitments/ListDefaultPurchasePlans
-- blueapi.gc.v1.GuaranteedCommitments/ListDefaultPurchasePlans, runtime.WithHTTPPathPattern(/v1/purchase-plans-v1/default
+- blueapi.gc.v1.GuaranteedCommitments/ListDefaultPurchasePlans, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplan/default
 - blueapi.gc.v1.GuaranteedCommitments/ListOrgs
 - blueapi.gc.v1.GuaranteedCommitments/ListOrgs, runtime.WithHTTPPathPattern(/v1/organizations
 - blueapi.gc.v1.GuaranteedCommitments/ListResources
