@@ -207,6 +207,8 @@ functions:
 - blueapi.billing.v1.Billing/GetChildBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/child/{internalId}
 - blueapi.billing.v1.Billing/GetChildBillingGroupCustomizedBillingService
 - blueapi.billing.v1.Billing/GetChildBillingGroupCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/billinggroups/child/{internalId}/customizedbillingservice/{vendor}
+- blueapi.billing.v1.Billing/GetChildBillingGroupInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/GetChildBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/billinggroups/child/{internalId}/servicediscounts
 - blueapi.billing.v1.Billing/GetCredits
 - blueapi.billing.v1.Billing/GetCredits, runtime.WithHTTPPathPattern(/v1/credits
 - blueapi.billing.v1.Billing/GetCsvSettings
@@ -249,6 +251,8 @@ functions:
 - blueapi.billing.v1.Billing/ListBillingGroups, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/ListBillingGroupsPaginated
 - blueapi.billing.v1.Billing/ListBillingGroupsPaginated, runtime.WithHTTPPathPattern(/v1/billinggroups
+- blueapi.billing.v1.Billing/ListChildBillingGroupAccountInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/ListChildBillingGroupAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/billinggroups/child/{internalId}/servicediscounts
 - blueapi.billing.v1.Billing/ListChildBillingGroups
 - blueapi.billing.v1.Billing/ListChildBillingGroups, runtime.WithHTTPPathPattern(/v1/billinggroups/child
 - blueapi.billing.v1.Billing/ListCustomField
@@ -292,7 +296,7 @@ functions:
 - blueapi.billing.v1.Billing/SetBillingGroupExchangeRate
 - blueapi.billing.v1.Billing/SetBillingGroupExchangeRate, runtime.WithHTTPPathPattern(/v1/exchangerate/billinggroup/{month}
 - blueapi.billing.v1.Billing/SetChildBillingGroupAccountInvoiceServiceDiscounts
-- blueapi.billing.v1.Billing/SetChildBillingGroupAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/billinggroups/child/{internalId}/servicediscounts/account
+- blueapi.billing.v1.Billing/SetChildBillingGroupAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/billinggroups/child/{internalId}/servicediscounts
 - blueapi.billing.v1.Billing/SetChildBillingGroupCustomizedBillingService
 - blueapi.billing.v1.Billing/SetChildBillingGroupCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/billinggroups/child/{internalId}/customizedbillingservice/{vendor}
 - blueapi.billing.v1.Billing/SetChildBillingGroupInvoiceServiceDiscounts
