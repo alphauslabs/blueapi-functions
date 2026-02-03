@@ -936,15 +936,17 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply
 - blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}/apply
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsCloudFormationTemplate
-- blueapi.gc.v1.GuaranteedCommitments/GetAwsCloudFormationTemplate, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation-template
+- blueapi.gc.v1.GuaranteedCommitments/GetAwsCloudFormationTemplate, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation/template
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl
-- blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl, runtime.WithHTTPPathPattern(/v1/onboarding/aws/launch-stack-url
+- blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation/launchstackurl
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart, runtime.WithHTTPPathPattern(/v1/commitments/chart
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsPlanDetails
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsPlanDetails, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}
 - blueapi.gc.v1.GuaranteedCommitments/GetMetrics
 - blueapi.gc.v1.GuaranteedCommitments/GetMetrics, runtime.WithHTTPPathPattern(/v1/metrics
+- blueapi.gc.v1.GuaranteedCommitments/GetOnboardingStatus
+- blueapi.gc.v1.GuaranteedCommitments/GetOnboardingStatus, runtime.WithHTTPPathPattern(/v1/onboarding/status
 - blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentsPlan
 - blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentsPlan, runtime.WithHTTPPathPattern(/v1/commitments/plan/recommended
 - blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage
