@@ -962,7 +962,7 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/ListDefaultCommitmentsPlan
 - blueapi.gc.v1.GuaranteedCommitments/ListDefaultCommitmentsPlan, runtime.WithHTTPPathPattern(/v1/commitments/plan/default
 - blueapi.gc.v1.GuaranteedCommitments/ListDefaultPurchasePlans
-- blueapi.gc.v1.GuaranteedCommitments/ListDefaultPurchasePlans, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplan/default
+- blueapi.gc.v1.GuaranteedCommitments/ListDefaultPurchasePlans, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplan/{segmentId}
 - blueapi.gc.v1.GuaranteedCommitments/ListOrgs
 - blueapi.gc.v1.GuaranteedCommitments/ListOrgs, runtime.WithHTTPPathPattern(/v1/organizations
 - blueapi.gc.v1.GuaranteedCommitments/ListResources
