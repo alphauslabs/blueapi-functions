@@ -961,10 +961,10 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitmentsPlanResourceMatches, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}/resource-matches
 - blueapi.gc.v1.GuaranteedCommitments/ListDefaultCommitmentsPlan
 - blueapi.gc.v1.GuaranteedCommitments/ListDefaultCommitmentsPlan, runtime.WithHTTPPathPattern(/v1/commitments/plan/default
-- blueapi.gc.v1.GuaranteedCommitments/ListDefaultPurchasePlans
-- blueapi.gc.v1.GuaranteedCommitments/ListDefaultPurchasePlans, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplan/{segmentId}
 - blueapi.gc.v1.GuaranteedCommitments/ListOrgs
 - blueapi.gc.v1.GuaranteedCommitments/ListOrgs, runtime.WithHTTPPathPattern(/v1/organizations
+- blueapi.gc.v1.GuaranteedCommitments/ListPurchasePlansBySegment
+- blueapi.gc.v1.GuaranteedCommitments/ListPurchasePlansBySegment, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplan/{segmentId}
 - blueapi.gc.v1.GuaranteedCommitments/ListResources
 - blueapi.gc.v1.GuaranteedCommitments/ListResources, runtime.WithHTTPPathPattern(/v1/resources
 - blueapi.gc.v1.GuaranteedCommitments/ListSegments
