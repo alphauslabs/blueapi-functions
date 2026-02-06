@@ -1057,8 +1057,12 @@ functions:
 - blueapi.kvstore.v1.KvStore/Scan, runtime.WithHTTPPathPattern(/v1/keys
 - blueapi.kvstore.v1.KvStore/Write
 - blueapi.kvstore.v1.KvStore/Write, runtime.WithHTTPPathPattern(/v1
+- blueapi.luster.v1.Luster/CreateSpace
+- blueapi.luster.v1.Luster/DeleteSpace
+- blueapi.luster.v1.Luster/GetSpace
 - blueapi.luster.v1.Luster/ReadSpaces
 - blueapi.luster.v1.Luster/ReadSpaces, runtime.WithHTTPPathPattern(/v1/spaces
+- blueapi.luster.v1.Luster/UpdateSpace
 - blueapi.operations.v1.Operations/CancelOperation
 - blueapi.operations.v1.Operations/CancelOperation, runtime.WithHTTPPathPattern(/ops/v1/{name}
 - blueapi.operations.v1.Operations/DeleteOperation
