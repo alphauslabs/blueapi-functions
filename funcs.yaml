@@ -940,7 +940,7 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation/launchstackurl
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart
-- blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart, runtime.WithHTTPPathPattern(/v1/commitments/chart
+- blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart, runtime.WithHTTPPathPattern(/v1/commitments/{commitmentId}/chart
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsPlanDetails
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsPlanDetails, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}
 - blueapi.gc.v1.GuaranteedCommitments/GetMetrics
