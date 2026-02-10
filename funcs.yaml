@@ -969,6 +969,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/ListResources, runtime.WithHTTPPathPattern(/v1/resources
 - blueapi.gc.v1.GuaranteedCommitments/RegisterOrg
 - blueapi.gc.v1.GuaranteedCommitments/RegisterOrg, runtime.WithHTTPPathPattern(/v1/onboarding
+- blueapi.gc.v1.GuaranteedCommitments/SetPayerAccountEnabled
+- blueapi.gc.v1.GuaranteedCommitments/SetPayerAccountEnabled, runtime.WithHTTPPathPattern(/v1/managements/accounts/{companyId}
 - blueapi.gc.v1.GuaranteedCommitments/StartAwsOnboarding
 - blueapi.gc.v1.GuaranteedCommitments/StartAwsOnboarding, runtime.WithHTTPPathPattern(/v1/onboarding/aws/start
 - blueapi.gc.v1.GuaranteedCommitments/VerifyAwsOnboarding
