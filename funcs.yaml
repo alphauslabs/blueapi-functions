@@ -951,8 +951,6 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentsPlan, runtime.WithHTTPPathPattern(/v1/commitments/plan/recommended
 - blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage
 - blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage, runtime.WithHTTPPathPattern(/v1/resources/{resourceId}/daily-usage
-- blueapi.gc.v1.GuaranteedCommitments/GetSegmentDetails
-- blueapi.gc.v1.GuaranteedCommitments/GetSegmentDetails, runtime.WithHTTPPathPattern(/v1/segments/{segmentId}
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitments
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitments, runtime.WithHTTPPathPattern(/v1/commitments
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitmentsPlanLineItems
@@ -969,8 +967,6 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/ListPurchasePlansBySegment, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplan
 - blueapi.gc.v1.GuaranteedCommitments/ListResources
 - blueapi.gc.v1.GuaranteedCommitments/ListResources, runtime.WithHTTPPathPattern(/v1/resources
-- blueapi.gc.v1.GuaranteedCommitments/ListSegments
-- blueapi.gc.v1.GuaranteedCommitments/ListSegments, runtime.WithHTTPPathPattern(/v1/segments/info
 - blueapi.gc.v1.GuaranteedCommitments/RegisterOrg
 - blueapi.gc.v1.GuaranteedCommitments/RegisterOrg, runtime.WithHTTPPathPattern(/v1/onboarding
 - blueapi.gc.v1.GuaranteedCommitments/StartAwsOnboarding
