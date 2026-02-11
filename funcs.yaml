@@ -947,6 +947,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetMetrics, runtime.WithHTTPPathPattern(/v1/metrics
 - blueapi.gc.v1.GuaranteedCommitments/GetOnboardingStatus
 - blueapi.gc.v1.GuaranteedCommitments/GetOnboardingStatus, runtime.WithHTTPPathPattern(/v1/onboarding/status
+- blueapi.gc.v1.GuaranteedCommitments/GetPayerAccountStatus
+- blueapi.gc.v1.GuaranteedCommitments/GetPayerAccountStatus, runtime.WithHTTPPathPattern(/v1/managements/accounts/status
 - blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentsPlan
 - blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentsPlan, runtime.WithHTTPPathPattern(/v1/commitments/plan/recommended
 - blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage
