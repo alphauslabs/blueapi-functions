@@ -935,6 +935,8 @@ functions:
 - blueapi.flow.v1.Flow/SetUserAccountSettings, runtime.WithHTTPPathPattern(/v1/user/settings/{id}
 - blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply
 - blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}/apply
+- blueapi.gc.v1.GuaranteedCommitments/DeleteDraftPurchasePlan
+- blueapi.gc.v1.GuaranteedCommitments/DeleteDraftPurchasePlan, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplan/{planId}/draft
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsCloudFormationTemplate
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsCloudFormationTemplate, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation/template
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl
@@ -952,15 +954,17 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentsPlan
 - blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentsPlan, runtime.WithHTTPPathPattern(/v1/commitments/plan/recommended
 - blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage
-- blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage, runtime.WithHTTPPathPattern(/v1/resources/{resourceId}/daily-usage
+- blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage, runtime.WithHTTPPathPattern(/v1/resources/{resourceId}/dailyusage
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitments
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitments, runtime.WithHTTPPathPattern(/v1/commitments
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitmentsPlanLineItems
-- blueapi.gc.v1.GuaranteedCommitments/ListCommitmentsPlanLineItems, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}/line-items
+- blueapi.gc.v1.GuaranteedCommitments/ListCommitmentsPlanLineItems, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}/lineitems
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitmentsPlanResourceMatches
-- blueapi.gc.v1.GuaranteedCommitments/ListCommitmentsPlanResourceMatches, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}/resource-matches
+- blueapi.gc.v1.GuaranteedCommitments/ListCommitmentsPlanResourceMatches, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}/resourcematches
 - blueapi.gc.v1.GuaranteedCommitments/ListDefaultCommitmentsPlan
 - blueapi.gc.v1.GuaranteedCommitments/ListDefaultCommitmentsPlan, runtime.WithHTTPPathPattern(/v1/commitments/plan/default
+- blueapi.gc.v1.GuaranteedCommitments/ListDraftPurchasePlans
+- blueapi.gc.v1.GuaranteedCommitments/ListDraftPurchasePlans, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplan/draft
 - blueapi.gc.v1.GuaranteedCommitments/ListOrgs
 - blueapi.gc.v1.GuaranteedCommitments/ListOrgs, runtime.WithHTTPPathPattern(/v1/organizations
 - blueapi.gc.v1.GuaranteedCommitments/ListPayerAccounts
@@ -971,6 +975,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/ListResources, runtime.WithHTTPPathPattern(/v1/resources
 - blueapi.gc.v1.GuaranteedCommitments/RegisterOrg
 - blueapi.gc.v1.GuaranteedCommitments/RegisterOrg, runtime.WithHTTPPathPattern(/v1/onboarding
+- blueapi.gc.v1.GuaranteedCommitments/SaveCommitmentsPlanAsDraft
+- blueapi.gc.v1.GuaranteedCommitments/SaveCommitmentsPlanAsDraft, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplan/{planId}/draft
 - blueapi.gc.v1.GuaranteedCommitments/SetPayerAccountEnabled
 - blueapi.gc.v1.GuaranteedCommitments/SetPayerAccountEnabled, runtime.WithHTTPPathPattern(/v1/managements/accounts/{companyId}
 - blueapi.gc.v1.GuaranteedCommitments/StartAwsOnboarding
