@@ -203,6 +203,8 @@ functions:
 - blueapi.billing.v1.Billing/GetBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/billinggroup
 - blueapi.billing.v1.Billing/GetBillingSetting
 - blueapi.billing.v1.Billing/GetBillingSetting, runtime.WithHTTPPathPattern(/v1/settings
+- blueapi.billing.v1.Billing/GetBulkCreateBillingGroupJob
+- blueapi.billing.v1.Billing/GetBulkCreateBillingGroupJob, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/GetChildBillingGroup
 - blueapi.billing.v1.Billing/GetChildBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/child/{internalId}
 - blueapi.billing.v1.Billing/GetChildBillingGroupCustomizedBillingService
