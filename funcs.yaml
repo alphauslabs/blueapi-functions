@@ -1067,12 +1067,34 @@ functions:
 - blueapi.kvstore.v1.KvStore/Scan, runtime.WithHTTPPathPattern(/v1/keys
 - blueapi.kvstore.v1.KvStore/Write
 - blueapi.kvstore.v1.KvStore/Write, runtime.WithHTTPPathPattern(/v1
+- blueapi.luster.v1.Luster/CreateContext
+- blueapi.luster.v1.Luster/CreateContext, runtime.WithHTTPPathPattern(/v1/contexts
+- blueapi.luster.v1.Luster/CreateContextComment
+- blueapi.luster.v1.Luster/CreateContextComment, runtime.WithHTTPPathPattern(/v1/contexts/{id}/comment
+- blueapi.luster.v1.Luster/CreateLabel
+- blueapi.luster.v1.Luster/CreateLabel, runtime.WithHTTPPathPattern(/v1/contexts/label
 - blueapi.luster.v1.Luster/CreateSpace
+- blueapi.luster.v1.Luster/CreateSpace, runtime.WithHTTPPathPattern(/v1/spaces
+- blueapi.luster.v1.Luster/DeleteContext
+- blueapi.luster.v1.Luster/DeleteContext, runtime.WithHTTPPathPattern(/v1/contexts/{id}
+- blueapi.luster.v1.Luster/DeleteContextComment
+- blueapi.luster.v1.Luster/DeleteContextComment, runtime.WithHTTPPathPattern(/v1/contexts/{id}/comment/{commentId}
 - blueapi.luster.v1.Luster/DeleteSpace
+- blueapi.luster.v1.Luster/DeleteSpace, runtime.WithHTTPPathPattern(/v1/spaces/{id}
+- blueapi.luster.v1.Luster/GetContext
+- blueapi.luster.v1.Luster/GetContext, runtime.WithHTTPPathPattern(/v1/contexts/{id}
 - blueapi.luster.v1.Luster/GetSpace
+- blueapi.luster.v1.Luster/GetSpace, runtime.WithHTTPPathPattern(/v1/spaces/{id}
+- blueapi.luster.v1.Luster/ReadContexts
+- blueapi.luster.v1.Luster/ReadContexts, runtime.WithHTTPPathPattern(/v1/contexts
 - blueapi.luster.v1.Luster/ReadSpaces
 - blueapi.luster.v1.Luster/ReadSpaces, runtime.WithHTTPPathPattern(/v1/spaces
+- blueapi.luster.v1.Luster/UpdateContext
+- blueapi.luster.v1.Luster/UpdateContext, runtime.WithHTTPPathPattern(/v1/contexts/{id}
+- blueapi.luster.v1.Luster/UpdateContextComment
+- blueapi.luster.v1.Luster/UpdateContextComment, runtime.WithHTTPPathPattern(/v1/contexts/{id}/comment/{commentId}
 - blueapi.luster.v1.Luster/UpdateSpace
+- blueapi.luster.v1.Luster/UpdateSpace, runtime.WithHTTPPathPattern(/v1/spaces/{id}
 - blueapi.operations.v1.Operations/CancelOperation
 - blueapi.operations.v1.Operations/CancelOperation, runtime.WithHTTPPathPattern(/ops/v1/{name}
 - blueapi.operations.v1.Operations/DeleteOperation
