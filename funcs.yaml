@@ -899,8 +899,8 @@ functions:
 - blueapi.cover.v1.Cover/UploadChargeCode, runtime.WithHTTPPathPattern(/v1/chargecode/upload
 - blueapi.cover.v1.Cover/VerifyAPIAccess
 - blueapi.cover.v1.Cover/VerifyAPIAccess, runtime.WithHTTPPathPattern(/v1/apiaccess/verify
-- blueapi.flagger.v1.Flagger/GetBooleanFlag
-- blueapi.flagger.v1.Flagger/GetBooleanFlag, runtime.WithHTTPPathPattern(/flagger/v1/namespace/{namespace_id}/flags/boolean/{id}
+- blueapi.flagger.v1.Flagger/EvaluateBooleanFlag
+- blueapi.flagger.v1.Flagger/EvaluateBooleanFlag, runtime.WithHTTPPathPattern(/flagger/v1/namespace/{namespace_id}/flags/boolean/{id}
 - blueapi.flow.v1.Flow/CheckSPToPurchaseDetailsLinkExpiry
 - blueapi.flow.v1.Flow/CheckSPToPurchaseDetailsLinkExpiry, runtime.WithHTTPPathPattern(/v1/sp/purchaseDetails/notification/link/expiry
 - blueapi.flow.v1.Flow/CreateCostExplorerAccess
