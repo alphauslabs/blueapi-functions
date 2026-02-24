@@ -993,6 +993,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/SetPayerAccountEnabled, runtime.WithHTTPPathPattern(/v1/managements/accounts/{companyId}
 - blueapi.gc.v1.GuaranteedCommitments/StartAwsOnboarding
 - blueapi.gc.v1.GuaranteedCommitments/StartAwsOnboarding, runtime.WithHTTPPathPattern(/v1/onboarding/aws/start
+- blueapi.gc.v1.GuaranteedCommitments/ValidateBillingGroup
+- blueapi.gc.v1.GuaranteedCommitments/ValidateBillingGroup, runtime.WithHTTPPathPattern(/v1/onboarding/billinggroup
 - blueapi.gc.v1.GuaranteedCommitments/VerifyAwsOnboarding
 - blueapi.gc.v1.GuaranteedCommitments/VerifyAwsOnboarding, runtime.WithHTTPPathPattern(/v1/onboarding/aws/verify
 - blueapi.iam.v1.Iam/CreateApiClient
