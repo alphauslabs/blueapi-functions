@@ -903,6 +903,10 @@ functions:
 - blueapi.flagger.v1.Flagger/EvaluateBooleanFlag, runtime.WithHTTPPathPattern(/flagger/v1/namespace/{namespace_id}/flags/boolean/{id}
 - blueapi.flagger.v1.Flagger/EvaluateVariantFlag
 - blueapi.flagger.v1.Flagger/EvaluateVariantFlag, runtime.WithHTTPPathPattern(/flagger/v1/namespace/{namespace_id}/flags/variant/{id}
+- blueapi.flags.v1.Flags/EvaluateBooleanFlag
+- blueapi.flags.v1.Flags/EvaluateBooleanFlag, runtime.WithHTTPPathPattern(/flags/v1/namespace/{namespace_id}/boolean/{id}
+- blueapi.flags.v1.Flags/EvaluateVariantFlag
+- blueapi.flags.v1.Flags/EvaluateVariantFlag, runtime.WithHTTPPathPattern(/flags/v1/namespace/{namespace_id}/variant/{id}
 - blueapi.flow.v1.Flow/CheckSPToPurchaseDetailsLinkExpiry
 - blueapi.flow.v1.Flow/CheckSPToPurchaseDetailsLinkExpiry, runtime.WithHTTPPathPattern(/v1/sp/purchaseDetails/notification/link/expiry
 - blueapi.flow.v1.Flow/CreateCostExplorerAccess
