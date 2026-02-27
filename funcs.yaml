@@ -109,6 +109,8 @@ functions:
 - blueapi.billing.v1.Billing/ApplyAdjustmentEntry, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries
 - blueapi.billing.v1.Billing/BulkCreateBillingGroup
 - blueapi.billing.v1.Billing/BulkCreateBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups
+- blueapi.billing.v1.Billing/BulkLinkAccount
+- blueapi.billing.v1.Billing/BulkLinkAccount, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/ConvertInvoiceToPdf
 - blueapi.billing.v1.Billing/ConvertInvoiceToPdf, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/CreateAccessGroup
@@ -205,6 +207,8 @@ functions:
 - blueapi.billing.v1.Billing/GetBillingSetting, runtime.WithHTTPPathPattern(/v1/settings
 - blueapi.billing.v1.Billing/GetBulkCreateBillingGroupJob
 - blueapi.billing.v1.Billing/GetBulkCreateBillingGroupJob, runtime.WithHTTPPathPattern(/v1/billinggroups
+- blueapi.billing.v1.Billing/GetBulkLinkAccountJob
+- blueapi.billing.v1.Billing/GetBulkLinkAccountJob, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/GetChildBillingGroup
 - blueapi.billing.v1.Billing/GetChildBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/child/{internalId}
 - blueapi.billing.v1.Billing/GetChildBillingGroupCustomizedBillingService
