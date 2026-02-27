@@ -1072,7 +1072,7 @@ functions:
 - blueapi.iam.v1.Iam/SendRipplePasswordResetCode
 - blueapi.iam.v1.Iam/SendRipplePasswordResetCode, runtime.WithHTTPPathPattern(/iam/v1/ripple/password
 - blueapi.iam.v1.Iam/UnlockUserAccount
-- blueapi.iam.v1.Iam/UnlockUserAccount, runtime.WithHTTPPathPattern(/iam/v1/{domain}/account/{email}
+- blueapi.iam.v1.Iam/UnlockUserAccount, runtime.WithHTTPPathPattern(/iam/v1/{domain}/account
 - blueapi.iam.v1.Iam/UpdateFeatureFlags
 - blueapi.iam.v1.Iam/UpdateFeatureFlags, runtime.WithHTTPPathPattern(/iam/v1/grouprootusers/{id}/features
 - blueapi.iam.v1.Iam/UpdateRole
