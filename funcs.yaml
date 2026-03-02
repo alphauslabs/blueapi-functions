@@ -959,6 +959,8 @@ functions:
 - blueapi.flow.v1.Flow/SetUserAccountSettings, runtime.WithHTTPPathPattern(/v1/user/settings/{id}
 - blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply
 - blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}/apply
+- blueapi.gc.v1.GuaranteedCommitments/CreateGuaranteedCommitmentAccess
+- blueapi.gc.v1.GuaranteedCommitments/CreateGuaranteedCommitmentAccess, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cftemplate/guaranteed
 - blueapi.gc.v1.GuaranteedCommitments/DeleteDraftPurchasePlan
 - blueapi.gc.v1.GuaranteedCommitments/DeleteDraftPurchasePlan, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplan/{planId}/draft
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsCloudFormationTemplate
@@ -971,6 +973,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsPlanDetails, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsUtilization
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsUtilization, runtime.WithHTTPPathPattern(/v1/commitments/{commitmentId}/utilization
+- blueapi.gc.v1.GuaranteedCommitments/GetGuaranteedCommitmentTemplateUrl
+- blueapi.gc.v1.GuaranteedCommitments/GetGuaranteedCommitmentTemplateUrl, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cftemplate/guaranteed
 - blueapi.gc.v1.GuaranteedCommitments/GetMetrics
 - blueapi.gc.v1.GuaranteedCommitments/GetMetrics, runtime.WithHTTPPathPattern(/v1/metrics
 - blueapi.gc.v1.GuaranteedCommitments/GetOnboardingStatus
