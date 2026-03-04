@@ -556,7 +556,7 @@ functions:
 - blueapi.cover.v1.Cover/DeleteUnitType
 - blueapi.cover.v1.Cover/DeleteUnitType, runtime.WithHTTPPathPattern(/v1/unitcost/{id}
 - blueapi.cover.v1.Cover/DeleteUser
-- blueapi.cover.v1.Cover/DeleteUser, runtime.WithHTTPPathPattern(/v1/user/{id}
+- blueapi.cover.v1.Cover/DeleteUser, runtime.WithHTTPPathPattern(/v1/users/{id}
 - blueapi.cover.v1.Cover/DeleteView
 - blueapi.cover.v1.Cover/DeleteView, runtime.WithHTTPPathPattern(/v1/views/{viewId}
 - blueapi.cover.v1.Cover/ExecuteOptimization
@@ -637,6 +637,8 @@ functions:
 - blueapi.cover.v1.Cover/GetMemberDetails, runtime.WithHTTPPathPattern(/v1/members/{userId}
 - blueapi.cover.v1.Cover/GetMembers
 - blueapi.cover.v1.Cover/GetMembers, runtime.WithHTTPPathPattern(/v1/members
+- blueapi.cover.v1.Cover/GetMyRoles
+- blueapi.cover.v1.Cover/GetMyRoles, runtime.WithHTTPPathPattern(/v1/me/roles
 - blueapi.cover.v1.Cover/GetOrgFiscalMonth
 - blueapi.cover.v1.Cover/GetOrgFiscalMonth, runtime.WithHTTPPathPattern(/v1/reports/fiscalmonth
 - blueapi.cover.v1.Cover/GetOrgUpdateCurrency
@@ -665,6 +667,8 @@ functions:
 - blueapi.cover.v1.Cover/GetUnitMetric, runtime.WithHTTPPathPattern(/v1/unitcost/metrics/{id}
 - blueapi.cover.v1.Cover/GetUnitType
 - blueapi.cover.v1.Cover/GetUnitType, runtime.WithHTTPPathPattern(/v1/unitcost/{id}
+- blueapi.cover.v1.Cover/GetUser
+- blueapi.cover.v1.Cover/GetUser, runtime.WithHTTPPathPattern(/v1/users/{id}
 - blueapi.cover.v1.Cover/GetUserDetails
 - blueapi.cover.v1.Cover/GetUserDetails, runtime.WithHTTPPathPattern(/v1/me
 - blueapi.cover.v1.Cover/GetUserProfile
@@ -674,7 +678,7 @@ functions:
 - blueapi.cover.v1.Cover/InviteMember
 - blueapi.cover.v1.Cover/InviteMember, runtime.WithHTTPPathPattern(/v1/members/invite
 - blueapi.cover.v1.Cover/InviteUsers
-- blueapi.cover.v1.Cover/InviteUsers, runtime.WithHTTPPathPattern(/v1/user/invite
+- blueapi.cover.v1.Cover/InviteUsers, runtime.WithHTTPPathPattern(/v1/users/invite
 - blueapi.cover.v1.Cover/ListAccountAccess
 - blueapi.cover.v1.Cover/ListAccountAccess, runtime.WithHTTPPathPattern(/v1/aws/acctaccess/all
 - blueapi.cover.v1.Cover/ListAccountUsage
@@ -750,7 +754,7 @@ functions:
 - blueapi.cover.v1.Cover/RegisterNewUser
 - blueapi.cover.v1.Cover/RegisterNewUser, runtime.WithHTTPPathPattern(/v1/members/register
 - blueapi.cover.v1.Cover/ReinviteUser
-- blueapi.cover.v1.Cover/ReinviteUser, runtime.WithHTTPPathPattern(/v1/user/{id}/reinvite
+- blueapi.cover.v1.Cover/ReinviteUser, runtime.WithHTTPPathPattern(/v1/users/{id}/reinvite
 - blueapi.cover.v1.Cover/RemoveCostGroupMember
 - blueapi.cover.v1.Cover/RemoveCostGroupMember, runtime.WithHTTPPathPattern(/v1/costgroups/{costGroupId}/member/remove
 - blueapi.cover.v1.Cover/RemoveFavorite
@@ -856,7 +860,7 @@ functions:
 - blueapi.cover.v1.Cover/UpdateUserProfile
 - blueapi.cover.v1.Cover/UpdateUserProfile, runtime.WithHTTPPathPattern(/v1/members/profile/{email}
 - blueapi.cover.v1.Cover/UpdateUserRole
-- blueapi.cover.v1.Cover/UpdateUserRole, runtime.WithHTTPPathPattern(/v1/user/{user_id}
+- blueapi.cover.v1.Cover/UpdateUserRole, runtime.WithHTTPPathPattern(/v1/users/{user_id}
 - blueapi.cover.v1.Cover/UpdateUserTimezone
 - blueapi.cover.v1.Cover/UpdateUserTimezone, runtime.WithHTTPPathPattern(/v1/me/timezone
 - blueapi.cover.v1.Cover/UpdateView
