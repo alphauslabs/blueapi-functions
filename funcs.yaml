@@ -933,6 +933,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsPlanDetails, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsUtilization
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsUtilization, runtime.WithHTTPPathPattern(/v1/commitments/{commitmentId}/utilization
+- blueapi.gc.v1.GuaranteedCommitments/GetDraftPurchasePlansDetails
+- blueapi.gc.v1.GuaranteedCommitments/GetDraftPurchasePlansDetails, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplans/draft/{planId}
 - blueapi.gc.v1.GuaranteedCommitments/GetGuaranteedCommitmentTemplateUrl
 - blueapi.gc.v1.GuaranteedCommitments/GetGuaranteedCommitmentTemplateUrl, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cftemplate/guaranteed
 - blueapi.gc.v1.GuaranteedCommitments/GetMetrics
@@ -941,6 +943,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetOnboardingStatus, runtime.WithHTTPPathPattern(/v1/onboarding/status
 - blueapi.gc.v1.GuaranteedCommitments/GetPayerAccountStatus
 - blueapi.gc.v1.GuaranteedCommitments/GetPayerAccountStatus, runtime.WithHTTPPathPattern(/v1/managements/accounts/status
+- blueapi.gc.v1.GuaranteedCommitments/GetPurchasePlansDetails
+- blueapi.gc.v1.GuaranteedCommitments/GetPurchasePlansDetails, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplans/{planId}
 - blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentsPlan
 - blueapi.gc.v1.GuaranteedCommitments/GetRecommendedCommitmentsPlan, runtime.WithHTTPPathPattern(/v1/commitments/plan/recommended
 - blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage
@@ -961,8 +965,6 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/ListPayerAccounts, runtime.WithHTTPPathPattern(/v1/managements/accounts
 - blueapi.gc.v1.GuaranteedCommitments/ListPurchasePlansBySegment
 - blueapi.gc.v1.GuaranteedCommitments/ListPurchasePlansBySegment, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplans
-- blueapi.gc.v1.GuaranteedCommitments/ListPurchasePlansDetails
-- blueapi.gc.v1.GuaranteedCommitments/ListPurchasePlansDetails, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplans/{planId}
 - blueapi.gc.v1.GuaranteedCommitments/ListResources
 - blueapi.gc.v1.GuaranteedCommitments/ListResources, runtime.WithHTTPPathPattern(/v1/resources
 - blueapi.gc.v1.GuaranteedCommitments/RegisterOrg
