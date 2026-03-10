@@ -931,8 +931,6 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart, runtime.WithHTTPPathPattern(/v1/commitments/{commitmentId}/chart
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsUtilization
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsUtilization, runtime.WithHTTPPathPattern(/v1/commitments/{commitmentId}/utilization
-- blueapi.gc.v1.GuaranteedCommitments/GetDraftPurchasePlansDetails
-- blueapi.gc.v1.GuaranteedCommitments/GetDraftPurchasePlansDetails, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplans/draft/{draftPlanId}
 - blueapi.gc.v1.GuaranteedCommitments/GetGuaranteedCommitmentTemplateUrl
 - blueapi.gc.v1.GuaranteedCommitments/GetGuaranteedCommitmentTemplateUrl, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cftemplate/guaranteed
 - blueapi.gc.v1.GuaranteedCommitments/GetMetrics
