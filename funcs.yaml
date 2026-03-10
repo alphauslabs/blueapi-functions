@@ -172,7 +172,7 @@ functions:
 - blueapi.billing.v1.Billing/GetChildBillingGroup
 - blueapi.billing.v1.Billing/GetChildBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/children/{internalId}
 - blueapi.billing.v1.Billing/GetChildBillingGroupCustomizedBillingService
-- blueapi.billing.v1.Billing/GetChildBillingGroupCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/billinggroups/children/{internalId}/customizedBillingService/{vendor}
+- blueapi.billing.v1.Billing/GetChildBillingGroupCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/{vendor}/billinggroups/children/{internalId}/customizedBillingService
 - blueapi.billing.v1.Billing/GetChildBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/GetChildBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/billinggroups/children/{internalId}/serviceDiscounts
 - blueapi.billing.v1.Billing/GetCredits
@@ -264,7 +264,7 @@ functions:
 - blueapi.billing.v1.Billing/SetChildBillingGroupAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/SetChildBillingGroupAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/billinggroups/children/{internalId}/serviceDiscounts/accounts
 - blueapi.billing.v1.Billing/SetChildBillingGroupCustomizedBillingService
-- blueapi.billing.v1.Billing/SetChildBillingGroupCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/billinggroups/children/{internalId}/customizedBillingService/{vendor}
+- blueapi.billing.v1.Billing/SetChildBillingGroupCustomizedBillingService, runtime.WithHTTPPathPattern(/v1/{vendor}/billinggroups/children/{internalId}/customizedBillingService
 - blueapi.billing.v1.Billing/SetChildBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/SetChildBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/billinggroups/children/{internalId}/serviceDiscounts
 - blueapi.billing.v1.Billing/SetCustomizedBillingServiceBillingGroup
