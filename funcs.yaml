@@ -1061,6 +1061,8 @@ functions:
 - blueapi.luster.v1.Luster/DeleteContext, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/{id}
 - blueapi.luster.v1.Luster/DeleteContextComment
 - blueapi.luster.v1.Luster/DeleteContextComment, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/{context_id}/comment/{id}
+- blueapi.luster.v1.Luster/DeleteLabel
+- blueapi.luster.v1.Luster/DeleteLabel, runtime.WithHTTPPathPattern(/v1/contexts/label/{id}
 - blueapi.luster.v1.Luster/DeleteSpace
 - blueapi.luster.v1.Luster/DeleteSpace, runtime.WithHTTPPathPattern(/v1/spaces/{id}
 - blueapi.luster.v1.Luster/GetContext
@@ -1075,6 +1077,8 @@ functions:
 - blueapi.luster.v1.Luster/UpdateContext, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/{id}
 - blueapi.luster.v1.Luster/UpdateContextComment
 - blueapi.luster.v1.Luster/UpdateContextComment, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/{context_id}/comment/{id}
+- blueapi.luster.v1.Luster/UpdateLabel
+- blueapi.luster.v1.Luster/UpdateLabel, runtime.WithHTTPPathPattern(/v1/contexts/label/{id}
 - blueapi.luster.v1.Luster/UpdateSpace
 - blueapi.luster.v1.Luster/UpdateSpace, runtime.WithHTTPPathPattern(/v1/spaces/{id}
 - blueapi.operations.v1.Operations/CancelOperation
