@@ -1071,6 +1071,8 @@ functions:
 - blueapi.luster.v1.Luster/GetSpace, runtime.WithHTTPPathPattern(/v1/spaces/{id}
 - blueapi.luster.v1.Luster/ReadContexts
 - blueapi.luster.v1.Luster/ReadContexts, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}
+- blueapi.luster.v1.Luster/ReadLabels
+- blueapi.luster.v1.Luster/ReadLabels, runtime.WithHTTPPathPattern(/v1/contexts/label
 - blueapi.luster.v1.Luster/ReadSpaces
 - blueapi.luster.v1.Luster/ReadSpaces, runtime.WithHTTPPathPattern(/v1/spaces
 - blueapi.luster.v1.Luster/UpdateContext
