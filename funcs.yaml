@@ -1050,23 +1050,23 @@ functions:
 - blueapi.kvstore.v1.KvStore/Write
 - blueapi.kvstore.v1.KvStore/Write, runtime.WithHTTPPathPattern(/v1
 - blueapi.luster.v1.Luster/CreateContext
-- blueapi.luster.v1.Luster/CreateContext, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}
+- blueapi.luster.v1.Luster/CreateContext, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/context
 - blueapi.luster.v1.Luster/CreateContextComment
-- blueapi.luster.v1.Luster/CreateContextComment, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/{context_id}/comment
+- blueapi.luster.v1.Luster/CreateContextComment, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/context/{context_id}/comment
 - blueapi.luster.v1.Luster/CreateLabel
 - blueapi.luster.v1.Luster/CreateLabel, runtime.WithHTTPPathPattern(/v1/contexts/label
 - blueapi.luster.v1.Luster/CreateSpace
 - blueapi.luster.v1.Luster/CreateSpace, runtime.WithHTTPPathPattern(/v1/spaces
 - blueapi.luster.v1.Luster/DeleteContext
-- blueapi.luster.v1.Luster/DeleteContext, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/{id}
+- blueapi.luster.v1.Luster/DeleteContext, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/context/{id}
 - blueapi.luster.v1.Luster/DeleteContextComment
-- blueapi.luster.v1.Luster/DeleteContextComment, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/{context_id}/comment/{id}
+- blueapi.luster.v1.Luster/DeleteContextComment, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/context/{context_id}/comment/{id}
 - blueapi.luster.v1.Luster/DeleteLabel
 - blueapi.luster.v1.Luster/DeleteLabel, runtime.WithHTTPPathPattern(/v1/contexts/label/{id}
 - blueapi.luster.v1.Luster/DeleteSpace
 - blueapi.luster.v1.Luster/DeleteSpace, runtime.WithHTTPPathPattern(/v1/spaces/{id}
 - blueapi.luster.v1.Luster/GetContext
-- blueapi.luster.v1.Luster/GetContext, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/{id}
+- blueapi.luster.v1.Luster/GetContext, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/context/{id}
 - blueapi.luster.v1.Luster/GetSpace
 - blueapi.luster.v1.Luster/GetSpace, runtime.WithHTTPPathPattern(/v1/spaces/{id}
 - blueapi.luster.v1.Luster/ReadContexts
@@ -1076,9 +1076,9 @@ functions:
 - blueapi.luster.v1.Luster/ReadSpaces
 - blueapi.luster.v1.Luster/ReadSpaces, runtime.WithHTTPPathPattern(/v1/spaces
 - blueapi.luster.v1.Luster/UpdateContext
-- blueapi.luster.v1.Luster/UpdateContext, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/{id}
+- blueapi.luster.v1.Luster/UpdateContext, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/context/{id}
 - blueapi.luster.v1.Luster/UpdateContextComment
-- blueapi.luster.v1.Luster/UpdateContextComment, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/{context_id}/comment/{id}
+- blueapi.luster.v1.Luster/UpdateContextComment, runtime.WithHTTPPathPattern(/v1/contexts/{space_id}/context/{context_id}/comment/{id}
 - blueapi.luster.v1.Luster/UpdateLabel
 - blueapi.luster.v1.Luster/UpdateLabel, runtime.WithHTTPPathPattern(/v1/contexts/label/{id}
 - blueapi.luster.v1.Luster/UpdateSpace
