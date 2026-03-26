@@ -923,6 +923,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsCloudFormationTemplate, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation/template
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation/launchstackurl
+- blueapi.gc.v1.GuaranteedCommitments/GetBillingGroupStatus
+- blueapi.gc.v1.GuaranteedCommitments/GetBillingGroupStatus, runtime.WithHTTPPathPattern(/v1/managements/billinggroups/status
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart, runtime.WithHTTPPathPattern(/v1/commitments/{commitmentId}/chart
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsUtilization
@@ -941,6 +943,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage, runtime.WithHTTPPathPattern(/v1/resources/{resourceId}/dailyusage
 - blueapi.gc.v1.GuaranteedCommitments/GetUpdatedPurchasePlansBySegment
 - blueapi.gc.v1.GuaranteedCommitments/GetUpdatedPurchasePlansBySegment, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplans
+- blueapi.gc.v1.GuaranteedCommitments/ListBillingGroups
+- blueapi.gc.v1.GuaranteedCommitments/ListBillingGroups, runtime.WithHTTPPathPattern(/v1/managements/billinggroups
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitments
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitments, runtime.WithHTTPPathPattern(/v1/commitments
 - blueapi.gc.v1.GuaranteedCommitments/ListDraftPurchasePlans
@@ -957,6 +961,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/RegisterOrg, runtime.WithHTTPPathPattern(/v1/onboarding
 - blueapi.gc.v1.GuaranteedCommitments/SaveCommitmentsPlanAsDraft
 - blueapi.gc.v1.GuaranteedCommitments/SaveCommitmentsPlanAsDraft, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplans/draft/{planId}
+- blueapi.gc.v1.GuaranteedCommitments/SetBillingGroupStatus
+- blueapi.gc.v1.GuaranteedCommitments/SetBillingGroupStatus, runtime.WithHTTPPathPattern(/v1/managements/billinggroups/{companyId}
 - blueapi.gc.v1.GuaranteedCommitments/SetPayerAccountEnabled
 - blueapi.gc.v1.GuaranteedCommitments/SetPayerAccountEnabled, runtime.WithHTTPPathPattern(/v1/managements/accounts/{companyId}
 - blueapi.gc.v1.GuaranteedCommitments/StartAwsOnboarding
