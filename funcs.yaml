@@ -915,6 +915,8 @@ functions:
 - blueapi.flow.v1.Flow/SetUserAccountSettings, runtime.WithHTTPPathPattern(/v1/user/settings/{id}
 - blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply
 - blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply, runtime.WithHTTPPathPattern(/v1/commitments/plan/{planId}/apply
+- blueapi.gc.v1.GuaranteedCommitments/CreateAzureIntegration
+- blueapi.gc.v1.GuaranteedCommitments/CreateAzureIntegration, runtime.WithHTTPPathPattern(/v1/onboarding/azure/integration
 - blueapi.gc.v1.GuaranteedCommitments/CreateGuaranteedCommitmentAccess
 - blueapi.gc.v1.GuaranteedCommitments/CreateGuaranteedCommitmentAccess, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cftemplate/guaranteed
 - blueapi.gc.v1.GuaranteedCommitments/DeleteDraftPurchasePlan
@@ -923,6 +925,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsCloudFormationTemplate, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation/template
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation/launchstackurl
+- blueapi.gc.v1.GuaranteedCommitments/GetAzureOnboardingAuthUrl
+- blueapi.gc.v1.GuaranteedCommitments/GetAzureOnboardingAuthUrl, runtime.WithHTTPPathPattern(/v1/onboarding/azure/{onboardingId}/authurl
 - blueapi.gc.v1.GuaranteedCommitments/GetBillingGroupStatus
 - blueapi.gc.v1.GuaranteedCommitments/GetBillingGroupStatus, runtime.WithHTTPPathPattern(/v1/managements/billinggroups/status
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart
@@ -943,6 +947,10 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage, runtime.WithHTTPPathPattern(/v1/resources/{resourceId}/dailyusage
 - blueapi.gc.v1.GuaranteedCommitments/GetUpdatedPurchasePlansBySegment
 - blueapi.gc.v1.GuaranteedCommitments/GetUpdatedPurchasePlansBySegment, runtime.WithHTTPPathPattern(/v1/commitments/purchaseplans
+- blueapi.gc.v1.GuaranteedCommitments/ListAzureIntegrations
+- blueapi.gc.v1.GuaranteedCommitments/ListAzureIntegrations, runtime.WithHTTPPathPattern(/v1/onboarding/azure/integrations
+- blueapi.gc.v1.GuaranteedCommitments/ListAzureOnboardingAccounts
+- blueapi.gc.v1.GuaranteedCommitments/ListAzureOnboardingAccounts, runtime.WithHTTPPathPattern(/v1/onboarding/azure/{onboardingId}/accounts
 - blueapi.gc.v1.GuaranteedCommitments/ListBillingGroups
 - blueapi.gc.v1.GuaranteedCommitments/ListBillingGroups, runtime.WithHTTPPathPattern(/v1/managements/billinggroups
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitments
@@ -967,6 +975,12 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/SetPayerAccountEnabled, runtime.WithHTTPPathPattern(/v1/managements/accounts/{companyId}
 - blueapi.gc.v1.GuaranteedCommitments/StartAwsOnboarding
 - blueapi.gc.v1.GuaranteedCommitments/StartAwsOnboarding, runtime.WithHTTPPathPattern(/v1/onboarding/aws/start
+- blueapi.gc.v1.GuaranteedCommitments/StartAzureOnboarding
+- blueapi.gc.v1.GuaranteedCommitments/StartAzureOnboarding, runtime.WithHTTPPathPattern(/v1/onboarding/azure/start
+- blueapi.gc.v1.GuaranteedCommitments/UpdateAzureOnboarding
+- blueapi.gc.v1.GuaranteedCommitments/UpdateAzureOnboarding, runtime.WithHTTPPathPattern(/v1/onboarding/azure/{onboardingId}
+- blueapi.gc.v1.GuaranteedCommitments/ValidateAzureAppInstall
+- blueapi.gc.v1.GuaranteedCommitments/ValidateAzureAppInstall, runtime.WithHTTPPathPattern(/v1/onboarding/azure/{onboardingId}/validate
 - blueapi.gc.v1.GuaranteedCommitments/ValidateBillingGroup
 - blueapi.gc.v1.GuaranteedCommitments/ValidateBillingGroup, runtime.WithHTTPPathPattern(/v1/onboarding/billinggroup
 - blueapi.gc.v1.GuaranteedCommitments/VerifyAwsOnboarding
