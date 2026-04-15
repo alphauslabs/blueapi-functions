@@ -71,6 +71,8 @@ functions:
 - blueapi.billing.v1.Billing/BulkCreateBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/BulkLinkAccount
 - blueapi.billing.v1.Billing/BulkLinkAccount, runtime.WithHTTPPathPattern(/v1/billinggroups
+- blueapi.billing.v1.Billing/BulkTagBillingGroup
+- blueapi.billing.v1.Billing/BulkTagBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups
 - blueapi.billing.v1.Billing/ConvertInvoiceToPdf
 - blueapi.billing.v1.Billing/ConvertInvoiceToPdf, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/CreateAccessGroup
