@@ -367,6 +367,8 @@ functions:
 - blueapi.cost.v1.Cost/DeletePayerAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/payers/{id}
 - blueapi.cost.v1.Cost/ExportCostFiltersFile
 - blueapi.cost.v1.Cost/ExportCostFiltersFile, runtime.WithHTTPPathPattern(/v1/{vendor}/costfilters/{filterId}
+- blueapi.cost.v1.Cost/ExportReport
+- blueapi.cost.v1.Cost/ExportReport, runtime.WithHTTPPathPattern(/v1/reports
 - blueapi.cost.v1.Cost/GetAccount
 - blueapi.cost.v1.Cost/GetAccount, runtime.WithHTTPPathPattern(/v1/{vendor}/accounts/{id}
 - blueapi.cost.v1.Cost/GetAccountBudget
