@@ -91,6 +91,8 @@ functions:
 - blueapi.billing.v1.Billing/CreateBillingGroupMerged, runtime.WithHTTPPathPattern(/v1/billinggroups/merged
 - blueapi.billing.v1.Billing/CreateChildBillingGroup
 - blueapi.billing.v1.Billing/CreateChildBillingGroup, runtime.WithHTTPPathPattern(/v1/billinggroups/children
+- blueapi.billing.v1.Billing/CreateCustomFee
+- blueapi.billing.v1.Billing/CreateCustomFee, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententries/customfees
 - blueapi.billing.v1.Billing/CreateCustomField
 - blueapi.billing.v1.Billing/CreateCustomField, runtime.WithHTTPPathPattern(/v1/customfield
 - blueapi.billing.v1.Billing/CreateCustomizedBillingService
@@ -207,6 +209,8 @@ functions:
 - blueapi.billing.v1.Billing/ListAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/account
 - blueapi.billing.v1.Billing/ListAccountResources
 - blueapi.billing.v1.Billing/ListAccountResources, runtime.WithHTTPPathPattern(/v1/resources/accounts/{vendor}
+- blueapi.billing.v1.Billing/ListAdjustmentEntryItems
+- blueapi.billing.v1.Billing/ListAdjustmentEntryItems, runtime.WithHTTPPathPattern(/v1/{vendor}/adjustmententryitems
 - blueapi.billing.v1.Billing/ListAwsDailyRunHistory
 - blueapi.billing.v1.Billing/ListAwsDailyRunHistory, runtime.WithHTTPPathPattern(/v1/aws/dailyrunhistory
 - blueapi.billing.v1.Billing/ListBillingGroupCustomField
