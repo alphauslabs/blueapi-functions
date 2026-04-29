@@ -941,6 +941,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsCloudFormationTemplate, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation/template
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl, runtime.WithHTTPPathPattern(/v1/onboarding/aws/cloudformation/launchstackurl
+- blueapi.gc.v1.GuaranteedCommitments/GetAwsPrivateOffer
+- blueapi.gc.v1.GuaranteedCommitments/GetAwsPrivateOffer, runtime.WithHTTPPathPattern(/v1/onboarding/aws/privateoffer/{payerAccountId}
 - blueapi.gc.v1.GuaranteedCommitments/GetAzureOnboardingAuthUrl
 - blueapi.gc.v1.GuaranteedCommitments/GetAzureOnboardingAuthUrl, runtime.WithHTTPPathPattern(/v1/onboarding/azure/{onboardingId}/authurl
 - blueapi.gc.v1.GuaranteedCommitments/GetBillingGroupStatus
