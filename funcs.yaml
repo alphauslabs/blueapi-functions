@@ -1033,6 +1033,8 @@ functions:
 - blueapi.iam.v1.Iam/DeleteRole, runtime.WithHTTPPathPattern(/iam/v1/roles/{namespace}/{name}
 - blueapi.iam.v1.Iam/DeleteUser
 - blueapi.iam.v1.Iam/DeleteUser, runtime.WithHTTPPathPattern(/iam/v1/users/{id}
+- blueapi.iam.v1.Iam/GetExperimentalUIPreferences
+- blueapi.iam.v1.Iam/GetExperimentalUIPreferences, runtime.WithHTTPPathPattern(/iam/v1/experimentalui/preferences
 - blueapi.iam.v1.Iam/GetFeatureFlags
 - blueapi.iam.v1.Iam/GetFeatureFlags, runtime.WithHTTPPathPattern(/iam/v1/grouprootusers/{id}/features
 - blueapi.iam.v1.Iam/GetGroupRootUser
@@ -1073,6 +1075,8 @@ functions:
 - blueapi.iam.v1.Iam/UpdateRole, runtime.WithHTTPPathPattern(/iam/v1/roles/{namespace}/{name}
 - blueapi.iam.v1.Iam/UpdateUserRoleMapping
 - blueapi.iam.v1.Iam/UpdateUserRoleMapping, runtime.WithHTTPPathPattern(/iam/v1/userroles
+- blueapi.iam.v1.Iam/UpsertExperimentalUIPreference
+- blueapi.iam.v1.Iam/UpsertExperimentalUIPreference, runtime.WithHTTPPathPattern(/iam/v1/experimentalui/preferences/{component_id}
 - blueapi.iam.v1.Iam/ValidateResetPasswordLinkAndChangePassword
 - blueapi.iam.v1.Iam/ValidateResetPasswordLinkAndChangePassword, runtime.WithHTTPPathPattern(/iam/v1/password
 - blueapi.iam.v1.Iam/VerifyUserForResetPassword
