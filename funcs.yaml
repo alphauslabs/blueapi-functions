@@ -103,6 +103,8 @@ functions:
 - blueapi.billing.v1.Billing/CreateFreeFormat, runtime.WithHTTPPathPattern(/v1/freeformat
 - blueapi.billing.v1.Billing/CreateInvoice
 - blueapi.billing.v1.Billing/CreateInvoice, runtime.WithHTTPPathPattern(/v1/invoice/{date}
+- blueapi.billing.v1.Billing/CreateInvoiceLayoutConfig
+- blueapi.billing.v1.Billing/CreateInvoiceLayoutConfig, runtime.WithHTTPPathPattern(/v1/invoicelayoutconfig
 - blueapi.billing.v1.Billing/CreateInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/CreateInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts
 - blueapi.billing.v1.Billing/CreateInvoiceWithSettings
@@ -165,6 +167,8 @@ functions:
 - blueapi.billing.v1.Billing/GetBillingGroupAccountSupportPlan, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}/{vendor}/supportplan
 - blueapi.billing.v1.Billing/GetBillingGroupAnnouncements
 - blueapi.billing.v1.Billing/GetBillingGroupAnnouncements, runtime.WithHTTPPathPattern(/v1/billinggroup/reseller/announcements/{groupId}
+- blueapi.billing.v1.Billing/GetBillingGroupInvoiceLayoutConfig
+- blueapi.billing.v1.Billing/GetBillingGroupInvoiceLayoutConfig, runtime.WithHTTPPathPattern(/v1/billinggroups/{id}/invoicelayoutconfig
 - blueapi.billing.v1.Billing/GetBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/GetBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/billinggroup
 - blueapi.billing.v1.Billing/GetBillingSetting
@@ -249,6 +253,8 @@ functions:
 - blueapi.billing.v1.Billing/ReadCustomizedBillingServices, runtime.WithHTTPPathPattern(/v1/customizedbillingservices
 - blueapi.billing.v1.Billing/ReadInvoiceAdjustments
 - blueapi.billing.v1.Billing/ReadInvoiceAdjustments, runtime.WithHTTPPathPattern(/v1/{vendor}/invoiceadjustments
+- blueapi.billing.v1.Billing/ReadInvoiceLayoutConfig
+- blueapi.billing.v1.Billing/ReadInvoiceLayoutConfig, runtime.WithHTTPPathPattern(/v1/invoicelayoutconfig
 - blueapi.billing.v1.Billing/ReadServiceDiscountsServices
 - blueapi.billing.v1.Billing/ReadServiceDiscountsServices, runtime.WithHTTPPathPattern(/v1/servicediscounts/{vendor}/services
 - blueapi.billing.v1.Billing/ReadUntaggedGroups
@@ -265,6 +271,8 @@ functions:
 - blueapi.billing.v1.Billing/SaveInvoiceSettings, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/SetBillingGroupExchangeRate
 - blueapi.billing.v1.Billing/SetBillingGroupExchangeRate, runtime.WithHTTPPathPattern(/v1/exchangerate/billinggroup/{month}
+- blueapi.billing.v1.Billing/SetBillingGroupInvoiceLayoutConfig
+- blueapi.billing.v1.Billing/SetBillingGroupInvoiceLayoutConfig, runtime.WithHTTPPathPattern(/v1/billinggroups/{id}/invoicelayoutconfig
 - blueapi.billing.v1.Billing/SetChildBillingGroupAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/SetChildBillingGroupAccountInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/billinggroups/children/{internalId}/serviceDiscounts/accounts
 - blueapi.billing.v1.Billing/SetChildBillingGroupCustomizedBillingService
@@ -325,6 +333,8 @@ functions:
 - blueapi.billing.v1.Billing/UpdateInvoiceDisplaySettings, runtime.WithHTTPPathPattern(/v1/invoice/displaysettings
 - blueapi.billing.v1.Billing/UpdateInvoiceExchangeRate
 - blueapi.billing.v1.Billing/UpdateInvoiceExchangeRate, runtime.WithHTTPPathPattern(/v1/invoice/exchangerate/{month}
+- blueapi.billing.v1.Billing/UpdateInvoiceLayoutConfig
+- blueapi.billing.v1.Billing/UpdateInvoiceLayoutConfig, runtime.WithHTTPPathPattern(/v1/invoicelayoutconfig/{id}
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews
 - blueapi.billing.v1.Billing/UpdateInvoicePreviews, runtime.WithHTTPPathPattern(/v1/invoice/{date}
 - blueapi.billing.v1.Billing/UpdateInvoiceServiceDiscounts
