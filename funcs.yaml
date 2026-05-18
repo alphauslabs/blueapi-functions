@@ -123,6 +123,8 @@ functions:
 - blueapi.billing.v1.Billing/DeleteBillinGroup, runtime.WithHTTPPathPattern(/v1/billinggroup/{id}
 - blueapi.billing.v1.Billing/DeleteBillingGroupCustomField
 - blueapi.billing.v1.Billing/DeleteBillingGroupCustomField, runtime.WithHTTPPathPattern(/v1/billinggroup/customfield/{groupId}/{customFieldId}
+- blueapi.billing.v1.Billing/DeleteBillingGroupInvoiceLayoutConfig
+- blueapi.billing.v1.Billing/DeleteBillingGroupInvoiceLayoutConfig, runtime.WithHTTPPathPattern(/v1/billinggroups/{id}/invoicelayoutconfig
 - blueapi.billing.v1.Billing/DeleteBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/DeleteBillingGroupInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{groupId}/billinggroup
 - blueapi.billing.v1.Billing/DeleteChildBillingGroup
