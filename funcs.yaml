@@ -139,6 +139,8 @@ functions:
 - blueapi.billing.v1.Billing/DeleteExcludeServiceEntry, runtime.WithHTTPPathPattern(/v1/billinggroups/exclude-service-settings
 - blueapi.billing.v1.Billing/DeleteFreeFormat
 - blueapi.billing.v1.Billing/DeleteFreeFormat, runtime.WithHTTPPathPattern(/v1/freeformat/{groupId}
+- blueapi.billing.v1.Billing/DeleteInvoiceLayoutConfig
+- blueapi.billing.v1.Billing/DeleteInvoiceLayoutConfig, runtime.WithHTTPPathPattern(/v1/invoicelayoutconfig/{id}
 - blueapi.billing.v1.Billing/DeleteInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/DeleteInvoiceServiceDiscounts, runtime.WithHTTPPathPattern(/v1/servicediscounts/{id}
 - blueapi.billing.v1.Billing/DeleteReseller
