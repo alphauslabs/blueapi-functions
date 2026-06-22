@@ -429,6 +429,7 @@ functions:
 - blueapi.flow.v1.Flow/SendSPToPurchaseDetailsNotification
 - blueapi.flow.v1.Flow/SetSettings
 - blueapi.flow.v1.Flow/SetUserAccountSettings
+- blueapi.gc.v1.GuaranteedCommitments/AcceptBillingGroupTerms
 - blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply
 - blueapi.gc.v1.GuaranteedCommitments/CreateAzureIntegration
 - blueapi.gc.v1.GuaranteedCommitments/CreateCustomCommitmentPlan
