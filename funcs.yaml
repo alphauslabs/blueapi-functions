@@ -460,6 +460,8 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/ListPurchasePlansBySegment
 - blueapi.gc.v1.GuaranteedCommitments/ListReservableResources
 - blueapi.gc.v1.GuaranteedCommitments/ListResources
+- blueapi.gc.v1.GuaranteedCommitments/ReadCommitmentReportAccounts
+- blueapi.gc.v1.GuaranteedCommitments/ReadCommitmentReports
 - blueapi.gc.v1.GuaranteedCommitments/RegisterOrg
 - blueapi.gc.v1.GuaranteedCommitments/SaveCommitmentsPlanAsDraft
 - blueapi.gc.v1.GuaranteedCommitments/SetBillingGroupStatus
