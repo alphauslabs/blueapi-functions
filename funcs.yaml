@@ -117,6 +117,7 @@ functions:
 - blueapi.billing.v1.Billing/ListExchangeRates
 - blueapi.billing.v1.Billing/ListExcludeServices
 - blueapi.billing.v1.Billing/ListInvoice
+- blueapi.billing.v1.Billing/ListInvoiceLayoutConfigBillingGroups
 - blueapi.billing.v1.Billing/ListInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ListInvoiceStatus
 - blueapi.billing.v1.Billing/ListInvoiceTemplate
