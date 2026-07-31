@@ -194,6 +194,7 @@ functions:
 - blueapi.cost.v1.Cost/DeleteCostFilters
 - blueapi.cost.v1.Cost/DeletePayerAccount
 - blueapi.cost.v1.Cost/ExportCostFiltersFile
+- blueapi.cost.v1.Cost/ExportCostFiltersFileSync
 - blueapi.cost.v1.Cost/ExportReport
 - blueapi.cost.v1.Cost/GetAccount
 - blueapi.cost.v1.Cost/GetAccountBudget
