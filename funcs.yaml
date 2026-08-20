@@ -34,6 +34,7 @@ functions:
 - blueapi.billing.v1.Billing/AllocateAdjustmentEntry
 - blueapi.billing.v1.Billing/ApplyAdjustmentEntry
 - blueapi.billing.v1.Billing/BulkCreateBillingGroup
+- blueapi.billing.v1.Billing/BulkImportMonthlyMiscFees
 - blueapi.billing.v1.Billing/BulkLinkAccount
 - blueapi.billing.v1.Billing/BulkTagBillingGroup
 - blueapi.billing.v1.Billing/ConvertInvoiceToPdf
@@ -71,12 +72,14 @@ functions:
 - blueapi.billing.v1.Billing/DeleteFreeFormat
 - blueapi.billing.v1.Billing/DeleteInvoiceLayoutConfig
 - blueapi.billing.v1.Billing/DeleteInvoiceServiceDiscounts
+- blueapi.billing.v1.Billing/DeleteMonthlyMiscFee
 - blueapi.billing.v1.Billing/DeleteReseller
 - blueapi.billing.v1.Billing/ExportAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ExportBillingGroupCsv
 - blueapi.billing.v1.Billing/ExportBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ExportInvoiceFile
 - blueapi.billing.v1.Billing/ExportInvoiceSettingCsv
+- blueapi.billing.v1.Billing/ExportMonthlyMiscFees
 - blueapi.billing.v1.Billing/ExportServiceDiscounts
 - blueapi.billing.v1.Billing/GetAccessGroup
 - blueapi.billing.v1.Billing/GetAdjustmentConfig
@@ -100,6 +103,9 @@ functions:
 - blueapi.billing.v1.Billing/GetInvoiceDisplaySettings
 - blueapi.billing.v1.Billing/GetInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/GetInvoiceStatus
+- blueapi.billing.v1.Billing/GetMonthlyMiscFee
+- blueapi.billing.v1.Billing/GetMonthlyMiscFeeImport
+- blueapi.billing.v1.Billing/GetMonthlyMiscFeeImportTemplate
 - blueapi.billing.v1.Billing/GetReseller
 - blueapi.billing.v1.Billing/GetTags
 - blueapi.billing.v1.Billing/GetTagsAddingSetting
@@ -121,6 +127,7 @@ functions:
 - blueapi.billing.v1.Billing/ListInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ListInvoiceStatus
 - blueapi.billing.v1.Billing/ListInvoiceTemplate
+- blueapi.billing.v1.Billing/ListMonthlyMiscFees
 - blueapi.billing.v1.Billing/ListResellers
 - blueapi.billing.v1.Billing/ListServices
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
@@ -175,6 +182,7 @@ functions:
 - blueapi.billing.v1.Billing/UpdateNonTagGroupToBillingGroup
 - blueapi.billing.v1.Billing/UpdateReseller
 - blueapi.billing.v1.Billing/UpdateTagsAddingSetting
+- blueapi.billing.v1.Billing/UpsertMonthlyMiscFee
 - blueapi.cost.v1.Cost/CalculateCosts
 - blueapi.cost.v1.Cost/CheckAccountsBelongToMsp
 - blueapi.cost.v1.Cost/CreateAccount
@@ -208,6 +216,7 @@ functions:
 - blueapi.cost.v1.Cost/GetCoverageOptions
 - blueapi.cost.v1.Cost/GetExportRISP
 - blueapi.cost.v1.Cost/GetForecasts
+- blueapi.cost.v1.Cost/GetInvoiceReadiness
 - blueapi.cost.v1.Cost/GetMonthOnMonthCostForecast
 - blueapi.cost.v1.Cost/GetMonthToDateCostForecast
 - blueapi.cost.v1.Cost/GetMonthlyCostForecast
