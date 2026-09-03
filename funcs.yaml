@@ -79,7 +79,6 @@ functions:
 - blueapi.billing.v1.Billing/ExportBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ExportInvoiceFile
 - blueapi.billing.v1.Billing/ExportInvoiceSettingCsv
-- blueapi.billing.v1.Billing/ExportMonthlyMiscFees
 - blueapi.billing.v1.Billing/ExportServiceDiscounts
 - blueapi.billing.v1.Billing/GetAccessGroup
 - blueapi.billing.v1.Billing/GetAdjustmentConfig
@@ -103,8 +102,6 @@ functions:
 - blueapi.billing.v1.Billing/GetInvoiceDisplaySettings
 - blueapi.billing.v1.Billing/GetInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/GetInvoiceStatus
-- blueapi.billing.v1.Billing/GetMonthlyMiscFee
-- blueapi.billing.v1.Billing/GetMonthlyMiscFeeImport
 - blueapi.billing.v1.Billing/GetMonthlyMiscFeeImportTemplate
 - blueapi.billing.v1.Billing/GetReseller
 - blueapi.billing.v1.Billing/GetTags
@@ -182,7 +179,6 @@ functions:
 - blueapi.billing.v1.Billing/UpdateNonTagGroupToBillingGroup
 - blueapi.billing.v1.Billing/UpdateReseller
 - blueapi.billing.v1.Billing/UpdateTagsAddingSetting
-- blueapi.billing.v1.Billing/UpsertMonthlyMiscFee
 - blueapi.cost.v1.Cost/CalculateCosts
 - blueapi.cost.v1.Cost/CheckAccountsBelongToMsp
 - blueapi.cost.v1.Cost/CreateAccount
@@ -446,6 +442,7 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/CreateAzureIntegration
 - blueapi.gc.v1.GuaranteedCommitments/CreateCustomCommitmentPlan
 - blueapi.gc.v1.GuaranteedCommitments/CreateGuaranteedCommitmentAccess
+- blueapi.gc.v1.GuaranteedCommitments/DeleteAzureIntegration
 - blueapi.gc.v1.GuaranteedCommitments/DeleteDraftPurchasePlan
 - blueapi.gc.v1.GuaranteedCommitments/GetAvailableCommitmentTypes
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsCloudFormationTemplate
