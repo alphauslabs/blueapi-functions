@@ -556,6 +556,7 @@ functions:
 - blueapi.org.v1.Organization/DeleteOrg
 - blueapi.org.v1.Organization/GetOrg
 - blueapi.org.v1.Organization/SendVerification
+- blueapi.org.v1.Organization/SyncFeatureFlags
 - blueapi.org.v1.Organization/UpdateMetadata
 - blueapi.org.v1.Organization/UpdatePassword
 - blueapi.org.v1.Organization/VerifyOrg
