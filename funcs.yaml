@@ -37,6 +37,7 @@ functions:
 - blueapi.billing.v1.Billing/BulkImportMonthlyMiscFees
 - blueapi.billing.v1.Billing/BulkLinkAccount
 - blueapi.billing.v1.Billing/BulkTagBillingGroup
+- blueapi.billing.v1.Billing/BulkUpdateBillingGroup
 - blueapi.billing.v1.Billing/ConvertInvoiceToPdf
 - blueapi.billing.v1.Billing/CreateAccessGroup
 - blueapi.billing.v1.Billing/CreateAccountInvoiceServiceDiscounts
