@@ -598,7 +598,6 @@ functions:
 - blueapi.prism.v1.Prism/UpdateReportSchedule
 - blueapi.prism.v1.Prism/UpdateWorkflow
 - blueapi.prism.v1.Prism/VerifyUser
-- blueapi.vortex.v1.Vortex/
 - blueapi.vortex.v1.Vortex/CreateOrg
 - blueapi.vortex.v1.Vortex/GetUser
 - blueapi.vortex.v1.Vortex/InviteUser
