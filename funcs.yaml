@@ -1,10 +1,12 @@
 functions:
+- blueapi.admin.v1.Admin/CreateAccountGroup
 - blueapi.admin.v1.Admin/CreateCloudWatchMetricsStream
 - blueapi.admin.v1.Admin/CreateDefaultCostAccess
 - blueapi.admin.v1.Admin/CreateDefaultNotificationChannel
 - blueapi.admin.v1.Admin/CreateNotification
 - blueapi.admin.v1.Admin/CreateNotificationChannel
 - blueapi.admin.v1.Admin/CreateProformaCur
+- blueapi.admin.v1.Admin/DeleteAccountGroup
 - blueapi.admin.v1.Admin/DeleteDefaultCostAccess
 - blueapi.admin.v1.Admin/DeleteNotification
 - blueapi.admin.v1.Admin/DeleteNotificationChannel
@@ -23,6 +25,7 @@ functions:
 - blueapi.admin.v1.Admin/ListNotificationChannels
 - blueapi.admin.v1.Admin/ListNotifications
 - blueapi.admin.v1.Admin/SaveNotificationSettings
+- blueapi.admin.v1.Admin/UpdateAccountGroup
 - blueapi.admin.v1.Admin/UpdateDefaultCostAccess
 - blueapi.admin.v1.Admin/UpdateMSPDefaultMeta
 - blueapi.admin.v1.Admin/UpdateNotification
