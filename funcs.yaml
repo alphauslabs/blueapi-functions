@@ -441,6 +441,7 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/AcceptBillingGroupTerms
 - blueapi.gc.v1.GuaranteedCommitments/AcceptTerms
 - blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply
+- blueapi.gc.v1.GuaranteedCommitments/ConfigureAzureEaOnboarding
 - blueapi.gc.v1.GuaranteedCommitments/CreateAzureIntegration
 - blueapi.gc.v1.GuaranteedCommitments/CreateCustomCommitmentPlan
 - blueapi.gc.v1.GuaranteedCommitments/CreateGuaranteedCommitmentAccess
