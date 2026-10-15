@@ -83,7 +83,6 @@ functions:
 - blueapi.billing.v1.Billing/ExportBillingGroupInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ExportInvoiceFile
 - blueapi.billing.v1.Billing/ExportInvoiceSettingCsv
-- blueapi.billing.v1.Billing/ExportPreviewedBillingGroupCsv
 - blueapi.billing.v1.Billing/ExportServiceDiscounts
 - blueapi.billing.v1.Billing/GetAccessGroup
 - blueapi.billing.v1.Billing/GetAdjustmentConfig
@@ -134,7 +133,7 @@ functions:
 - blueapi.billing.v1.Billing/ListServices
 - blueapi.billing.v1.Billing/ListTagValues
 - blueapi.billing.v1.Billing/ListUsageCostsDrift
-- blueapi.billing.v1.Billing/PreviewBillingGroupCsvExport
+- blueapi.billing.v1.Billing/PreviewBillingGroupCsvHierarchy
 - blueapi.billing.v1.Billing/ReadAdjustmentEntries
 - blueapi.billing.v1.Billing/ReadChildBillingGroupAccountInvoiceServiceDiscounts
 - blueapi.billing.v1.Billing/ReadChildBillingGroups
