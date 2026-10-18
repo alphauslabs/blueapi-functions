@@ -422,6 +422,7 @@ functions:
 - blueapi.cover.v1.Cover/UpdateViewLayout
 - blueapi.cover.v1.Cover/UpdateViewWidget
 - blueapi.cover.v1.Cover/VerifyAPIAccess
+- blueapi.feedback.v1.Feedback/CreateFeedback
 - blueapi.flags.v1.Flags/EvaluateBooleanFlag
 - blueapi.flags.v1.Flags/EvaluateVariantFlag
 - blueapi.flow.v1.Flow/CheckSPToPurchaseDetailsLinkExpiry
@@ -444,6 +445,7 @@ functions:
 - blueapi.flow.v1.Flow/SetUserAccountSettings
 - blueapi.gc.v1.GuaranteedCommitments/AcceptBillingGroupTerms
 - blueapi.gc.v1.GuaranteedCommitments/AcceptTerms
+- blueapi.gc.v1.GuaranteedCommitments/CalculateProjectedRevenue
 - blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply
 - blueapi.gc.v1.GuaranteedCommitments/ConfigureAzureEaOnboarding
 - blueapi.gc.v1.GuaranteedCommitments/CreateAzureIntegration
@@ -456,6 +458,7 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsPrivateOffer
 - blueapi.gc.v1.GuaranteedCommitments/GetAzureOnboardingAuthUrl
+- blueapi.gc.v1.GuaranteedCommitments/GetBillingGroupRegistration
 - blueapi.gc.v1.GuaranteedCommitments/GetBillingGroupStatus
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsUtilization
@@ -463,8 +466,11 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetMetrics
 - blueapi.gc.v1.GuaranteedCommitments/GetOnboardingStatus
 - blueapi.gc.v1.GuaranteedCommitments/GetPayerAccountStatus
+- blueapi.gc.v1.GuaranteedCommitments/GetPerformanceSummary
 - blueapi.gc.v1.GuaranteedCommitments/GetPurchasePlansDetails
 - blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage
+- blueapi.gc.v1.GuaranteedCommitments/GetSavingsOpportunities
+- blueapi.gc.v1.GuaranteedCommitments/GetSimulatorInputs
 - blueapi.gc.v1.GuaranteedCommitments/GetTermsConsentStatus
 - blueapi.gc.v1.GuaranteedCommitments/GetTermsDocument
 - blueapi.gc.v1.GuaranteedCommitments/GetUpdatedPurchasePlansBySegment
@@ -473,6 +479,7 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/ListBillingGroups
 - blueapi.gc.v1.GuaranteedCommitments/ListCommitments
 - blueapi.gc.v1.GuaranteedCommitments/ListDraftPurchasePlans
+- blueapi.gc.v1.GuaranteedCommitments/ListExpiringCommitments
 - blueapi.gc.v1.GuaranteedCommitments/ListOrgs
 - blueapi.gc.v1.GuaranteedCommitments/ListPayerAccounts
 - blueapi.gc.v1.GuaranteedCommitments/ListPurchasePlansBySegment
