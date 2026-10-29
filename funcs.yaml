@@ -448,6 +448,7 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/CalculateProjectedRevenue
 - blueapi.gc.v1.GuaranteedCommitments/CommitmentsPlanApply
 - blueapi.gc.v1.GuaranteedCommitments/ConfigureAzureEaOnboarding
+- blueapi.gc.v1.GuaranteedCommitments/ConfigureGCPOnboarding
 - blueapi.gc.v1.GuaranteedCommitments/CreateAzureIntegration
 - blueapi.gc.v1.GuaranteedCommitments/CreateCustomCommitmentPlan
 - blueapi.gc.v1.GuaranteedCommitments/CreateGuaranteedCommitmentAccess
@@ -462,6 +463,7 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetBillingGroupStatus
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsUtilization
+- blueapi.gc.v1.GuaranteedCommitments/GetGCPDeploymentScript
 - blueapi.gc.v1.GuaranteedCommitments/GetGuaranteedCommitmentTemplateUrl
 - blueapi.gc.v1.GuaranteedCommitments/GetMetrics
 - blueapi.gc.v1.GuaranteedCommitments/GetOnboardingStatus
