@@ -459,6 +459,7 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsLaunchStackUrl
 - blueapi.gc.v1.GuaranteedCommitments/GetAwsPrivateOffer
 - blueapi.gc.v1.GuaranteedCommitments/GetAzureOnboardingAuthUrl
+- blueapi.gc.v1.GuaranteedCommitments/GetBillingGroupPurchaseNotification
 - blueapi.gc.v1.GuaranteedCommitments/GetBillingGroupRegistration
 - blueapi.gc.v1.GuaranteedCommitments/GetBillingGroupStatus
 - blueapi.gc.v1.GuaranteedCommitments/GetCommitmentsChart
@@ -496,6 +497,7 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/StartAwsOnboarding
 - blueapi.gc.v1.GuaranteedCommitments/StartAzureOnboarding
 - blueapi.gc.v1.GuaranteedCommitments/UpdateAzureOnboarding
+- blueapi.gc.v1.GuaranteedCommitments/UpdateBillingGroupPurchaseNotification
 - blueapi.gc.v1.GuaranteedCommitments/ValidateAzureAppInstall
 - blueapi.gc.v1.GuaranteedCommitments/ValidateBillingGroup
 - blueapi.gc.v1.GuaranteedCommitments/VerifyAwsOnboarding
