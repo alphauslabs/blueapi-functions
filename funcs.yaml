@@ -470,6 +470,7 @@ functions:
 - blueapi.gc.v1.GuaranteedCommitments/GetOnboardingStatus
 - blueapi.gc.v1.GuaranteedCommitments/GetPayerAccountStatus
 - blueapi.gc.v1.GuaranteedCommitments/GetPerformanceSummary
+- blueapi.gc.v1.GuaranteedCommitments/GetPurchasePlanHistory
 - blueapi.gc.v1.GuaranteedCommitments/GetPurchasePlansDetails
 - blueapi.gc.v1.GuaranteedCommitments/GetResourceDailyUsage
 - blueapi.gc.v1.GuaranteedCommitments/GetSavingsOpportunities
